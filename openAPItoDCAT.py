@@ -34,8 +34,9 @@ def getDCAT_from_openAPI(identifier,lang,tittle,publisher,file_url):
   catalog.title = {lang: tittle}
   catalog.publisher = publisher  
   url = file_url
-  oas = yaml.safe_load(requests.get(url).text)
-  identifier = "http://example.com/dataservices/{id}"
+  with open(url) as file:
+    data = file.read()
+  oas = yaml.safe_load(data)
   oas_spec = OASDataService(url, oas, identifier)
   #
   # Add dataservices to catalog:
