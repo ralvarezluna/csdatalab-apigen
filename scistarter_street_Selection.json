@@ -1,0 +1,3534 @@
+{
+    "name": "Matched Projects",
+    "total": 15,
+    "page": 1,
+    "entities": [
+        {
+            "id": 3147,
+            "legacy_id": 21783,
+            "box": 51376,
+            "value": "Street Story: Give Your Input on Safe Streets",
+            "name": "Street Story: Give Your Input on Safe Streets",
+            "slug": "street-story-give-your-input-on-safe-streets",
+            "link": "/street-story-give-your-input-on-safe-streets",
+            "type": "Project",
+            "options": {},
+            "publish": true,
+            "created": 1554321853844.4841,
+            "updated": 1594067795264.02,
+            "component": "ss-project",
+            "members_only": false,
+            "tags": [],
+            "_metadata": {
+                "id": {
+                    "edit": [
+                        "el-input-number",
+                        {}
+                    ],
+                    "is_multi": false,
+                    "internal": true
+                },
+                "name": {
+                    "edit": [
+                        "el-input",
+                        {}
+                    ],
+                    "is_multi": false
+                },
+                "component": {
+                    "edit": [
+                        "el-input",
+                        {}
+                    ],
+                    "is_multi": false,
+                    "internal": true
+                },
+                "tags": {
+                    "edit": [
+                        "en-input",
+                        {}
+                    ],
+                    "is_tags": true,
+                    "is_multi": true
+                },
+                "grp_scistarter": {
+                    "edit": [
+                        "el-input",
+                        {}
+                    ],
+                    "choices": null,
+                    "choices_info": {},
+                    "is_multi": false,
+                    "require": false,
+                    "position": 0,
+                    "type": "orrery.core.models.AttributeGroupBegin",
+                    "description": "SciStarter",
+                    "internal": false,
+                    "options": {
+                        "{}": true
+                    }
+                },
+                "duplicate": {
+                    "edit": [
+                        "el-switch",
+                        {
+                            "inactive-text": "No",
+                            "active-text": "Yes"
+                        }
+                    ],
+                    "choices": null,
+                    "choices_info": {},
+                    "is_multi": false,
+                    "require": false,
+                    "position": 1,
+                    "type": "orrery.core.models.YesOrNo",
+                    "description": "Is this project considered a duplicate of another project?",
+                    "internal": false,
+                    "options": {}
+                },
+                "ignore_authoritative": {
+                    "edit": [
+                        "el-switch",
+                        {
+                            "inactive-text": "No",
+                            "active-text": "Yes"
+                        }
+                    ],
+                    "choices": null,
+                    "choices_info": {},
+                    "is_multi": false,
+                    "require": false,
+                    "position": 3,
+                    "type": "orrery.core.models.YesOrNo",
+                    "description": "Special case for projects that do not want authoritative record protection",
+                    "internal": false,
+                    "options": {}
+                },
+                "redirect": {
+                    "edit": [
+                        "el-input",
+                        {}
+                    ],
+                    "choices": null,
+                    "choices_info": {},
+                    "is_multi": false,
+                    "require": false,
+                    "position": 4,
+                    "type": "orrery.core.models.Url",
+                    "description": "Show this page instead of the SciStarter project page",
+                    "internal": false,
+                    "options": {
+                        "{}": true
+                    }
+                },
+                "subcomponent": {
+                    "edit": [
+                        "el-input",
+                        {
+                            "type": "text"
+                        }
+                    ],
+                    "choices": null,
+                    "choices_info": {},
+                    "is_multi": false,
+                    "require": false,
+                    "position": 5,
+                    "type": "orrery.core.models.ShortText",
+                    "description": "Special functionality to show on the project page.",
+                    "internal": false,
+                    "options": {}
+                },
+                "form": {
+                    "edit": [
+                        "el-input",
+                        {}
+                    ],
+                    "choices": null,
+                    "choices_info": {},
+                    "is_multi": false,
+                    "require": false,
+                    "position": 7,
+                    "type": "orrery.projects.models.ProjectFormReference",
+                    "description": "",
+                    "internal": false,
+                    "options": {}
+                },
+                "guid": {
+                    "edit": [
+                        "el-input",
+                        {
+                            "type": "text"
+                        }
+                    ],
+                    "choices": null,
+                    "choices_info": {},
+                    "is_multi": false,
+                    "require": false,
+                    "position": 10,
+                    "type": "orrery.core.models.ShortText",
+                    "description": "",
+                    "internal": false,
+                    "options": {
+                        "{}": true
+                    }
+                },
+                "opengraph_description": {
+                    "edit": [
+                        "el-input",
+                        {
+                            "type": "text"
+                        }
+                    ],
+                    "choices": null,
+                    "choices_info": {},
+                    "is_multi": false,
+                    "require": false,
+                    "position": 11,
+                    "type": "orrery.core.models.ShortText",
+                    "description": "",
+                    "internal": false,
+                    "options": {
+                        "{}": true
+                    }
+                },
+                "participation_degree": {
+                    "edit": [
+                        "el-input-number",
+                        {}
+                    ],
+                    "choices": [
+                        [
+                            1,
+                            "Collegial"
+                        ],
+                        [
+                            2,
+                            "Co-Created"
+                        ],
+                        [
+                            3,
+                            "Collaborative"
+                        ],
+                        [
+                            4,
+                            "Contributory"
+                        ],
+                        [
+                            5,
+                            "Contractual"
+                        ]
+                    ],
+                    "choices_info": {},
+                    "is_multi": false,
+                    "require": false,
+                    "position": 12,
+                    "type": "orrery.core.models.Integer",
+                    "description": "",
+                    "internal": false,
+                    "options": {
+                        "choices": [
+                            [
+                                1,
+                                "Collegial"
+                            ],
+                            [
+                                2,
+                                "Co-Created"
+                            ],
+                            [
+                                3,
+                                "Collaborative"
+                            ],
+                            [
+                                4,
+                                "Contributory"
+                            ],
+                            [
+                                5,
+                                "Contractual"
+                            ]
+                        ]
+                    }
+                },
+                "is_test": {
+                    "edit": [
+                        "el-switch",
+                        {
+                            "inactive-text": "No",
+                            "active-text": "Yes"
+                        }
+                    ],
+                    "choices": null,
+                    "choices_info": {},
+                    "is_multi": false,
+                    "require": false,
+                    "position": 14,
+                    "type": "orrery.core.models.YesOrNo",
+                    "description": "",
+                    "internal": false,
+                    "options": {
+                        "{}": true
+                    }
+                },
+                "is_affiliate": {
+                    "edit": [
+                        "el-switch",
+                        {
+                            "inactive-text": "No",
+                            "active-text": "Yes"
+                        }
+                    ],
+                    "choices": null,
+                    "choices_info": {},
+                    "is_multi": false,
+                    "require": false,
+                    "position": 15,
+                    "type": "orrery.core.models.YesOrNo",
+                    "description": "",
+                    "internal": false,
+                    "options": {}
+                },
+                "is_inaturalist": {
+                    "edit": [
+                        "el-switch",
+                        {
+                            "inactive-text": "No",
+                            "active-text": "Yes"
+                        }
+                    ],
+                    "choices": null,
+                    "choices_info": {},
+                    "is_multi": false,
+                    "require": false,
+                    "position": 16,
+                    "type": "orrery.core.models.YesOrNo",
+                    "description": "",
+                    "internal": false,
+                    "options": {
+                        "{}": true
+                    }
+                },
+                "inat_project_id": {
+                    "edit": [
+                        "el-input-number",
+                        {}
+                    ],
+                    "choices": null,
+                    "choices_info": {},
+                    "is_multi": false,
+                    "require": false,
+                    "position": 17,
+                    "type": "orrery.core.models.Integer",
+                    "description": "",
+                    "internal": false,
+                    "options": {}
+                },
+                "participant_instructions": {
+                    "edit": [
+                        "el-input",
+                        {
+                            "type": "textarea"
+                        }
+                    ],
+                    "choices": null,
+                    "choices_info": {},
+                    "is_multi": false,
+                    "require": false,
+                    "position": 19,
+                    "type": "orrery.core.models.Text",
+                    "description": "",
+                    "internal": false,
+                    "options": {
+                        "{}": true
+                    }
+                },
+                "participant_instructions_email": {
+                    "edit": [
+                        "el-input",
+                        {
+                            "type": "textarea"
+                        }
+                    ],
+                    "choices": null,
+                    "choices_info": {},
+                    "is_multi": false,
+                    "require": false,
+                    "position": 20,
+                    "type": "orrery.core.models.Text",
+                    "description": "",
+                    "internal": false,
+                    "options": {
+                        "{}": true
+                    }
+                },
+                "participant_files": {
+                    "edit": [
+                        "el-input",
+                        {}
+                    ],
+                    "choices": null,
+                    "choices_info": {},
+                    "is_multi": true,
+                    "require": false,
+                    "position": 21,
+                    "type": "orrery.core.models.MultipleUrls",
+                    "description": "",
+                    "internal": false,
+                    "options": {}
+                },
+                "grp_admin": {
+                    "edit": [
+                        "el-input",
+                        {}
+                    ],
+                    "choices": null,
+                    "choices_info": {},
+                    "is_multi": false,
+                    "require": false,
+                    "position": 22,
+                    "type": "orrery.core.models.AttributeGroupBegin",
+                    "description": "Project administration details",
+                    "internal": false,
+                    "options": {
+                        "{}": true
+                    }
+                },
+                "draft": {
+                    "edit": [
+                        "el-switch",
+                        {
+                            "inactive-text": "No",
+                            "active-text": "Yes"
+                        }
+                    ],
+                    "choices": null,
+                    "choices_info": {},
+                    "is_multi": false,
+                    "require": false,
+                    "position": 24,
+                    "type": "orrery.core.models.YesOrNo",
+                    "description": "",
+                    "internal": false,
+                    "options": {
+                        "{}": true
+                    }
+                },
+                "status": {
+                    "edit": [
+                        "el-input-number",
+                        {}
+                    ],
+                    "choices": [
+                        [
+                            0,
+                            "Pending"
+                        ],
+                        [
+                            1,
+                            "Active"
+                        ],
+                        [
+                            2,
+                            "Periodically Active"
+                        ],
+                        [
+                            3,
+                            "Hiatus"
+                        ],
+                        [
+                            4,
+                            "Complete"
+                        ],
+                        [
+                            5,
+                            "Hidden"
+                        ]
+                    ],
+                    "choices_info": {},
+                    "is_multi": false,
+                    "require": false,
+                    "position": 25,
+                    "type": "orrery.core.models.Integer",
+                    "description": "The publish check box under Publication must also be checked before this project will be visible on the site",
+                    "internal": false,
+                    "options": {
+                        "choices": [
+                            [
+                                0,
+                                "Pending"
+                            ],
+                            [
+                                1,
+                                "Active"
+                            ],
+                            [
+                                2,
+                                "Periodically Active"
+                            ],
+                            [
+                                3,
+                                "Hiatus"
+                            ],
+                            [
+                                4,
+                                "Complete"
+                            ],
+                            [
+                                5,
+                                "Hidden"
+                            ]
+                        ]
+                    }
+                },
+                "promotion_time": {
+                    "edit": [
+                        "el-input",
+                        {
+                            "type": "text"
+                        }
+                    ],
+                    "choices": [
+                        [
+                            "ANYTIME",
+                            "Promote at any time"
+                        ],
+                        [
+                            "NEVER",
+                            "Do not promote"
+                        ],
+                        [
+                            "SPECIFIC",
+                            "Prefer promotion on the target date"
+                        ]
+                    ],
+                    "choices_info": {},
+                    "is_multi": false,
+                    "require": false,
+                    "position": 26,
+                    "type": "orrery.core.models.ShortText",
+                    "description": "",
+                    "internal": false,
+                    "options": {
+                        "choices": [
+                            [
+                                "ANYTIME",
+                                "Promote at any time"
+                            ],
+                            [
+                                "NEVER",
+                                "Do not promote"
+                            ],
+                            [
+                                "SPECIFIC",
+                                "Prefer promotion on the target date"
+                            ]
+                        ]
+                    }
+                },
+                "promotion_target": {
+                    "edit": [
+                        "el-date-picker",
+                        {
+                            "type": "datetime",
+                            "value-format": "timestamp",
+                            "format": "yyyy/MM/dd hh:mm a"
+                        }
+                    ],
+                    "choices": null,
+                    "choices_info": {},
+                    "is_multi": false,
+                    "require": false,
+                    "position": 27,
+                    "type": "orrery.core.models.DateTime",
+                    "description": "",
+                    "internal": false,
+                    "options": {
+                        "{}": true
+                    }
+                },
+                "grp_contact": {
+                    "edit": [
+                        "el-input",
+                        {}
+                    ],
+                    "choices": null,
+                    "choices_info": {},
+                    "is_multi": false,
+                    "require": false,
+                    "position": 28,
+                    "type": "orrery.core.models.AttributeGroupBegin",
+                    "description": "Contact information",
+                    "internal": false,
+                    "options": {
+                        "{}": true
+                    }
+                },
+                "grp_project": {
+                    "edit": [
+                        "el-input",
+                        {}
+                    ],
+                    "choices": null,
+                    "choices_info": {},
+                    "is_multi": false,
+                    "require": false,
+                    "position": 47,
+                    "type": "orrery.core.models.AttributeGroupBegin",
+                    "description": "Project information",
+                    "internal": false,
+                    "options": {
+                        "{}": true
+                    }
+                },
+                "us_federally_funded": {
+                    "edit": [
+                        "el-switch",
+                        {
+                            "inactive-text": "No",
+                            "active-text": "Yes"
+                        }
+                    ],
+                    "choices": null,
+                    "choices_info": {},
+                    "is_multi": false,
+                    "require": false,
+                    "position": 48,
+                    "type": "orrery.core.models.YesOrNo",
+                    "description": "U.S. Federally Funded",
+                    "internal": false,
+                    "options": {}
+                },
+                "presenter": {
+                    "edit": [
+                        "el-input",
+                        {
+                            "type": "text"
+                        }
+                    ],
+                    "choices": null,
+                    "choices_info": {},
+                    "is_multi": false,
+                    "require": false,
+                    "position": 49,
+                    "type": "orrery.core.models.ShortText",
+                    "description": "Presenting organization",
+                    "internal": false,
+                    "options": {
+                        "{}": true
+                    }
+                },
+                "goal": {
+                    "edit": [
+                        "el-input",
+                        {
+                            "type": "text"
+                        }
+                    ],
+                    "choices": null,
+                    "choices_info": {},
+                    "is_multi": false,
+                    "require": false,
+                    "position": 50,
+                    "type": "orrery.core.models.ShortText",
+                    "description": "",
+                    "internal": false,
+                    "options": {
+                        "{}": true
+                    }
+                },
+                "task": {
+                    "edit": [
+                        "el-input",
+                        {
+                            "type": "text"
+                        }
+                    ],
+                    "choices": null,
+                    "choices_info": {},
+                    "is_multi": false,
+                    "require": false,
+                    "position": 51,
+                    "type": "orrery.core.models.ShortText",
+                    "description": "",
+                    "internal": false,
+                    "options": {
+                        "{}": true
+                    }
+                },
+                "description": {
+                    "edit": [
+                        "el-input",
+                        {
+                            "type": "textarea"
+                        }
+                    ],
+                    "choices": null,
+                    "choices_info": {},
+                    "is_multi": false,
+                    "require": false,
+                    "position": 52,
+                    "type": "orrery.core.models.Text",
+                    "description": "",
+                    "internal": false,
+                    "options": {
+                        "{}": true
+                    }
+                },
+                "image": {
+                    "edit": [
+                        "ss-fileupload",
+                        {
+                            "show-filename": true
+                        }
+                    ],
+                    "choices": null,
+                    "choices_info": {},
+                    "is_multi": false,
+                    "require": false,
+                    "position": 53,
+                    "type": "orrery.core.models.File",
+                    "description": "",
+                    "internal": false,
+                    "options": {
+                        "{}": true
+                    }
+                },
+                "image_credit": {
+                    "edit": [
+                        "el-input",
+                        {
+                            "type": "text"
+                        }
+                    ],
+                    "choices": null,
+                    "choices_info": {},
+                    "is_multi": false,
+                    "require": false,
+                    "position": 54,
+                    "type": "orrery.core.models.ShortText",
+                    "description": "",
+                    "internal": false,
+                    "options": {
+                        "{}": true
+                    }
+                },
+                "grp_web": {
+                    "edit": [
+                        "el-input",
+                        {}
+                    ],
+                    "choices": null,
+                    "choices_info": {},
+                    "is_multi": false,
+                    "require": false,
+                    "position": 55,
+                    "type": "orrery.core.models.AttributeGroupBegin",
+                    "description": "Project on the web",
+                    "internal": false,
+                    "options": {
+                        "{}": true
+                    }
+                },
+                "url": {
+                    "edit": [
+                        "el-input",
+                        {}
+                    ],
+                    "choices": null,
+                    "choices_info": {},
+                    "is_multi": false,
+                    "require": false,
+                    "position": 56,
+                    "type": "orrery.core.models.Url",
+                    "description": "",
+                    "internal": false,
+                    "options": {
+                        "{}": true
+                    }
+                },
+                "video_url": {
+                    "edit": [
+                        "el-input",
+                        {}
+                    ],
+                    "choices": null,
+                    "choices_info": {},
+                    "is_multi": false,
+                    "require": false,
+                    "position": 57,
+                    "type": "orrery.core.models.Url",
+                    "description": "",
+                    "internal": false,
+                    "options": {
+                        "{}": true
+                    }
+                },
+                "blog_url": {
+                    "edit": [
+                        "el-input",
+                        {}
+                    ],
+                    "choices": null,
+                    "choices_info": {},
+                    "is_multi": false,
+                    "require": false,
+                    "position": 58,
+                    "type": "orrery.core.models.Url",
+                    "description": "",
+                    "internal": false,
+                    "options": {
+                        "{}": true
+                    }
+                },
+                "twitter_name": {
+                    "edit": [
+                        "el-input",
+                        {
+                            "type": "text"
+                        }
+                    ],
+                    "choices": null,
+                    "choices_info": {},
+                    "is_multi": false,
+                    "require": false,
+                    "position": 59,
+                    "type": "orrery.core.models.ShortText",
+                    "description": "",
+                    "internal": false,
+                    "options": {
+                        "{}": true
+                    }
+                },
+                "facebook_page": {
+                    "edit": [
+                        "el-input",
+                        {}
+                    ],
+                    "choices": null,
+                    "choices_info": {},
+                    "is_multi": false,
+                    "require": false,
+                    "position": 60,
+                    "type": "orrery.core.models.Url",
+                    "description": "",
+                    "internal": false,
+                    "options": {
+                        "{}": true
+                    }
+                },
+                "grp_categorization": {
+                    "edit": [
+                        "el-input",
+                        {}
+                    ],
+                    "choices": null,
+                    "choices_info": {},
+                    "is_multi": false,
+                    "require": false,
+                    "position": 61,
+                    "type": "orrery.core.models.AttributeGroupBegin",
+                    "description": "Project categorization",
+                    "internal": false,
+                    "options": {
+                        "{}": true
+                    }
+                },
+                "topics": {
+                    "edit": [
+                        "el-input-number",
+                        {}
+                    ],
+                    "choices": [
+                        [
+                            3,
+                            "Agriculture"
+                        ],
+                        [
+                            20,
+                            "Animals"
+                        ],
+                        [
+                            15,
+                            "Archeology & Cultural"
+                        ],
+                        [
+                            13,
+                            "Astronomy & Space"
+                        ],
+                        [
+                            22,
+                            "Awards"
+                        ],
+                        [
+                            12,
+                            "Biology"
+                        ],
+                        [
+                            11,
+                            "Birds"
+                        ],
+                        [
+                            10,
+                            "Chemistry"
+                        ],
+                        [
+                            27,
+                            "Climate & Weather"
+                        ],
+                        [
+                            18,
+                            "Computers & Technology"
+                        ],
+                        [
+                            7,
+                            "Crowd Funding"
+                        ],
+                        [
+                            203,
+                            "Disaster Response"
+                        ],
+                        [
+                            9,
+                            "Ecology & Environment"
+                        ],
+                        [
+                            24,
+                            "Education"
+                        ],
+                        [
+                            4,
+                            "Events"
+                        ],
+                        [
+                            25,
+                            "Food"
+                        ],
+                        [
+                            2,
+                            "Geography"
+                        ],
+                        [
+                            19,
+                            "Geology & Earth Science"
+                        ],
+                        [
+                            23,
+                            "Health & Medicine"
+                        ],
+                        [
+                            16,
+                            "Insects & Pollinators"
+                        ],
+                        [
+                            21,
+                            "Nature & Outdoors"
+                        ],
+                        [
+                            14,
+                            "Ocean, Water, Marine & Terrestrial"
+                        ],
+                        [
+                            8,
+                            "Physics"
+                        ],
+                        [
+                            5,
+                            "Psychology"
+                        ],
+                        [
+                            1,
+                            "Social Science"
+                        ],
+                        [
+                            17,
+                            "Sound"
+                        ],
+                        [
+                            6,
+                            "Transportation"
+                        ],
+                        [
+                            26,
+                            "Science Policy"
+                        ]
+                    ],
+                    "choices_info": {
+                        "name": "Topics",
+                        "description": ""
+                    },
+                    "is_multi": true,
+                    "require": false,
+                    "position": 62,
+                    "type": "orrery.core.models.MultipleIntegers",
+                    "description": "",
+                    "internal": false,
+                    "options": {
+                        "choices": "Topics",
+                        "max": 3
+                    }
+                },
+                "fields_of_science": {
+                    "edit": [
+                        "el-input-number",
+                        {}
+                    ],
+                    "choices": [
+                        [
+                            331,
+                            "Astronomy"
+                        ],
+                        [
+                            330,
+                            "Biology"
+                        ],
+                        [
+                            329,
+                            "Chemistry"
+                        ],
+                        [
+                            332,
+                            "Ecology"
+                        ],
+                        [
+                            328,
+                            "Physics"
+                        ]
+                    ],
+                    "choices_info": {
+                        "name": "Science fields",
+                        "description": ""
+                    },
+                    "is_multi": true,
+                    "require": false,
+                    "position": 63,
+                    "type": "orrery.core.models.MultipleIntegers",
+                    "description": "Fields of Science",
+                    "internal": false,
+                    "options": {
+                        "choices": "Science fields"
+                    }
+                },
+                "practices": {
+                    "edit": [
+                        "el-input-number",
+                        {}
+                    ],
+                    "choices": [
+                        [
+                            43,
+                            "Designing solutions"
+                        ],
+                        [
+                            44,
+                            "Constructing explanations"
+                        ],
+                        [
+                            45,
+                            "Using mathematics and computational thinking"
+                        ],
+                        [
+                            46,
+                            "Analyzing and interpreting data"
+                        ],
+                        [
+                            47,
+                            "Planning and carrying out investigations"
+                        ],
+                        [
+                            48,
+                            "Developing and using models"
+                        ],
+                        [
+                            49,
+                            "Defining problems"
+                        ],
+                        [
+                            50,
+                            "Asking questions"
+                        ]
+                    ],
+                    "choices_info": {
+                        "name": "Science practices",
+                        "description": ""
+                    },
+                    "is_multi": true,
+                    "require": false,
+                    "position": 64,
+                    "type": "orrery.core.models.MultipleIntegers",
+                    "description": "",
+                    "internal": false,
+                    "options": {
+                        "choices": "Science practices"
+                    }
+                },
+                "practices_how": {
+                    "edit": [
+                        "el-input",
+                        {
+                            "type": "textarea"
+                        }
+                    ],
+                    "choices": null,
+                    "choices_info": {},
+                    "is_multi": false,
+                    "require": false,
+                    "position": 65,
+                    "type": "orrery.core.models.Text",
+                    "description": "Application of practices",
+                    "internal": false,
+                    "options": {
+                        "{}": true
+                    }
+                },
+                "search_terms": {
+                    "edit": [
+                        "el-input",
+                        {
+                            "type": "text"
+                        }
+                    ],
+                    "choices": null,
+                    "choices_info": {},
+                    "is_multi": false,
+                    "require": false,
+                    "position": 66,
+                    "type": "orrery.core.models.ShortText",
+                    "description": "",
+                    "internal": false,
+                    "options": {
+                        "{}": true
+                    }
+                },
+                "difficulty": {
+                    "edit": [
+                        "el-input-number",
+                        {}
+                    ],
+                    "choices": [
+                        [
+                            1,
+                            "Easy"
+                        ],
+                        [
+                            2,
+                            "medium"
+                        ],
+                        [
+                            3,
+                            "Difficult"
+                        ]
+                    ],
+                    "choices_info": {},
+                    "is_multi": false,
+                    "require": false,
+                    "position": 67,
+                    "type": "orrery.core.models.Integer",
+                    "description": "",
+                    "internal": false,
+                    "options": {
+                        "choices": [
+                            [
+                                1,
+                                "Easy"
+                            ],
+                            [
+                                2,
+                                "medium"
+                            ],
+                            [
+                                3,
+                                "Difficult"
+                            ]
+                        ]
+                    }
+                },
+                "diy": {
+                    "edit": [
+                        "el-switch",
+                        {
+                            "inactive-text": "No",
+                            "active-text": "Yes"
+                        }
+                    ],
+                    "choices": null,
+                    "choices_info": {},
+                    "is_multi": false,
+                    "require": false,
+                    "position": 68,
+                    "type": "orrery.core.models.YesOrNo",
+                    "description": "",
+                    "internal": false,
+                    "options": {
+                        "{}": true
+                    }
+                },
+                "grp_joining": {
+                    "edit": [
+                        "el-input",
+                        {}
+                    ],
+                    "choices": null,
+                    "choices_info": {},
+                    "is_multi": false,
+                    "require": false,
+                    "position": 69,
+                    "type": "orrery.core.models.AttributeGroupBegin",
+                    "description": "Joining the project",
+                    "internal": false,
+                    "options": {
+                        "{}": true
+                    }
+                },
+                "audience": {
+                    "edit": [
+                        "el-input-number",
+                        {}
+                    ],
+                    "choices": [
+                        [
+                            111,
+                            "Elementary school (6 - 10 years)"
+                        ],
+                        [
+                            112,
+                            "Middle school (11 - 13 years)"
+                        ],
+                        [
+                            113,
+                            "High school (14 - 17 years)"
+                        ],
+                        [
+                            114,
+                            "College"
+                        ],
+                        [
+                            115,
+                            "Graduate students"
+                        ],
+                        [
+                            116,
+                            "Adults"
+                        ],
+                        [
+                            117,
+                            "Families"
+                        ],
+                        [
+                            118,
+                            "Seniors"
+                        ]
+                    ],
+                    "choices_info": {
+                        "name": "Audience",
+                        "description": ""
+                    },
+                    "is_multi": true,
+                    "require": false,
+                    "position": 70,
+                    "type": "orrery.core.models.MultipleIntegers",
+                    "description": "",
+                    "internal": false,
+                    "options": {
+                        "choices": "Audience"
+                    }
+                },
+                "signup_url": {
+                    "edit": [
+                        "el-input",
+                        {}
+                    ],
+                    "choices": null,
+                    "choices_info": {},
+                    "is_multi": false,
+                    "require": false,
+                    "position": 71,
+                    "type": "orrery.core.models.Url",
+                    "description": "",
+                    "internal": false,
+                    "options": {
+                        "{}": true
+                    }
+                },
+                "prefix_how_to_logged_in": {
+                    "edit": [
+                        "el-input",
+                        {
+                            "type": "textarea"
+                        }
+                    ],
+                    "choices": null,
+                    "choices_info": {},
+                    "is_multi": false,
+                    "require": false,
+                    "position": 72,
+                    "type": "orrery.core.models.Text",
+                    "description": "How to get started prefix (logged in)",
+                    "internal": false,
+                    "options": {
+                        "rich": true
+                    }
+                },
+                "prefix_how_to_logged_out": {
+                    "edit": [
+                        "el-input",
+                        {
+                            "type": "textarea"
+                        }
+                    ],
+                    "choices": null,
+                    "choices_info": {},
+                    "is_multi": false,
+                    "require": false,
+                    "position": 73,
+                    "type": "orrery.core.models.Text",
+                    "description": "How to get started prefix (logged out)",
+                    "internal": false,
+                    "options": {
+                        "rich": true
+                    }
+                },
+                "how_to_join": {
+                    "edit": [
+                        "el-input",
+                        {
+                            "type": "textarea"
+                        }
+                    ],
+                    "choices": null,
+                    "choices_info": {},
+                    "is_multi": false,
+                    "require": false,
+                    "position": 74,
+                    "type": "orrery.core.models.Text",
+                    "description": "How to get started",
+                    "internal": false,
+                    "options": {}
+                },
+                "howto_video": {
+                    "edit": [
+                        "el-input",
+                        {}
+                    ],
+                    "choices": null,
+                    "choices_info": {},
+                    "is_multi": false,
+                    "require": false,
+                    "position": 75,
+                    "type": "orrery.core.models.Url",
+                    "description": "URL of the howto video for this project",
+                    "internal": false,
+                    "options": {}
+                },
+                "outcomes_label": {
+                    "edit": [
+                        "el-input",
+                        {
+                            "type": "text"
+                        }
+                    ],
+                    "choices": null,
+                    "choices_info": {},
+                    "is_multi": false,
+                    "require": false,
+                    "position": 76,
+                    "type": "orrery.core.models.ShortText",
+                    "description": "",
+                    "internal": false,
+                    "options": {}
+                },
+                "outcomes_link": {
+                    "edit": [
+                        "el-input",
+                        {}
+                    ],
+                    "choices": null,
+                    "choices_info": {},
+                    "is_multi": false,
+                    "require": false,
+                    "position": 77,
+                    "type": "orrery.core.models.Url",
+                    "description": "",
+                    "internal": false,
+                    "options": {}
+                },
+                "time_required": {
+                    "edit": [
+                        "el-input",
+                        {
+                            "type": "text"
+                        }
+                    ],
+                    "choices": null,
+                    "choices_info": {},
+                    "is_multi": false,
+                    "require": false,
+                    "position": 78,
+                    "type": "orrery.core.models.ShortText",
+                    "description": "",
+                    "internal": false,
+                    "options": {}
+                },
+                "training_materials": {
+                    "edit": [
+                        "el-input",
+                        {}
+                    ],
+                    "choices": null,
+                    "choices_info": {},
+                    "is_multi": false,
+                    "require": false,
+                    "position": 79,
+                    "type": "orrery.core.models.Url",
+                    "description": "",
+                    "internal": false,
+                    "options": {
+                        "{}": true
+                    }
+                },
+                "classroom_materials": {
+                    "edit": [
+                        "el-input",
+                        {}
+                    ],
+                    "choices": null,
+                    "choices_info": {},
+                    "is_multi": false,
+                    "require": false,
+                    "position": 80,
+                    "type": "orrery.core.models.Url",
+                    "description": "",
+                    "internal": false,
+                    "options": {
+                        "{}": true
+                    }
+                },
+                "consent_statement": {
+                    "edit": [
+                        "el-input",
+                        {
+                            "type": "textarea"
+                        }
+                    ],
+                    "choices": null,
+                    "choices_info": {},
+                    "is_multi": false,
+                    "require": false,
+                    "position": 81,
+                    "type": "orrery.core.models.Text",
+                    "description": "",
+                    "internal": false,
+                    "options": {
+                        "{}": true
+                    }
+                },
+                "consent_statement_date": {
+                    "edit": [
+                        "el-date-picker",
+                        {
+                            "type": "datetime",
+                            "value-format": "timestamp",
+                            "format": "yyyy/MM/dd hh:mm a"
+                        }
+                    ],
+                    "choices": null,
+                    "choices_info": {},
+                    "is_multi": false,
+                    "require": false,
+                    "position": 82,
+                    "type": "orrery.core.models.DateTime",
+                    "description": "",
+                    "internal": false,
+                    "options": {}
+                },
+                "participation_tools": {
+                    "edit": [
+                        "el-switch",
+                        {
+                            "inactive-text": "No",
+                            "active-text": "Yes"
+                        }
+                    ],
+                    "choices": null,
+                    "choices_info": {},
+                    "is_multi": false,
+                    "require": false,
+                    "position": 83,
+                    "type": "orrery.core.models.YesOrNo",
+                    "description": "Use the SciStarter participant management tools",
+                    "internal": false,
+                    "options": {
+                        "{}": true
+                    }
+                },
+                "participation_prompt": {
+                    "edit": [
+                        "el-input",
+                        {
+                            "type": "text"
+                        }
+                    ],
+                    "choices": null,
+                    "choices_info": {},
+                    "is_multi": false,
+                    "require": false,
+                    "position": 84,
+                    "type": "orrery.core.models.ShortText",
+                    "description": "",
+                    "internal": false,
+                    "options": {
+                        "{}": true
+                    }
+                },
+                "participation_confirmation_message": {
+                    "edit": [
+                        "el-input",
+                        {
+                            "type": "textarea"
+                        }
+                    ],
+                    "choices": null,
+                    "choices_info": {},
+                    "is_multi": false,
+                    "require": false,
+                    "position": 85,
+                    "type": "orrery.core.models.Text",
+                    "description": "",
+                    "internal": false,
+                    "options": {
+                        "{}": true
+                    }
+                },
+                "participation_notification_email": {
+                    "edit": [
+                        "el-input",
+                        {}
+                    ],
+                    "choices": null,
+                    "choices_info": {},
+                    "is_multi": false,
+                    "require": false,
+                    "position": 86,
+                    "type": "orrery.core.models.Email",
+                    "description": "Send an email whenever a new user joins",
+                    "internal": false,
+                    "options": {
+                        "{}": true
+                    }
+                },
+                "participation_usage": {
+                    "edit": [
+                        "el-input",
+                        {
+                            "type": "textarea"
+                        }
+                    ],
+                    "choices": null,
+                    "choices_info": {},
+                    "is_multi": false,
+                    "require": false,
+                    "position": 87,
+                    "type": "orrery.core.models.Text",
+                    "description": "How this project uses SciStarter member data",
+                    "internal": false,
+                    "options": {
+                        "{}": true
+                    }
+                },
+                "grp_relations": {
+                    "edit": [
+                        "el-input",
+                        {}
+                    ],
+                    "choices": null,
+                    "choices_info": {},
+                    "is_multi": false,
+                    "require": false,
+                    "position": 88,
+                    "type": "orrery.core.models.AttributeGroupBegin",
+                    "description": "Relation to other projects and tools",
+                    "internal": false,
+                    "options": {
+                        "{}": true
+                    }
+                },
+                "part_of": {
+                    "edit": [
+                        "ss-entity-select",
+                        {
+                            "multiple": false,
+                            "require": false,
+                            "type": "Project"
+                        }
+                    ],
+                    "choices": null,
+                    "choices_info": {},
+                    "is_multi": false,
+                    "require": false,
+                    "position": 89,
+                    "type": "orrery.core.models.OtherEntity",
+                    "description": "",
+                    "internal": false,
+                    "options": {
+                        "limit": {
+                            "type__name": "Project"
+                        }
+                    }
+                },
+                "associated_projects": {
+                    "edit": [
+                        "ss-entity-select",
+                        {
+                            "multiple": true,
+                            "require": false,
+                            "type": "Project"
+                        }
+                    ],
+                    "choices": null,
+                    "choices_info": {},
+                    "is_multi": true,
+                    "require": false,
+                    "position": 90,
+                    "type": "orrery.core.models.MultipleOtherEntities",
+                    "description": "",
+                    "internal": false,
+                    "options": {
+                        "limit": {
+                            "type__name": "Project"
+                        }
+                    }
+                },
+                "associated_tools": {
+                    "edit": [
+                        "ss-entity-select",
+                        {
+                            "multiple": true,
+                            "require": false,
+                            "type": "Tool"
+                        }
+                    ],
+                    "choices": null,
+                    "choices_info": {},
+                    "is_multi": true,
+                    "require": false,
+                    "position": 91,
+                    "type": "orrery.core.models.MultipleOtherEntities",
+                    "description": "",
+                    "internal": false,
+                    "options": {
+                        "limit": {
+                            "type__name": "Tool"
+                        }
+                    }
+                },
+                "grp_needed": {
+                    "edit": [
+                        "el-input",
+                        {}
+                    ],
+                    "choices": null,
+                    "choices_info": {},
+                    "is_multi": false,
+                    "require": false,
+                    "position": 92,
+                    "type": "orrery.core.models.AttributeGroupBegin",
+                    "description": "Participants will need",
+                    "internal": false,
+                    "options": {
+                        "{}": true
+                    }
+                },
+                "total_expense": {
+                    "edit": [
+                        "el-input-number",
+                        {
+                            "precision": 2
+                        }
+                    ],
+                    "choices": null,
+                    "choices_info": {},
+                    "is_multi": false,
+                    "require": false,
+                    "position": 93,
+                    "type": "orrery.core.models.Decimal",
+                    "description": "",
+                    "internal": false,
+                    "options": {
+                        "{}": true
+                    }
+                },
+                "materials": {
+                    "edit": [
+                        "el-input",
+                        {
+                            "type": "textarea"
+                        }
+                    ],
+                    "choices": null,
+                    "choices_info": {},
+                    "is_multi": false,
+                    "require": false,
+                    "position": 94,
+                    "type": "orrery.core.models.Text",
+                    "description": "",
+                    "internal": false,
+                    "options": {
+                        "{}": true
+                    }
+                },
+                "gear": {
+                    "edit": [
+                        "el-input",
+                        {
+                            "type": "textarea"
+                        }
+                    ],
+                    "choices": null,
+                    "choices_info": {},
+                    "is_multi": false,
+                    "require": false,
+                    "position": 95,
+                    "type": "orrery.core.models.Text",
+                    "description": "",
+                    "internal": false,
+                    "options": {
+                        "{}": true
+                    }
+                },
+                "mobile_app_url_android": {
+                    "edit": [
+                        "el-input",
+                        {}
+                    ],
+                    "choices": null,
+                    "choices_info": {},
+                    "is_multi": false,
+                    "require": false,
+                    "position": 96,
+                    "type": "orrery.core.models.Url",
+                    "description": "",
+                    "internal": false,
+                    "options": {
+                        "{}": true
+                    }
+                },
+                "mobile_app_url_ios": {
+                    "edit": [
+                        "el-input",
+                        {}
+                    ],
+                    "choices": null,
+                    "choices_info": {},
+                    "is_multi": false,
+                    "require": false,
+                    "position": 97,
+                    "type": "orrery.core.models.Url",
+                    "description": "",
+                    "internal": false,
+                    "options": {
+                        "{}": true
+                    }
+                },
+                "mobile_app_url": {
+                    "edit": [
+                        "el-input",
+                        {}
+                    ],
+                    "choices": null,
+                    "choices_info": {},
+                    "is_multi": false,
+                    "require": false,
+                    "position": 98,
+                    "type": "orrery.core.models.Url",
+                    "description": "",
+                    "internal": false,
+                    "options": {
+                        "{}": true
+                    }
+                },
+                "grp_where": {
+                    "edit": [
+                        "el-input",
+                        {}
+                    ],
+                    "choices": null,
+                    "choices_info": {},
+                    "is_multi": false,
+                    "require": false,
+                    "position": 99,
+                    "type": "orrery.core.models.AttributeGroupBegin",
+                    "description": "Where",
+                    "internal": false,
+                    "options": {
+                        "{}": true
+                    }
+                },
+                "location_type": {
+                    "edit": [
+                        "el-input",
+                        {
+                            "type": "text"
+                        }
+                    ],
+                    "choices": [
+                        [
+                            "ON",
+                            "Online only (The entire activity takes place at a computer or on a smart phone)"
+                        ],
+                        [
+                            "ANY",
+                            "Global, anywhere on the planet"
+                        ],
+                        [
+                            "AT",
+                            "At an address"
+                        ],
+                        [
+                            "NEAR",
+                            "At a location or range"
+                        ]
+                    ],
+                    "choices_info": {},
+                    "is_multi": false,
+                    "require": false,
+                    "position": 100,
+                    "type": "orrery.core.models.ShortText",
+                    "description": "",
+                    "internal": false,
+                    "options": {
+                        "choices": [
+                            [
+                                "ON",
+                                "Online only (The entire activity takes place at a computer or on a smart phone)"
+                            ],
+                            [
+                                "ANY",
+                                "Global, anywhere on the planet"
+                            ],
+                            [
+                                "AT",
+                                "At an address"
+                            ],
+                            [
+                                "NEAR",
+                                "At a location or range"
+                            ]
+                        ]
+                    }
+                },
+                "entirely_online": {
+                    "edit": [
+                        "el-switch",
+                        {
+                            "inactive-text": "No",
+                            "active-text": "Yes"
+                        }
+                    ],
+                    "choices": null,
+                    "choices_info": {},
+                    "is_multi": false,
+                    "require": false,
+                    "position": 101,
+                    "type": "orrery.core.models.YesOrNo",
+                    "description": "",
+                    "internal": false,
+                    "options": {}
+                },
+                "regions": {
+                    "edit": [
+                        "ss-map",
+                        {
+                            "mode": "poly",
+                            "editable": true
+                        }
+                    ],
+                    "choices": null,
+                    "choices_info": {},
+                    "is_multi": false,
+                    "require": false,
+                    "position": 102,
+                    "type": "orrery.core.models.GeographicCoverage",
+                    "description": "",
+                    "internal": false,
+                    "options": {
+                        "{}": true
+                    }
+                },
+                "regions_description": {
+                    "edit": [
+                        "el-input",
+                        {
+                            "type": "text"
+                        }
+                    ],
+                    "choices": null,
+                    "choices_info": {},
+                    "is_multi": false,
+                    "require": false,
+                    "position": 103,
+                    "type": "orrery.core.models.ShortText",
+                    "description": "",
+                    "internal": false,
+                    "options": {
+                        "{}": true
+                    }
+                },
+                "point": {
+                    "edit": [
+                        "ss-map",
+                        {
+                            "mode": "point",
+                            "editable": true
+                        }
+                    ],
+                    "choices": null,
+                    "choices_info": {},
+                    "is_multi": false,
+                    "require": false,
+                    "position": 104,
+                    "type": "orrery.core.models.GeographicPoint",
+                    "description": "",
+                    "internal": false,
+                    "options": {
+                        "{}": true
+                    }
+                },
+                "address": {
+                    "edit": [
+                        "el-input",
+                        {
+                            "type": "text"
+                        }
+                    ],
+                    "choices": null,
+                    "choices_info": {},
+                    "is_multi": false,
+                    "require": false,
+                    "position": 105,
+                    "type": "orrery.core.models.ShortText",
+                    "description": "",
+                    "internal": false,
+                    "options": {
+                        "{}": true
+                    }
+                },
+                "city": {
+                    "edit": [
+                        "el-input",
+                        {
+                            "type": "text"
+                        }
+                    ],
+                    "choices": null,
+                    "choices_info": {},
+                    "is_multi": false,
+                    "require": false,
+                    "position": 106,
+                    "type": "orrery.core.models.ShortText",
+                    "description": "",
+                    "internal": false,
+                    "options": {
+                        "{}": true
+                    }
+                },
+                "zip": {
+                    "edit": [
+                        "el-input",
+                        {
+                            "type": "text"
+                        }
+                    ],
+                    "choices": null,
+                    "choices_info": {},
+                    "is_multi": false,
+                    "require": false,
+                    "position": 107,
+                    "type": "orrery.core.models.ShortText",
+                    "description": "",
+                    "internal": false,
+                    "options": {
+                        "{}": true
+                    }
+                },
+                "state": {
+                    "edit": [
+                        "el-input",
+                        {
+                            "type": "text"
+                        }
+                    ],
+                    "choices": null,
+                    "choices_info": {},
+                    "is_multi": false,
+                    "require": false,
+                    "position": 108,
+                    "type": "orrery.core.models.ShortText",
+                    "description": "",
+                    "internal": false,
+                    "options": {
+                        "{}": true
+                    }
+                },
+                "country": {
+                    "edit": [
+                        "el-input",
+                        {
+                            "type": "text"
+                        }
+                    ],
+                    "choices": null,
+                    "choices_info": {},
+                    "is_multi": false,
+                    "require": false,
+                    "position": 109,
+                    "type": "orrery.core.models.ShortText",
+                    "description": "",
+                    "internal": false,
+                    "options": {
+                        "{}": true
+                    }
+                },
+                "other": {
+                    "edit": [
+                        "el-input",
+                        {
+                            "type": "text"
+                        }
+                    ],
+                    "choices": null,
+                    "choices_info": {},
+                    "is_multi": false,
+                    "require": false,
+                    "position": 110,
+                    "type": "orrery.core.models.ShortText",
+                    "description": "",
+                    "internal": false,
+                    "options": {
+                        "{}": true
+                    }
+                },
+                "location_name": {
+                    "edit": [
+                        "el-input",
+                        {
+                            "type": "text"
+                        }
+                    ],
+                    "choices": null,
+                    "choices_info": {},
+                    "is_multi": false,
+                    "require": false,
+                    "position": 111,
+                    "type": "orrery.core.models.ShortText",
+                    "description": "",
+                    "internal": false,
+                    "options": {
+                        "{}": true
+                    }
+                },
+                "location_landuse": {
+                    "edit": [
+                        "el-input",
+                        {
+                            "type": "text"
+                        }
+                    ],
+                    "choices": null,
+                    "choices_info": {},
+                    "is_multi": false,
+                    "require": false,
+                    "position": 112,
+                    "type": "orrery.core.models.ShortText",
+                    "description": "",
+                    "internal": false,
+                    "options": {
+                        "{}": true
+                    }
+                },
+                "location_description": {
+                    "edit": [
+                        "el-input",
+                        {
+                            "type": "text"
+                        }
+                    ],
+                    "choices": null,
+                    "choices_info": {},
+                    "is_multi": false,
+                    "require": false,
+                    "position": 113,
+                    "type": "orrery.core.models.ShortText",
+                    "description": "",
+                    "internal": false,
+                    "options": {
+                        "{}": true
+                    }
+                },
+                "geographic_scope": {
+                    "edit": [
+                        "el-input-number",
+                        {}
+                    ],
+                    "choices": [
+                        [
+                            144,
+                            "International"
+                        ],
+                        [
+                            145,
+                            "National"
+                        ],
+                        [
+                            146,
+                            "Regional"
+                        ],
+                        [
+                            147,
+                            "Local"
+                        ]
+                    ],
+                    "choices_info": {
+                        "name": "Geographic scope",
+                        "description": ""
+                    },
+                    "is_multi": false,
+                    "require": false,
+                    "position": 114,
+                    "type": "orrery.core.models.Integer",
+                    "description": "",
+                    "internal": false,
+                    "options": {
+                        "choices": "Geographic scope"
+                    }
+                },
+                "united_nations_region": {
+                    "edit": [
+                        "el-input-number",
+                        {}
+                    ],
+                    "choices": [
+                        [
+                            73,
+                            "World > Oceania > Polynesia"
+                        ],
+                        [
+                            74,
+                            "World > Oceania > Micronesia"
+                        ],
+                        [
+                            75,
+                            "World > Oceania > Melanesia"
+                        ],
+                        [
+                            76,
+                            "World > Oceania > Australia and New Zealand"
+                        ],
+                        [
+                            77,
+                            "World > Oceania"
+                        ],
+                        [
+                            78,
+                            "World > Europe > Western Europe"
+                        ],
+                        [
+                            79,
+                            "World > Europe > Southern Europe"
+                        ],
+                        [
+                            80,
+                            "World > Europe > Northern Europe"
+                        ],
+                        [
+                            81,
+                            "World > Europe > Eastern Europe"
+                        ],
+                        [
+                            82,
+                            "World > Europe"
+                        ],
+                        [
+                            83,
+                            "World > Asia > Western Asia"
+                        ],
+                        [
+                            84,
+                            "World > Asia > South-Eastern Asia"
+                        ],
+                        [
+                            85,
+                            "World > Asia > Southern Asia"
+                        ],
+                        [
+                            86,
+                            "World > Asia > Eastern Asia"
+                        ],
+                        [
+                            87,
+                            "World > Asia > Central Asia"
+                        ],
+                        [
+                            88,
+                            "World > Asia"
+                        ],
+                        [
+                            89,
+                            "World > Americas > Northern America"
+                        ],
+                        [
+                            90,
+                            "World > Americas > Latin America and the Caribbean > South America"
+                        ],
+                        [
+                            91,
+                            "World > Americas > Latin America and the Caribbean > Central America"
+                        ],
+                        [
+                            92,
+                            "World > Americas > Latin America and the Caribbean > Caribbean"
+                        ],
+                        [
+                            93,
+                            "World > Americas > Latin America and the Caribbean"
+                        ],
+                        [
+                            94,
+                            "World > Americas"
+                        ],
+                        [
+                            95,
+                            "World > Africa > Western Africa"
+                        ],
+                        [
+                            96,
+                            "World > Africa > Southern Africa"
+                        ],
+                        [
+                            97,
+                            "World > Africa > Northern Africa"
+                        ],
+                        [
+                            98,
+                            "World > Africa > Middle Africa"
+                        ],
+                        [
+                            99,
+                            "World > Africa > Eastern Africa"
+                        ],
+                        [
+                            100,
+                            "World > Africa"
+                        ],
+                        [
+                            101,
+                            "World"
+                        ]
+                    ],
+                    "choices_info": {
+                        "name": "UN regions",
+                        "description": ""
+                    },
+                    "is_multi": true,
+                    "require": false,
+                    "position": 115,
+                    "type": "orrery.core.models.MultipleIntegers",
+                    "description": "",
+                    "internal": false,
+                    "options": {
+                        "choices": "UN regions"
+                    }
+                },
+                "grp_when": {
+                    "edit": [
+                        "el-input",
+                        {}
+                    ],
+                    "choices": null,
+                    "choices_info": {},
+                    "is_multi": false,
+                    "require": false,
+                    "position": 116,
+                    "type": "orrery.core.models.AttributeGroupBegin",
+                    "description": "When",
+                    "internal": false,
+                    "options": {
+                        "{}": true
+                    }
+                },
+                "begin": {
+                    "edit": [
+                        "el-date-picker",
+                        {
+                            "type": "datetime",
+                            "value-format": "timestamp",
+                            "format": "yyyy/MM/dd hh:mm a"
+                        }
+                    ],
+                    "choices": null,
+                    "choices_info": {},
+                    "is_multi": false,
+                    "require": false,
+                    "position": 117,
+                    "type": "orrery.core.models.DateTime",
+                    "description": "",
+                    "internal": false,
+                    "options": {
+                        "{}": true
+                    }
+                },
+                "end": {
+                    "edit": [
+                        "el-date-picker",
+                        {
+                            "type": "datetime",
+                            "value-format": "timestamp",
+                            "format": "yyyy/MM/dd hh:mm a"
+                        }
+                    ],
+                    "choices": null,
+                    "choices_info": {},
+                    "is_multi": false,
+                    "require": false,
+                    "position": 118,
+                    "type": "orrery.core.models.DateTime",
+                    "description": "",
+                    "internal": false,
+                    "options": {
+                        "{}": true
+                    }
+                },
+                "project_timing": {
+                    "edit": [
+                        "el-input",
+                        {
+                            "type": "textarea"
+                        }
+                    ],
+                    "choices": null,
+                    "choices_info": {},
+                    "is_multi": false,
+                    "require": false,
+                    "position": 119,
+                    "type": "orrery.core.models.Text",
+                    "description": "",
+                    "internal": false,
+                    "options": {}
+                },
+                "participation_schedule": {
+                    "edit": [
+                        "el-input",
+                        {
+                            "type": "text"
+                        }
+                    ],
+                    "choices": null,
+                    "choices_info": {},
+                    "is_multi": false,
+                    "require": false,
+                    "position": 120,
+                    "type": "orrery.core.models.ShortText",
+                    "description": "",
+                    "internal": false,
+                    "options": {}
+                },
+                "time_per_participation": {
+                    "edit": [
+                        "el-input",
+                        {
+                            "type": "text"
+                        }
+                    ],
+                    "choices": [
+                        [
+                            250,
+                            "One minute"
+                        ],
+                        [
+                            251,
+                            "Three minutes"
+                        ],
+                        [
+                            252,
+                            "Five minutes"
+                        ],
+                        [
+                            209,
+                            "Fifteen minutes"
+                        ],
+                        [
+                            240,
+                            "Half hour"
+                        ],
+                        [
+                            210,
+                            "1 hour"
+                        ],
+                        [
+                            241,
+                            "1.5 hours"
+                        ],
+                        [
+                            242,
+                            "2 hours"
+                        ],
+                        [
+                            243,
+                            "2.5 hours"
+                        ],
+                        [
+                            244,
+                            "3 hours"
+                        ],
+                        [
+                            245,
+                            "3.5 hours"
+                        ],
+                        [
+                            211,
+                            "4 hours"
+                        ],
+                        [
+                            246,
+                            "4.5 hours"
+                        ],
+                        [
+                            247,
+                            "5 hours"
+                        ],
+                        [
+                            248,
+                            "5.5 hours"
+                        ],
+                        [
+                            249,
+                            "6 hours"
+                        ]
+                    ],
+                    "choices_info": {
+                        "name": "Time per participation",
+                        "description": ""
+                    },
+                    "is_multi": false,
+                    "require": false,
+                    "position": 121,
+                    "type": "orrery.core.models.ShortText",
+                    "description": "",
+                    "internal": false,
+                    "options": {
+                        "choices": "Time per participation"
+                    }
+                },
+                "year_started": {
+                    "edit": [
+                        "el-input-number",
+                        {}
+                    ],
+                    "choices": null,
+                    "choices_info": {},
+                    "is_multi": false,
+                    "require": false,
+                    "position": 122,
+                    "type": "orrery.core.models.Integer",
+                    "description": "",
+                    "internal": false,
+                    "options": {}
+                },
+                "month_completed": {
+                    "edit": [
+                        "el-input-number",
+                        {}
+                    ],
+                    "choices": null,
+                    "choices_info": {},
+                    "is_multi": false,
+                    "require": false,
+                    "position": 123,
+                    "type": "orrery.core.models.Integer",
+                    "description": "",
+                    "internal": false,
+                    "options": {}
+                },
+                "year_completed": {
+                    "edit": [
+                        "el-input-number",
+                        {}
+                    ],
+                    "choices": null,
+                    "choices_info": {},
+                    "is_multi": false,
+                    "require": false,
+                    "position": 124,
+                    "type": "orrery.core.models.Integer",
+                    "description": "",
+                    "internal": false,
+                    "options": {}
+                },
+                "grp_skills": {
+                    "edit": [
+                        "el-input",
+                        {}
+                    ],
+                    "choices": null,
+                    "choices_info": {},
+                    "is_multi": false,
+                    "require": false,
+                    "position": 125,
+                    "type": "orrery.core.models.AttributeGroupBegin",
+                    "description": "Participant skills and tasks",
+                    "internal": false,
+                    "options": {
+                        "{}": true
+                    }
+                },
+                "participation_tasks": {
+                    "edit": [
+                        "el-input-number",
+                        {}
+                    ],
+                    "choices": [
+                        [
+                            194,
+                            "Joined the project"
+                        ],
+                        [
+                            195,
+                            "Classification / Transcription"
+                        ],
+                        [
+                            196,
+                            "Data collection"
+                        ],
+                        [
+                            202,
+                            "Participated"
+                        ]
+                    ],
+                    "choices_info": {
+                        "name": "Participation tasks",
+                        "description": ""
+                    },
+                    "is_multi": true,
+                    "require": false,
+                    "position": 126,
+                    "type": "orrery.core.models.MultipleIntegers",
+                    "description": "",
+                    "internal": false,
+                    "options": {
+                        "choices": "Participation tasks"
+                    }
+                },
+                "activities": {
+                    "edit": [
+                        "el-input-number",
+                        {}
+                    ],
+                    "choices": [
+                        [
+                            28,
+                            "On a lunch break"
+                        ],
+                        [
+                            29,
+                            "At sports stadiums"
+                        ],
+                        [
+                            30,
+                            "At night"
+                        ],
+                        [
+                            31,
+                            "At a science center, zoo or aquarium"
+                        ],
+                        [
+                            32,
+                            "At school"
+                        ],
+                        [
+                            33,
+                            "On a walk, run"
+                        ],
+                        [
+                            34,
+                            "Exclusively online"
+                        ],
+                        [
+                            35,
+                            "At the beach"
+                        ],
+                        [
+                            36,
+                            "In snow or rain"
+                        ],
+                        [
+                            37,
+                            "At home"
+                        ],
+                        [
+                            38,
+                            "In the car"
+                        ],
+                        [
+                            39,
+                            "Emergency Response"
+                        ],
+                        [
+                            40,
+                            "On a hike"
+                        ],
+                        [
+                            41,
+                            "While fishing"
+                        ],
+                        [
+                            42,
+                            "In oceans, streams, rivers, lakes"
+                        ]
+                    ],
+                    "choices_info": {
+                        "name": "Activities",
+                        "description": ""
+                    },
+                    "is_multi": true,
+                    "require": false,
+                    "position": 127,
+                    "type": "orrery.core.models.MultipleIntegers",
+                    "description": "",
+                    "internal": false,
+                    "options": {
+                        "choices": "Activities"
+                    }
+                },
+                "special_skills": {
+                    "edit": [
+                        "el-input",
+                        {
+                            "type": "textarea"
+                        }
+                    ],
+                    "choices": null,
+                    "choices_info": {},
+                    "is_multi": false,
+                    "require": false,
+                    "position": 128,
+                    "type": "orrery.core.models.Text",
+                    "description": "",
+                    "internal": false,
+                    "options": {
+                        "{}": true
+                    }
+                },
+                "indoors": {
+                    "edit": [
+                        "el-switch",
+                        {
+                            "inactive-text": "No",
+                            "active-text": "Yes"
+                        }
+                    ],
+                    "choices": null,
+                    "choices_info": {},
+                    "is_multi": false,
+                    "require": false,
+                    "position": 129,
+                    "type": "orrery.core.models.YesOrNo",
+                    "description": "",
+                    "internal": false,
+                    "options": {
+                        "{}": true
+                    }
+                },
+                "outdoors": {
+                    "edit": [
+                        "el-switch",
+                        {
+                            "inactive-text": "No",
+                            "active-text": "Yes"
+                        }
+                    ],
+                    "choices": null,
+                    "choices_info": {},
+                    "is_multi": false,
+                    "require": false,
+                    "position": 130,
+                    "type": "orrery.core.models.YesOrNo",
+                    "description": "",
+                    "internal": false,
+                    "options": {
+                        "{}": true
+                    }
+                },
+                "grp_data": {
+                    "edit": [
+                        "el-input",
+                        {}
+                    ],
+                    "choices": null,
+                    "choices_info": {},
+                    "is_multi": false,
+                    "require": false,
+                    "position": 131,
+                    "type": "orrery.core.models.AttributeGroupBegin",
+                    "description": "Accessibility of citizen science data",
+                    "internal": false,
+                    "options": {
+                        "{}": true
+                    }
+                },
+                "data_results": {
+                    "edit": [
+                        "el-input",
+                        {
+                            "type": "textarea"
+                        }
+                    ],
+                    "choices": null,
+                    "choices_info": {},
+                    "is_multi": false,
+                    "require": false,
+                    "position": 132,
+                    "type": "orrery.core.models.Text",
+                    "description": "What happens with the data or results (Include public access URL if available)",
+                    "internal": false,
+                    "options": {
+                        "{}": true
+                    }
+                },
+                "data_aggregation": {
+                    "edit": [
+                        "el-input-number",
+                        {}
+                    ],
+                    "choices": [
+                        [
+                            102,
+                            "Raw"
+                        ],
+                        [
+                            103,
+                            "Aggregated"
+                        ]
+                    ],
+                    "choices_info": {
+                        "name": "Data aggregation",
+                        "description": "Do you provide access to raw data sets or aggregated values?"
+                    },
+                    "is_multi": true,
+                    "require": false,
+                    "position": 133,
+                    "type": "orrery.core.models.MultipleIntegers",
+                    "description": "Do you provide access to raw data or aggregated values",
+                    "internal": false,
+                    "options": {
+                        "choices": "Data aggregation"
+                    }
+                },
+                "data_consent": {
+                    "edit": [
+                        "el-input-number",
+                        {}
+                    ],
+                    "choices": [
+                        [
+                            104,
+                            "Not at all"
+                        ],
+                        [
+                            105,
+                            "Through a generic terms of use agreement"
+                        ],
+                        [
+                            106,
+                            "Through signature of an informed consent form"
+                        ],
+                        [
+                            107,
+                            "Other"
+                        ]
+                    ],
+                    "choices_info": {
+                        "name": "Data consent",
+                        "description": "How do you manage informed consent?"
+                    },
+                    "is_multi": true,
+                    "require": false,
+                    "position": 134,
+                    "type": "orrery.core.models.MultipleIntegers",
+                    "description": "How do you manage informed consent?",
+                    "internal": false,
+                    "options": {
+                        "choices": "Data consent"
+                    }
+                },
+                "data_visualization": {
+                    "edit": [
+                        "el-switch",
+                        {
+                            "inactive-text": "No",
+                            "active-text": "Yes"
+                        }
+                    ],
+                    "choices": null,
+                    "choices_info": {},
+                    "is_multi": false,
+                    "require": false,
+                    "position": 135,
+                    "type": "orrery.core.models.YesOrNo",
+                    "description": "Is the data collected by the project accessible via an online services for visualization (e.g. by OGC We Map Service - WMS)?",
+                    "internal": false,
+                    "options": {
+                        "{}": true
+                    }
+                },
+                "data_access": {
+                    "edit": [
+                        "el-input-number",
+                        {}
+                    ],
+                    "choices": [
+                        [
+                            108,
+                            "Bulk download of all data at once (e.g. by FTP download)"
+                        ],
+                        [
+                            109,
+                            "User-customizable download of selected parts"
+                        ],
+                        [
+                            110,
+                            "User-customizable services for computation"
+                        ]
+                    ],
+                    "choices_info": {
+                        "name": "Data access",
+                        "description": "If the data collected by the project is accessible via an online download service, how can it be accessed?"
+                    },
+                    "is_multi": true,
+                    "require": false,
+                    "position": 136,
+                    "type": "orrery.core.models.MultipleIntegers",
+                    "description": "If the data collected by the project is accessible via an online download service, how can it be accessed?",
+                    "internal": false,
+                    "options": {
+                        "choices": "Data access"
+                    }
+                },
+                "data_quality": {
+                    "edit": [
+                        "el-switch",
+                        {
+                            "inactive-text": "No",
+                            "active-text": "Yes"
+                        }
+                    ],
+                    "choices": null,
+                    "choices_info": {},
+                    "is_multi": false,
+                    "require": false,
+                    "position": 137,
+                    "type": "orrery.core.models.YesOrNo",
+                    "description": "Is the data collected by the project quality-controlled?",
+                    "internal": false,
+                    "options": {
+                        "{}": true
+                    }
+                },
+                "metadata_publication_url": {
+                    "edit": [
+                        "el-input",
+                        {}
+                    ],
+                    "choices": null,
+                    "choices_info": {},
+                    "is_multi": false,
+                    "require": false,
+                    "position": 138,
+                    "type": "orrery.core.models.Url",
+                    "description": "What URL or link code allows access to the metadata?",
+                    "internal": false,
+                    "options": {
+                        "{}": true
+                    }
+                },
+                "data_publication_url": {
+                    "edit": [
+                        "el-input",
+                        {}
+                    ],
+                    "choices": null,
+                    "choices_info": {},
+                    "is_multi": false,
+                    "require": false,
+                    "position": 139,
+                    "type": "orrery.core.models.Url",
+                    "description": "What URL or link code allows access to the data?",
+                    "internal": false,
+                    "options": {
+                        "{}": true
+                    }
+                },
+                "data_license": {
+                    "edit": [
+                        "el-input",
+                        {
+                            "type": "textarea"
+                        }
+                    ],
+                    "choices": null,
+                    "choices_info": {},
+                    "is_multi": false,
+                    "require": false,
+                    "position": 140,
+                    "type": "orrery.core.models.Text",
+                    "description": "What, if any, license applies to the use and re-use of data from your project?",
+                    "internal": false,
+                    "options": {
+                        "{}": true
+                    }
+                },
+                "grp_outcomes": {
+                    "edit": [
+                        "el-input",
+                        {}
+                    ],
+                    "choices": null,
+                    "choices_info": {},
+                    "is_multi": false,
+                    "require": false,
+                    "position": 141,
+                    "type": "orrery.core.models.AttributeGroupBegin",
+                    "description": "Intended outcomes",
+                    "internal": false,
+                    "options": {
+                        "{}": true
+                    }
+                },
+                "intended_outcomes": {
+                    "edit": [
+                        "el-input-number",
+                        {}
+                    ],
+                    "choices": [
+                        [
+                            119,
+                            "Civic and community : economic"
+                        ],
+                        [
+                            120,
+                            "Civic and community : empowerment"
+                        ],
+                        [
+                            121,
+                            "Civic and community : media and journalism"
+                        ],
+                        [
+                            122,
+                            "Civic and community : policy"
+                        ],
+                        [
+                            123,
+                            "Civic and community : resilience"
+                        ],
+                        [
+                            124,
+                            "Civic and community : social capital"
+                        ],
+                        [
+                            125,
+                            "Conservation : policy"
+                        ],
+                        [
+                            126,
+                            "Conservation : regulation / mitigation"
+                        ],
+                        [
+                            127,
+                            "Conservation : site management / preservation"
+                        ],
+                        [
+                            128,
+                            "Conservation : species management"
+                        ],
+                        [
+                            129,
+                            "Individual Learning : behavior change"
+                        ],
+                        [
+                            130,
+                            "Individual Learning : interest"
+                        ],
+                        [
+                            131,
+                            "Individual Learning : knowledge"
+                        ],
+                        [
+                            132,
+                            "Individual Learning : motivation"
+                        ],
+                        [
+                            133,
+                            "Individual Learning : self-efficacy (confidence)"
+                        ],
+                        [
+                            134,
+                            "Individual Learning : skills"
+                        ],
+                        [
+                            135,
+                            "Research advancement : baseline monitoring"
+                        ],
+                        [
+                            136,
+                            "Research advancement : build or use sensors / instruments"
+                        ],
+                        [
+                            137,
+                            "Research advancement : data classification"
+                        ],
+                        [
+                            138,
+                            "Research advancement : data gathering"
+                        ],
+                        [
+                            139,
+                            "Research advancement : knowledge generation"
+                        ],
+                        [
+                            140,
+                            "Other : inform public policy"
+                        ],
+                        [
+                            141,
+                            "Other : operational integration or use"
+                        ],
+                        [
+                            142,
+                            "Other : proof of concept"
+                        ],
+                        [
+                            143,
+                            "Other : regulation"
+                        ]
+                    ],
+                    "choices_info": {
+                        "name": "Outcomes",
+                        "description": ""
+                    },
+                    "is_multi": true,
+                    "require": false,
+                    "position": 142,
+                    "type": "orrery.core.models.MultipleIntegers",
+                    "description": "",
+                    "internal": false,
+                    "options": {
+                        "choices": "Outcomes"
+                    }
+                },
+                "outcome_other": {
+                    "edit": [
+                        "el-input",
+                        {
+                            "type": "text"
+                        }
+                    ],
+                    "choices": null,
+                    "choices_info": {},
+                    "is_multi": false,
+                    "require": false,
+                    "position": 143,
+                    "type": "orrery.core.models.ShortText",
+                    "description": "",
+                    "internal": false,
+                    "options": {
+                        "{}": true
+                    }
+                },
+                "grp_sponsors": {
+                    "edit": [
+                        "el-input",
+                        {}
+                    ],
+                    "choices": null,
+                    "choices_info": {},
+                    "is_multi": false,
+                    "require": false,
+                    "position": 144,
+                    "type": "orrery.core.models.AttributeGroupBegin",
+                    "description": "Sponsors and stakeholders",
+                    "internal": false,
+                    "options": {
+                        "{}": true
+                    }
+                },
+                "university_affiliation": {
+                    "edit": [
+                        "el-input",
+                        {
+                            "type": "text"
+                        }
+                    ],
+                    "choices": null,
+                    "choices_info": {},
+                    "is_multi": false,
+                    "require": false,
+                    "position": 145,
+                    "type": "orrery.core.models.ShortText",
+                    "description": "",
+                    "internal": false,
+                    "options": {
+                        "{}": true
+                    }
+                },
+                "sponsors": {
+                    "edit": [
+                        "el-input-number",
+                        {}
+                    ],
+                    "choices": [
+                        [
+                            148,
+                            "Other/none"
+                        ],
+                        [
+                            149,
+                            "BLM (Bureau of Land Management)"
+                        ],
+                        [
+                            150,
+                            "CDC (Center for Disease Control and Prevention)"
+                        ],
+                        [
+                            151,
+                            "DHS (Department of Homeland Security)"
+                        ],
+                        [
+                            152,
+                            "DOS (Department of State)"
+                        ],
+                        [
+                            153,
+                            "EPA (Environmental Protection Agency)"
+                        ],
+                        [
+                            154,
+                            "FDA (Food and Drug Administration)"
+                        ],
+                        [
+                            155,
+                            "HHS (Department of Health and Human Services)"
+                        ],
+                        [
+                            156,
+                            "NARA (National Archives and Records Administration)"
+                        ],
+                        [
+                            157,
+                            "NASA (National Aeronautics and Space Administration)"
+                        ],
+                        [
+                            158,
+                            "NIH (National Institute of Health)"
+                        ],
+                        [
+                            159,
+                            "NMFS (National Marine Fisheries Service)"
+                        ],
+                        [
+                            160,
+                            "NOAA (National Oceanic and Atmospheric Administration)"
+                        ],
+                        [
+                            161,
+                            "NPS (National Park Service)"
+                        ],
+                        [
+                            162,
+                            "NSF (National Science Foundation)"
+                        ],
+                        [
+                            163,
+                            "NWS (National Weather Service)"
+                        ],
+                        [
+                            164,
+                            "OSTP (Office of Science and Technology Policy)"
+                        ],
+                        [
+                            165,
+                            "SI (Smithsonian Institution)"
+                        ],
+                        [
+                            166,
+                            "SSA (Social Security Administration)"
+                        ],
+                        [
+                            167,
+                            "USAID (U. S. Agency for International Development)"
+                        ],
+                        [
+                            168,
+                            "USDA (U. S. Department of Agriculture)"
+                        ],
+                        [
+                            169,
+                            "USFS (U. S. Forest Service)"
+                        ],
+                        [
+                            170,
+                            "USFWS (U. S. Fish and Wildlife Service)"
+                        ],
+                        [
+                            171,
+                            "USGS (U. S. Geological Survey)"
+                        ],
+                        [
+                            172,
+                            "Other executive branch agency"
+                        ],
+                        [
+                            173,
+                            "Other independent agency"
+                        ],
+                        [
+                            174,
+                            "Other judicial branch agency"
+                        ],
+                        [
+                            175,
+                            "Other legislative branch agency"
+                        ]
+                    ],
+                    "choices_info": {
+                        "name": "Sponsor",
+                        "description": ""
+                    },
+                    "is_multi": true,
+                    "require": false,
+                    "position": 146,
+                    "type": "orrery.core.models.MultipleIntegers",
+                    "description": "",
+                    "internal": false,
+                    "options": {
+                        "choices": "Sponsor"
+                    }
+                },
+                "stakeholders": {
+                    "edit": [
+                        "el-input-number",
+                        {}
+                    ],
+                    "choices": [
+                        [
+                            176,
+                            "College or university"
+                        ],
+                        [
+                            177,
+                            "Community group"
+                        ],
+                        [
+                            178,
+                            "Federal agency"
+                        ],
+                        [
+                            179,
+                            "Formal non-profit/NGO"
+                        ],
+                        [
+                            180,
+                            "For-profit"
+                        ],
+                        [
+                            181,
+                            "K-12 Education"
+                        ],
+                        [
+                            182,
+                            "Museum"
+                        ],
+                        [
+                            183,
+                            "Other"
+                        ],
+                        [
+                            184,
+                            "State or local government"
+                        ]
+                    ],
+                    "choices_info": {
+                        "name": "Stakeholder",
+                        "description": ""
+                    },
+                    "is_multi": true,
+                    "require": false,
+                    "position": 147,
+                    "type": "orrery.core.models.MultipleIntegers",
+                    "description": "",
+                    "internal": false,
+                    "options": {
+                        "choices": "Stakeholder"
+                    }
+                },
+                "circuit_id": {
+                    "edit": [
+                        "el-input",
+                        {
+                            "type": "text"
+                        }
+                    ],
+                    "choices": null,
+                    "choices_info": {},
+                    "is_multi": false,
+                    "require": false,
+                    "position": 148,
+                    "type": "orrery.core.models.ShortText",
+                    "description": "",
+                    "internal": false,
+                    "options": {}
+                },
+                "sustainable_development_goals": {
+                    "edit": [
+                        "el-input",
+                        {
+                            "type": "textarea"
+                        }
+                    ],
+                    "choices": null,
+                    "choices_info": {},
+                    "is_multi": false,
+                    "require": false,
+                    "position": 149,
+                    "type": "orrery.core.models.Text",
+                    "description": "",
+                    "internal": false,
+                    "options": {}
+                }
+            },
+            "image": "https://orrery-media.s3.amazonaws.com/attr/2019-04/streetstorycollage_0.png",
+            "references": [],
+            "grp_scistarter": "",
+            "duplicate": false,
+            "ignore_authoritative": false,
+            "redirect": "",
+            "subcomponent": "",
+            "form": null,
+            "guid": "e4e8f580-cc5e-5306-9f4b-10eccbee8af1",
+            "opengraph_description": "",
+            "participation_degree": {
+                "value": 1,
+                "label": "Collegial"
+            },
+            "is_test": false,
+            "is_affiliate": false,
+            "is_inaturalist": false,
+            "inat_project_id": 0,
+            "participant_instructions": "",
+            "participant_instructions_email": "",
+            "participant_files": {},
+            "grp_admin": "",
+            "draft": true,
+            "status": {
+                "value": 1,
+                "label": "Active"
+            },
+            "promotion_time": {
+                "value": "ANYTIME",
+                "label": "Promote at any time"
+            },
+            "promotion_target": null,
+            "grp_contact": "",
+            "grp_project": "",
+            "us_federally_funded": false,
+            "presenter": "SafeTREC, UC Berkeley",
+            "goal": "Collect and provide information about community members' experiences using transportation networks.",
+            "task": "Tell us where you have experienced being in a crash, a near-miss, or where you feel safe or unsafe travelling on California's streets and pathways.",
+            "description": "Street Story (link is external) is a community engagement tool that allows residents, community groups and agencies to collect information about transportation collisions, near-misses, general hazards and safe locations to travel. The platform and the information collected is free to use and publicly accessible. The tool - a \"work-in-progress\" - was created by a team of city planners, public health professionals, engineers, social welfare experts and computer scientists at UC Berkeley\u2019s Safe Transportation Research and Education Center (SafeTREC).",
+            "image_credit": "",
+            "grp_web": "",
+            "url": "https://streetstory.berkeley.edu",
+            "video_url": "",
+            "blog_url": "",
+            "twitter_name": "@UCBSafeTREC",
+            "facebook_page": "",
+            "grp_categorization": "",
+            "topics": [
+                {
+                    "value": 23,
+                    "label": "Health & Medicine"
+                },
+                {
+                    "value": 9,
+                    "label": "Ecology & Environment"
+                },
+                {
+                    "value": 18,
+                    "label": "Computers & Technology"
+                },
+                {
+                    "value": 6,
+                    "label": "Transportation"
+                }
+            ],
+            "fields_of_science": {},
+            "practices": {},
+            "practices_how": "",
+            "search_terms": "transportation, pedestrian, bicycle, transit, health, safety, community, walk, bike",
+            "difficulty": {
+                "value": 1,
+                "label": "Easy"
+            },
+            "diy": false,
+            "grp_joining": "",
+            "audience": [
+                {
+                    "value": 114,
+                    "label": "College"
+                },
+                {
+                    "value": 115,
+                    "label": "Graduate students"
+                },
+                {
+                    "value": 116,
+                    "label": "Adults"
+                },
+                {
+                    "value": 117,
+                    "label": "Families"
+                },
+                {
+                    "value": 118,
+                    "label": "Seniors"
+                }
+            ],
+            "signup_url": "https://streetstory.berkeley.edu",
+            "prefix_how_to_logged_in": null,
+            "prefix_how_to_logged_out": null,
+            "how_to_join": "1) Go to https://streetstory.berkeley.edu\r\n2) Select which city or county in California you would like to provide input about\r\n3) Select whether you would like to provide feedback about a location where you've been in a crash, near-miss or felt safe or unsafe travelling\r\n4) Answer a few questions about the location, and submit!",
+            "howto_video": null,
+            "outcomes_label": null,
+            "outcomes_link": null,
+            "time_required": "",
+            "training_materials": "https://safetrec.berkeley.edu/tools/street-story-platform-community-engagement",
+            "classroom_materials": "",
+            "consent_statement": "",
+            "consent_statement_date": null,
+            "participation_tools": false,
+            "participation_prompt": "",
+            "participation_confirmation_message": "",
+            "participation_notification_email": "",
+            "participation_usage": "",
+            "grp_relations": "",
+            "part_of": null,
+            "associated_projects": {},
+            "associated_tools": {},
+            "grp_needed": "",
+            "total_expense": "0E-32",
+            "materials": "",
+            "gear": "",
+            "mobile_app_url_android": "",
+            "mobile_app_url_ios": "",
+            "mobile_app_url": "",
+            "grp_where": "",
+            "location_type": {
+                "value": "NEAR",
+                "label": "At a location or range"
+            },
+            "entirely_online": false,
+            "regions": "{ \"type\": \"MultiPolygon\", \"coordinates\": [ [ [ [ -124.482003, 40.440318 ], [ -124.197619, 40.950529 ], [ -124.252474, 41.134075 ], [ -124.160704, 41.289293 ], [ -124.24242, 41.3433 ], [ -124.133231, 41.432311 ], [ -124.211706, 41.681193 ], [ -124.438909, 41.824504 ], [ -124.401242, 41.885588 ], [ -124.285031, 41.859487 ], [ -124.328835, 41.998334 ], [ -119.999444, 41.994895 ], [ -120.001015, 38.999595 ], [ -117.226933, 37.016701 ], [ -114.632961, 35.001889 ], [ -114.633582, 34.871618 ], [ -114.469869, 34.71043 ], [ -114.385776, 34.456905 ], [ -114.130782, 34.261939 ], [ -114.433961, 34.087706 ], [ -114.535916, 33.933303 ], [ -114.524246, 33.552743 ], [ -114.725598, 33.40483 ], [ -114.70682, 33.088846 ], [ -114.468181, 32.970107 ], [ -114.526846, 32.75716 ], [ -117.205054, 32.529524 ], [ -117.309239, 32.656401 ], [ -117.339967, 33.0 ], [ -117.467871, 33.212494 ], [ -118.125906, 33.697142 ], [ -118.319142, 33.659541 ], [ -118.466967, 33.725521 ], [ -118.447256, 33.848756 ], [ -118.557354, 33.987671 ], [ -118.814752, 33.947217 ], [ -119.158963, 34.040253 ], [ -119.334462, 34.23653 ], [ -119.584795, 34.36166 ], [ -120.456015, 34.391485 ], [ -120.682206, 34.525326 ], [ -120.689606, 35.098828 ], [ -120.91915, 35.183333 ], [ -120.933292, 35.392748 ], [ -121.323512, 35.624969 ], [ -121.714483, 36.12 ], [ -121.959053, 36.287108 ], [ -122.076399, 36.910199 ], [ -122.464117, 37.177848 ], [ -122.588174, 37.789362 ], [ -122.889291, 37.974109 ], [ -123.067965, 37.958669 ], [ -123.014817, 38.149132 ], [ -123.164757, 38.388337 ], [ -123.784676, 38.893728 ], [ -123.761965, 39.041091 ], [ -123.894936, 39.348349 ], [ -123.834649, 39.549194 ], [ -123.90097, 39.780466 ], [ -124.411026, 40.225275 ], [ -124.482003, 40.440318 ] ] ], [ [ [ -118.667961, 33.482706 ], [ -118.53373, 33.531658 ], [ -118.366017, 33.468108 ], [ -118.25012, 33.283149 ], [ -118.496137, 33.280602 ], [ -118.667961, 33.482706 ] ] ], [ [ [ -118.609651, 33.017258 ], [ -118.351636, 32.813943 ], [ -118.503079, 32.850808 ], [ -118.609651, 33.017258 ] ] ], [ [ [ -119.12356, 33.49187 ], [ -119.017816, 33.539243 ], [ -118.963915, 33.469105 ], [ -119.055754, 33.409084 ], [ -119.12356, 33.49187 ] ] ], [ [ [ -119.657315, 33.273492 ], [ -119.520484, 33.33456 ], [ -119.360607, 33.226807 ], [ -119.483577, 33.164536 ], [ -119.657315, 33.273492 ] ] ], [ [ [ -119.929913, 34.05967 ], [ -119.520285, 34.03412 ], [ -119.818106, 33.959841 ], [ -119.929913, 34.05967 ] ] ], [ [ [ -119.757703, 33.362959 ], [ -119.691407, 33.415102 ], [ -119.631497, 33.364078 ], [ -119.691879, 33.309422 ], [ -119.757703, 33.362959 ] ] ], [ [ [ -120.250622, 34.001309 ], [ -120.046276, 34.036747 ], [ -119.967784, 33.942643 ], [ -120.119532, 33.894377 ], [ -120.250622, 34.001309 ] ] ], [ [ [ -120.452655, 34.029704 ], [ -120.368109, 34.076619 ], [ -120.305448, 34.020174 ], [ -120.452655, 34.029704 ] ] ], [ [ [ -123.173825, 37.775727 ], [ -123.070494, 37.81383 ], [ -122.941364, 37.67658 ], [ -123.040696, 37.650328 ], [ -123.173825, 37.775727 ] ] ] ] }",
+            "regions_description": "",
+            "point": [
+                -119.67013910688678,
+                37.23847908506526
+            ],
+            "address": "",
+            "city": "",
+            "zip": "",
+            "state": "",
+            "country": "",
+            "other": "",
+            "location_name": "",
+            "location_landuse": "",
+            "location_description": "",
+            "geographic_scope": {
+                "value": 144,
+                "label": "International"
+            },
+            "united_nations_region": {},
+            "grp_when": "",
+            "begin": null,
+            "end": null,
+            "project_timing": "",
+            "participation_schedule": "",
+            "time_per_participation": {
+                "value": "",
+                "label": ""
+            },
+            "year_started": 0,
+            "month_completed": 0,
+            "year_completed": 0,
+            "grp_skills": "",
+            "participation_tasks": [
+                {
+                    "value": 202,
+                    "label": "Participated"
+                },
+                {
+                    "value": 194,
+                    "label": "Joined the project"
+                },
+                {
+                    "value": 196,
+                    "label": "Data collection"
+                }
+            ],
+            "activities": [
+                {
+                    "value": 28,
+                    "label": "On a lunch break"
+                },
+                {
+                    "value": 33,
+                    "label": "On a walk, run"
+                },
+                {
+                    "value": 30,
+                    "label": "At night"
+                },
+                {
+                    "value": 37,
+                    "label": "At home"
+                },
+                {
+                    "value": 38,
+                    "label": "In the car"
+                },
+                {
+                    "value": 40,
+                    "label": "On a hike"
+                }
+            ],
+            "special_skills": "",
+            "indoors": false,
+            "outdoors": false,
+            "grp_data": "",
+            "data_results": "",
+            "data_aggregation": {},
+            "data_consent": {},
+            "data_visualization": false,
+            "data_access": {},
+            "data_quality": false,
+            "metadata_publication_url": "",
+            "data_publication_url": "",
+            "data_license": "",
+            "grp_outcomes": "",
+            "intended_outcomes": {},
+            "outcome_other": "",
+            "grp_sponsors": "",
+            "university_affiliation": "",
+            "sponsors": {},
+            "stakeholders": {},
+            "circuit_id": "62e9b0cee14311ea96ff0242ac110007",
+            "sustainable_development_goals": "SDG_11,SDG_16,SDG_3"
+        }
+        
+    ]
+}

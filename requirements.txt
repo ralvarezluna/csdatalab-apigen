@@ -1,0 +1,2 @@
+oastodcat==2.0.0
+datacatalogtordf=1.4.7
