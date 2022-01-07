@@ -2,6 +2,7 @@ from subprocess import TimeoutExpired
 import yaml
 import sys
 from datacatalogtordf import Catalog
+from datacatalogtordf import Agent
 from oastodcat import OASDataService
 
 class CatalogueManager:
@@ -13,10 +14,14 @@ class CatalogueManager:
   def __init__(self):
         self.catalog = Catalog()
 # print(dcat)
-  def createCatalogue(self,identifier,lang,tittle,publisher):
+  def createCatalogue(self,identifier,lang,tittle,publisher,homepage,description):
     self.catalog.identifier = identifier
     self.catalog.title = {lang: tittle}
-    self.catalog.homepage = publisher 
+    self.catalog.homepage = homepage 
+    agent = Agent(publisher)
+    agent.name = {lang: identifier}
+    self.catalog.publisher = agent
+    self.catalog.description= {lang: description}
 
 # # Create a dataservice based on an openAPI-specification
 # # Add dataservices to catalog

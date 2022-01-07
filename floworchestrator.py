@@ -10,7 +10,9 @@ config = utilities.load_properties("config.properties")
 id= config.get("cat_identifier", "http://example.com/catalogs/1")
 lang = config.get("lang", "en")
 title = config.get("tittle","A dataset catalog")
-publisher = config.get("homepage", None)
+homepage = config.get("homepage", None)
+publisher = config.get("publisher", None)
+description = config.get("description", None)
 file_api_esp = config.get("api_spec_file", None)
 source = config.get("source", "file")
 json_file = config.get("file_path", None)
@@ -28,7 +30,7 @@ print("Step one is finished, JSON data is loaded")
 
 #2) Parse the JSON file to DCAT Catalogue
 catalogue = catalogManager.CatalogueManager()
-catalogue.createCatalogue(id,lang,title,publisher)
+catalogue.createCatalogue(id,lang,title,publisher,homepage,description)
 catalogue.catalog = readCatalogueJSON.parseMetadata(data,catalogue.catalog,lang)
 
 # Persist catalog as RDF
