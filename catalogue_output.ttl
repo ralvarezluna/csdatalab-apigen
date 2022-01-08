@@ -1,0 +1,46 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns1: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://scistarter.org/catalogs/> a dcat:Catalog ;
+    dct:conformsTo <https://www.w3.org/TR/vocab-dcat-2/> ;
+    dct:description "DCAT catalogue of SciStarter to make more discoverable CS projects"@en ;
+    dct:publisher <https://scistarter.org> ;
+    dct:title "SciStarter FAIR catalogue"@en ;
+    dcat:dataset <https://scistarter.org/street-story-give-your-input-on-safe-streets> ;
+    foaf:homepage <https://scistarter.org> .
+
+<geosparql:asWKT> a dct:Location ;
+    dcat:bbox "{'geographic_scope': 'International'}"^^<http://www.opengis.net/ont/geosparql#asWKT> ;
+    dcat:centroid "{'point': [-119.67013910688678, 37.23847908506526]}"^^<http://www.opengis.net/ont/geosparql#asWKT> .
+
+<https://scistarter.org/street-story-give-your-input-on-safe-streets> a dcat:Dataset ;
+    dct:description "Street Story (link is external) is a community engagement tool that allows residents, community groups and agencies to collect information about transportation collisions, near-misses, general hazards and safe locations to travel. The platform and the information collected is free to use and publicly accessible. The tool - a \"work-in-progress\" - was created by a team of city planners, public health professionals, engineers, social welfare experts and computer scientists at UC Berkeley’s Safe Transportation Research and Education Center (SafeTREC). GOAL Collect and provide information about community members' experiences using transportation networks. TASKS Tell us where you have experienced being in a crash, a near-miss, or where you feel safe or unsafe travelling on California's streets and pathways."@en ;
+    dct:issued "2019-04-03"^^xsd:date ;
+    dct:language <en> ;
+    dct:modified "2020-07-06"^^xsd:date ;
+    dct:publisher <https://streetstory.berkeley.edu> ;
+    dct:spatial <IDENTIFIER> ;
+    dct:title "Street Story: Give Your Input on Safe Streets"@en ;
+    dct:type <https://dbpedia.org/ontology/Project> ;
+    dcat:contactPoint [ a ns1:Organization ;
+            ns1:hasEmail <mailto:example@ex.com> ;
+            ns1:hasOrganizationName "SafeTREC, UC Berkeley"@en ;
+            ns1:hasURL <https://streetstory.berkeley.edu> ] ;
+    dcat:distribution <https://streetstory.berkeley.edu> ;
+    dcat:keyword "transportation, pedestrian, bicycle, transit, health, safety, community, walk, bike"@en ;
+    dcat:landingPage <https://streetstory.berkeley.edu> ;
+    dcat:theme <https://www.wikidata.org/wiki/Q170584>,
+        <https://www.wikidata.org/wiki/Q50216838>,
+        <https://www.wikidata.org/wiki/Q53581228>,
+        <https://www.wikidata.org/wiki/Q53581248> .
+
+<https://scistarter.org> a foaf:Agent ;
+    foaf:name "https://scistarter.org/catalogs/"@en .
+
+<https://streetstory.berkeley.edu> a dcat:Distribution,
+        foaf:Agent ;
+    dcat:accessURL <https://streetstory.berkeley.edu> ;
+    foaf:name "SafeTREC, UC Berkeley"@en .

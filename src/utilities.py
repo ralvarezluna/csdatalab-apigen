@@ -1,5 +1,6 @@
 import datetime
 import json
+import re
 from datacatalogtordf.periodoftime import Date
 import requests
 import sys
@@ -40,6 +41,7 @@ def convertLongDate(long_date):
     struct = time.gmtime(long_date/1000.)
     dt = time.strftime('%Y-%m-%d', struct)
     return dt
-    #res= time.strftime(date_format,  time.gmtime(long_date/1000.))
-    #return time.strptime(date_format,res)
+
+def extractNumbers(joined_sdgs: str):
+    return re.findall(r'\d+', joined_sdgs)
     

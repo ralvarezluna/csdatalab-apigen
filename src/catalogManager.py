@@ -3,6 +3,7 @@ import yaml
 import sys
 from datacatalogtordf import Catalog
 from datacatalogtordf import Agent
+from datacatalogtordf import Document
 from oastodcat import OASDataService
 
 class CatalogueManager:
@@ -17,11 +18,16 @@ class CatalogueManager:
   def createCatalogue(self,identifier,lang,tittle,publisher,homepage,description):
     self.catalog.identifier = identifier
     self.catalog.title = {lang: tittle}
-    self.catalog.homepage = homepage 
+    doc = Document()
+    doc.identifier = homepage
+    doc.title = {"en": tittle}
+    self.catalog.homepage = doc._identifier
     agent = Agent(publisher)
     agent.name = {lang: identifier}
     self.catalog.publisher = agent
     self.catalog.description= {lang: description}
+    self.catalog._conformsTo.append("https://www.w3.org/TR/vocab-dcat-2/")
+    
 
 # # Create a dataservice based on an openAPI-specification
 # # Add dataservices to catalog
