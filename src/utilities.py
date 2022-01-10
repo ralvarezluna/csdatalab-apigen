@@ -7,6 +7,8 @@ import sys
 import time
 from time import mktime
 
+from requests.models import Response
+
 def load_properties(filepath):
     sep=':'
     comment_char='#'
@@ -29,12 +31,13 @@ def load_json_from_file(filepath):
          print(e, file=sys.stderr)
     return data
 
-def retrieve_json_from_API(remote_address, token):
+def retrieve_json_from_API(remote_address, token, query): 
+    q = "&q=" + query
     try:
-        response = requests.get(remote_address+token)
+        response = requests.get(remote_address+token+q)
     except requests.exceptions.RequestException as e:
         print(e, file=sys.stderr)
-    return response.json
+    return response.json()
 
 def convertLongDate(long_date):
     date_format = '%m/%d/%Y'

@@ -1,4 +1,3 @@
-import re
 import sys
 from concepttordf.collection import Collection
 from concepttordf.contact import VCARD
@@ -7,6 +6,7 @@ from datacatalogtordf import Dataset
 from datacatalogtordf.catalog import Catalog
 from datacatalogtordf import URI
 from datacatalogtordf.distribution import Distribution
+from datacatalogtordf.document import Document
 from datacatalogtordf.periodoftime import Date
 from datacatalogtordf.relationship import Relationship
 from datacatalogtordf.resource import Resource
@@ -53,14 +53,19 @@ def parseMetadata(source_json, catalog: Catalog, lang):
             contact.url = i["url"]
             record.contactpoint = contact
 
-            record.license = {lang: i["data_license"]}
+            #record.license = {lang: i["data_license"]}
 
             location = Location(i["signup_url"])
             location.identifier = "IDENTIFIER"
             location.centroid= {'point': i["point"]}
             location.bounding_box = {"geographic_scope": i["geographic_scope"]["label"]}
             record.spatial_coverage = location
-            record.license = i["data_license"]
+            
+            
+            if(i["data_license"] is None):
+                doc = Document(i["data_license"]) 
+                doc.language = lang
+                record.license = doc
             dist = Distribution(i["url"])
             if(i["data_publication_url"] == ""):
                 dist.access_URL = i["url"]

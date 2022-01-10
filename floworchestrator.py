@@ -1,6 +1,4 @@
-import sys
-
-from datacatalogtordf.catalog import Catalog
+import time
 import src.utilities as utilities
 import src.readCatalogueJSON as readCatalogueJSON
 import src.catalogManager as catalogManager
@@ -24,11 +22,12 @@ api_token = config.get("ACCESS_TOKEN", None)
 if(source == "file"):
     data= utilities.load_json_from_file(json_file)
 else:
-    data= utilities.retrieve_json_from_API(api_address,api_token)
+    data= utilities.retrieve_json_from_API(api_address,api_token,"")
 
 print("Step one is finished, JSON data is loaded")
 
 #2) Parse the JSON file to DCAT Catalogue
+start = time.time()
 catalogue = catalogManager.CatalogueManager()
 catalogue.createCatalogue(id,lang,title,publisher,homepage,description)
 catalogue.catalog = readCatalogueJSON.parseMetadata(data,catalogue.catalog,lang)
@@ -36,6 +35,8 @@ catalogue.catalog = readCatalogueJSON.parseMetadata(data,catalogue.catalog,lang)
 # Persist catalog as RDF
 catalogue.generateRDFfile('catalogue_output.rdf')
 print("Step two is finished, the catalogue is builded from JSON metadata and RDF file was generated")
+end = time.time()
+print("The time of execution of above program is :", end-start)
 
 #Generate and save DCAT from OpenAPI spec
 #dcat_out = catalogManager.getDCAT_from_openAPI(file_api_esp)

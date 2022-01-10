@@ -51,9 +51,13 @@ class CatalogueManager:
   def generateRDFfile(self,filepath):
     dcat_out = self.catalog.to_rdf("turtle","utf-8",True,True,True)
     dcat_string = dcat_out.decode("utf-8")
-    print(dcat_string)
+    #print(dcat_string)
     with open(filepath, 'w') as f:
       sys.stdout = f # Change the standard output to the file we created.
       print(dcat_string)
+
+    sys.stdout = sys.__stdout__
+    
+    
    
 
