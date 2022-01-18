@@ -2,29 +2,34 @@
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix ns1: <http://www.w3.org/2006/vcard/ns#> .
+@prefix ns2: <http://www.w3.org/ns/locn#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://scistarter.org/catalogs/> a dcat:Catalog ;
-    dct:conformsTo <https://www.w3.org/TR/vocab-dcat-2/> ;
+    dct:conformsTo <https://www.iana.org/assignments/media-types/text/turtle>,
+        <https://www.w3.org/TR/vocab-dcat-2/> ;
     dct:description "DCAT catalogue of SciStarter to make more discoverable CS projects"@en ;
     dct:publisher <https://scistarter.org> ;
     dct:title "SciStarter FAIR catalogue"@en ;
     dcat:dataset <https://scistarter.org/street-story-give-your-input-on-safe-streets> ;
     foaf:homepage <https://scistarter.org> .
 
-<geosparql:asWKT> a dct:Location ;
-    dcat:bbox "{'geographic_scope': 'International'}"^^<http://www.opengis.net/ont/geosparql#asWKT> ;
-    dcat:centroid "{'point': [-119.67013910688678, 37.23847908506526]}"^^<http://www.opengis.net/ont/geosparql#asWKT> .
+<https://scistarter.org> a foaf:Agent ;
+    foaf:name "https://scistarter.org/catalogs/"@en .
 
-<https://scistarter.org/street-story-give-your-input-on-safe-streets> a dcat:Dataset ;
+<https://scistarter.org/street-story-give-your-input-on-safe-streets> a dct:Location,
+        dcat:Dataset ;
+    dct:conformsTo <https://www.w3.org/TR/vocab-dcat-2/> ;
     dct:description "Street Story (link is external) is a community engagement tool that allows residents, community groups and agencies to collect information about transportation collisions, near-misses, general hazards and safe locations to travel. The platform and the information collected is free to use and publicly accessible. The tool - a \"work-in-progress\" - was created by a team of city planners, public health professionals, engineers, social welfare experts and computer scientists at UC Berkeley’s Safe Transportation Research and Education Center (SafeTREC). GOAL Collect and provide information about community members' experiences using transportation networks. TASKS Tell us where you have experienced being in a crash, a near-miss, or where you feel safe or unsafe travelling on California's streets and pathways."@en ;
     dct:issued "2019-04-03"^^xsd:date ;
     dct:language <en> ;
     dct:modified "2020-07-06"^^xsd:date ;
     dct:publisher <https://streetstory.berkeley.edu> ;
-    dct:spatial <IDENTIFIER> ;
+    dct:spatial <https://scistarter.org/street-story-give-your-input-on-safe-streets> ;
     dct:title "Street Story: Give Your Input on Safe Streets"@en ;
     dct:type <https://dbpedia.org/ontology/Project> ;
+    dcat:bbox "{'geographic_scope': 'International'}"^^<http://www.opengis.net/ont/geosparql#asWKT> ;
+    dcat:centroid "{'point': [-119.67013910688678, 37.23847908506526]}"^^<http://www.opengis.net/ont/geosparql#asWKT> ;
     dcat:contactPoint [ a ns1:Organization ;
             ns1:hasEmail <mailto:example@ex.com> ;
             ns1:hasOrganizationName "SafeTREC, UC Berkeley"@en ;
@@ -35,12 +40,12 @@
     dcat:theme <https://www.wikidata.org/wiki/Q170584>,
         <https://www.wikidata.org/wiki/Q50216838>,
         <https://www.wikidata.org/wiki/Q53581228>,
-        <https://www.wikidata.org/wiki/Q53581248> .
-
-<https://scistarter.org> a foaf:Agent ;
-    foaf:name "https://scistarter.org/catalogs/"@en .
+        <https://www.wikidata.org/wiki/Q53581248> ;
+    ns2:geometry "{ \"type\": \"MultiPolygon\", \"coordinates\": [ [ [ [ -124.482003, 40.440318 ], [ -124.197619, 40.950529 ], [ -124.252474, 41.134075 ], [ -124.160704, 41.289293 ], [ -124.24242, 41.3433 ], [ -124.133231, 41.432311 ], [ -124.211706, 41.681193 ], [ -124.438909, 41.824504 ], [ -124.401242, 41.885588 ], [ -124.285031, 41.859487 ], [ -124.328835, 41.998334 ], [ -119.999444, 41.994895 ], [ -120.001015, 38.999595 ], [ -117.226933, 37.016701 ], [ -114.632961, 35.001889 ], [ -114.633582, 34.871618 ], [ -114.469869, 34.71043 ], [ -114.385776, 34.456905 ], [ -114.130782, 34.261939 ], [ -114.433961, 34.087706 ], [ -114.535916, 33.933303 ], [ -114.524246, 33.552743 ], [ -114.725598, 33.40483 ], [ -114.70682, 33.088846 ], [ -114.468181, 32.970107 ], [ -114.526846, 32.75716 ], [ -117.205054, 32.529524 ], [ -117.309239, 32.656401 ], [ -117.339967, 33.0 ], [ -117.467871, 33.212494 ], [ -118.125906, 33.697142 ], [ -118.319142, 33.659541 ], [ -118.466967, 33.725521 ], [ -118.447256, 33.848756 ], [ -118.557354, 33.987671 ], [ -118.814752, 33.947217 ], [ -119.158963, 34.040253 ], [ -119.334462, 34.23653 ], [ -119.584795, 34.36166 ], [ -120.456015, 34.391485 ], [ -120.682206, 34.525326 ], [ -120.689606, 35.098828 ], [ -120.91915, 35.183333 ], [ -120.933292, 35.392748 ], [ -121.323512, 35.624969 ], [ -121.714483, 36.12 ], [ -121.959053, 36.287108 ], [ -122.076399, 36.910199 ], [ -122.464117, 37.177848 ], [ -122.588174, 37.789362 ], [ -122.889291, 37.974109 ], [ -123.067965, 37.958669 ], [ -123.014817, 38.149132 ], [ -123.164757, 38.388337 ], [ -123.784676, 38.893728 ], [ -123.761965, 39.041091 ], [ -123.894936, 39.348349 ], [ -123.834649, 39.549194 ], [ -123.90097, 39.780466 ], [ -124.411026, 40.225275 ], [ -124.482003, 40.440318 ] ] ], [ [ [ -118.667961, 33.482706 ], [ -118.53373, 33.531658 ], [ -118.366017, 33.468108 ], [ -118.25012, 33.283149 ], [ -118.496137, 33.280602 ], [ -118.667961, 33.482706 ] ] ], [ [ [ -118.609651, 33.017258 ], [ -118.351636, 32.813943 ], [ -118.503079, 32.850808 ], [ -118.609651, 33.017258 ] ] ], [ [ [ -119.12356, 33.49187 ], [ -119.017816, 33.539243 ], [ -118.963915, 33.469105 ], [ -119.055754, 33.409084 ], [ -119.12356, 33.49187 ] ] ], [ [ [ -119.657315, 33.273492 ], [ -119.520484, 33.33456 ], [ -119.360607, 33.226807 ], [ -119.483577, 33.164536 ], [ -119.657315, 33.273492 ] ] ], [ [ [ -119.929913, 34.05967 ], [ -119.520285, 34.03412 ], [ -119.818106, 33.959841 ], [ -119.929913, 34.05967 ] ] ], [ [ [ -119.757703, 33.362959 ], [ -119.691407, 33.415102 ], [ -119.631497, 33.364078 ], [ -119.691879, 33.309422 ], [ -119.757703, 33.362959 ] ] ], [ [ [ -120.250622, 34.001309 ], [ -120.046276, 34.036747 ], [ -119.967784, 33.942643 ], [ -120.119532, 33.894377 ], [ -120.250622, 34.001309 ] ] ], [ [ [ -120.452655, 34.029704 ], [ -120.368109, 34.076619 ], [ -120.305448, 34.020174 ], [ -120.452655, 34.029704 ] ] ], [ [ [ -123.173825, 37.775727 ], [ -123.070494, 37.81383 ], [ -122.941364, 37.67658 ], [ -123.040696, 37.650328 ], [ -123.173825, 37.775727 ] ] ] ] }"^^<http://www.opengis.net/ont/geosparql#asWKT> .
 
 <https://streetstory.berkeley.edu> a dcat:Distribution,
         foaf:Agent ;
     dcat:accessURL <https://streetstory.berkeley.edu> ;
     foaf:name "SafeTREC, UC Berkeley"@en .
+
+

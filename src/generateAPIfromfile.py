@@ -4,14 +4,13 @@ import pandas as pd
 ## Configure file source and project properties
 
 
-csvfile = input("Enter csv file name: ")
-
-##Covert from JSON to CSV
-if(csvfile == ''):
-    jsonfile = input("Enter json file name: ")
-    df = pd.read_json (jsonfile)
-    df.to_csv (r'generated.csv', index = None)
-    subprocess.call(['java', '-jar', 'ag.jar', 'csv2api', 'generated.csv'])
-##Calling API generator
-else:
-    subprocess.call(['java', '-jar', 'ag.jar', 'csv2api', csvfile])
+def generateAPI(file, format):
+    """Generating API from specified file, format must be JSON or CSV"""
+    ##Convert from JSON to CSV
+    if(format == "JSON"):
+        df = pd.read_json(file)
+        df.to_csv(file, index = None)
+    ##Calling API generator
+    subprocess.call(['java', '-jar', 'ag.jar', 'csv2api', file])
+    
+    
