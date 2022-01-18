@@ -1,11 +1,10 @@
-import datetime
+import validators
 import json
 import re
 from datacatalogtordf.periodoftime import Date
 import requests
 import sys
 import time
-from time import mktime
 
 from requests.models import Response
 
@@ -48,3 +47,12 @@ def convertLongDate(long_date):
 def extractNumbers(joined_sdgs: str):
     return re.findall(r'\d+', joined_sdgs)
     
+
+def validate_URL(url) ->bool:
+    if not url:
+        return False
+    if validators.url(url):
+        return True
+    return False        
+
+

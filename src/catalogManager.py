@@ -1,4 +1,3 @@
-from subprocess import TimeoutExpired
 import yaml
 import sys
 from datacatalogtordf import Catalog
@@ -14,27 +13,25 @@ class CatalogueManager:
         self.catalog = catalog
   def __init__(self):
         self.catalog = Catalog()
-# print(dcat)
+
   def createCatalogue(self,identifier,lang,tittle,publisher,homepage,description):
     self.catalog.identifier = identifier
     self.catalog.title = {lang: tittle}
     doc = Document()
     doc.identifier = homepage
-    doc.title = {"en": tittle}
+    doc.title = {lang: tittle}
     self.catalog.homepage = doc._identifier
     agent = Agent(publisher)
     agent.name = {lang: identifier}
     self.catalog.publisher = agent
     self.catalog.description= {lang: description}
     self.catalog._conformsTo.append("https://www.w3.org/TR/vocab-dcat-2/")
-    
+    self.catalog._conformsTo.append("https://www.iana.org/assignments/media-types/text/turtle")
 
 # # Create a dataservice based on an openAPI-specification
 # # Add dataservices to catalog
-  def getDCAT_from_openAPI(self,identifier,lang,tittle,publisher,file_url):
+  def addDataservice_from_openAPI(self,identifier,url):
 
-    
-    url = file_url
     with open(url) as file:
       data = file.read()
       oas = yaml.safe_load(data)
@@ -44,11 +41,9 @@ class CatalogueManager:
     for dataservice in oas_spec.dataservices:
       self.catalog.services.append(dataservice)
   
-    dcat = self.catalog.to_rdf()
-  
-    return dcat
 
   def generateRDFfile(self,filepath):
+    
     dcat_out = self.catalog.to_rdf("turtle","utf-8",True,True,True)
     dcat_string = dcat_out.decode("utf-8")
     #print(dcat_string)
