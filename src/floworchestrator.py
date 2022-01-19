@@ -1,6 +1,7 @@
 import utilities
 import readCatalogueJSON
 import catalogManager
+import generateAPIfromfile
 
 #Load catalog configuration from properties file
 config = utilities.load_properties("config.properties")
@@ -16,7 +17,7 @@ json_file = config.get("file_path", None)
 api_address = config.get("PLATFORM_API_URL", None)
 api_token = config.get("ACCESS_TOKEN", None)
 
-
+data = None
 #1) Retrieve JSON from file or remote API request
 projects = []
 if(source == "file"):
@@ -33,15 +34,15 @@ catalogue = catalogManager.CatalogueManager()
 catalogue.createCatalogue(id,lang,title,publisher,homepage,description)
 catalogue.catalog = readCatalogueJSON.parseMetadata(projects,catalogue.catalog,lang)
 
+#3,4)Generate API and publish local
+generateAPIfromfile.generateAPI("street_story.csv", "CSV")
+
+#5)Generate and ADD dataservice from OpenAPI spec
+dcat_out = catalogue.addDataservice_from_openAPI("street_story","openapi_test.yaml")
+
+
 # Persist catalog as RDF
 catalogue.generateRDFfile('catalogue_output.ttl')
 print("Step two is finished, the catalogue is builded from JSON metadata and RDF file was generated")
-
-
-#Generate and save DCAT from OpenAPI spec
-#dcat_out = catalogManager.getDCAT_from_openAPI(file_api_esp)
-
-
-#Update metadata to API data plattform
 
 

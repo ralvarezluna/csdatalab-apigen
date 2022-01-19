@@ -12,7 +12,16 @@
     dct:publisher <https://scistarter.org> ;
     dct:title "SciStarter FAIR catalogue"@en ;
     dcat:dataset <https://scistarter.org/street-story-give-your-input-on-safe-streets> ;
+    dcat:service <street_story> ;
     foaf:homepage <https://scistarter.org> .
+
+<street_story> a dcat:DataService ;
+    dct:description "Obtaining the demodata"@en ;
+    dct:title "demodata"@en ;
+    dcat:endpointDescription <openapi_test.yaml> ;
+    dcat:endpointURL <http://localhost:8080/> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json>,
+        <https://www.iana.org/assignments/media-types/text/html> .
 
 <https://scistarter.org> a foaf:Agent ;
     foaf:name "https://scistarter.org/catalogs/"@en .
@@ -20,7 +29,7 @@
 <https://scistarter.org/street-story-give-your-input-on-safe-streets> a dct:Location,
         dcat:Dataset ;
     dct:conformsTo <https://www.w3.org/TR/vocab-dcat-2/> ;
-    dct:description "Street Story (link is external) is a community engagement tool that allows residents, community groups and agencies to collect information about transportation collisions, near-misses, general hazards and safe locations to travel. The platform and the information collected is free to use and publicly accessible. The tool - a \"work-in-progress\" - was created by a team of city planners, public health professionals, engineers, social welfare experts and computer scientists at UC Berkeleyâ€™s Safe Transportation Research and Education Center (SafeTREC). GOAL Collect and provide information about community members' experiences using transportation networks. TASKS Tell us where you have experienced being in a crash, a near-miss, or where you feel safe or unsafe travelling on California's streets and pathways."@en ;
+    dct:description "Street Story (link is external) is a community engagement tool that allows residents, community groups and agencies to collect information about transportation collisions, near-misses, general hazards and safe locations to travel. The platform and the information collected is free to use and publicly accessible. The tool - a \"work-in-progress\" - was created by a team of city planners, public health professionals, engineers, social welfare experts and computer scientists at UC Berkeley’s Safe Transportation Research and Education Center (SafeTREC). GOAL Collect and provide information about community members' experiences using transportation networks. TASKS Tell us where you have experienced being in a crash, a near-miss, or where you feel safe or unsafe travelling on California's streets and pathways."@en ;
     dct:issued "2019-04-03"^^xsd:date ;
     dct:language <en> ;
     dct:modified "2020-07-06"^^xsd:date ;
