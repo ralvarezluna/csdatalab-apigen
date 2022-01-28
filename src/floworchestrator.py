@@ -30,7 +30,7 @@ for i in data:
     projects.append(i)
 print("Step one is finished, JSON data is loaded")
 
-#2) Parse the JSON file to DCAT Catalogue
+#2) Map/Parse the JSON file to DCAT Catalogue
 catalogue = catalogManager.CatalogueManager()
 catalogue.createCatalogue(id,lang,title,publisher,homepage,description)
 scitarterMap = MapScistarter(catalogue.catalog)

@@ -9,10 +9,11 @@ import utilities
 
 
 IANAMEDIATYPES = "https://www.iana.org/assignments/media-types/media-types.xhtml"
+UNSDGTAXONOMY = "http://metadata.un.org/sdg/"
 
 class MapScistarter(MapCatalogue):
 
-    def __init__(self, catalogue) -> None:
+    def __init__(self, catalogue:Catalog) -> None:
         """Inits catalog object with default values."""
         super().__init__(catalogue)
 
@@ -22,7 +23,7 @@ class MapScistarter(MapCatalogue):
         print("Processing " + len(source_json).__str__() + " projects" )
         x=0 
         lang = "en"
-        sdgs = utilities.load_properties("sdgs_semantic.properties")
+        
         for i in source_json:
             record = Dataset()
             try:
@@ -35,13 +36,12 @@ class MapScistarter(MapCatalogue):
                 record.keyword = {lang: i["search_terms"]}
             #record.access_rights_comments.append(i["data_access"])   
             
-                #Anotate as themes the relation with SDGs
+                #Anotate as themes the relation with SDGs, referencing UN SDG Taxonomy
                 themes = []
-                themes.append(URI("https://www.wikidata.org/wiki/Q170584"))
                 ref_goals = utilities.extractNumbers(i["sustainable_development_goals"])
                 for j in ref_goals:
-                    themes.append(URI(sdgs.get(j,None)))
-                    record.theme = themes
+                    themes.append(URI(UNSDGTAXONOMY + j))
+                record.theme = themes
             
                 record._conformsTo.append("https://www.w3.org/TR/vocab-dcat-2/")
 

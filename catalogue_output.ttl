@@ -11,7 +11,8 @@
     dct:publisher <https://scistarter.org> ;
     dct:title "SciStarter FAIR catalogue"@en ;
     dcat:dataset <https://scistarter.org/fresh-eyes-on-ice> ;
-    dcat:service <street_story> ;
+    dcat:service <https://fresheyesonice.org>,
+        <street_story> ;
     foaf:homepage <https://scistarter.org> .
 
 <street_story> a dcat:DataService ;
@@ -47,11 +48,18 @@ You can contribute to this project by sharing your photo observations of river i
             ns1:hasURL <https://fresheyesonice.org> ] ;
     dcat:distribution <https://fresheyesonice.org> ;
     dcat:keyword "ice, river, water, GLOBE"@en ;
-    dcat:landingPage <https://fresheyesonice.org> .
+    dcat:landingPage <https://fresheyesonice.org> ;
+    dcat:theme <http://metadata.un.org/sdg/11>,
+        <http://metadata.un.org/sdg/16>,
+        <http://metadata.un.org/sdg/3> .
 
-<https://fresheyesonice.org> a dcat:Distribution,
+<https://fresheyesonice.org> a dcat:DataService,
+        dcat:Distribution,
         foaf:Agent ;
-    dcat:accessURL <https://fresheyesonice.org> ;
+    dct:title "Swagger Petstore"@en ;
+    dcat:accessURL <https://datosabiertos.navarra.es/dataset/f7cafe87-6a49-452e-b846-336c12d6a279/resource/9323f68f-9c8f-47e1-884c-d6985b957606/download/incidenciasdecarreteras.csv> ;
+    dcat:endpointDescription <localhost:8080> ;
+    dcat:mediaType <text/csv> ;
     foaf:name "{'en': None}"@en .
 
 

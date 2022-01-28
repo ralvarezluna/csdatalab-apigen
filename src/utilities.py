@@ -60,9 +60,16 @@ def validate_URL(url) ->bool:
         return True
     return False        
 
-def getContenttype(media_url):
+def getContenttype(media_url,identifier):
     '''Check the content-type of the URL request for checking data format'''
     response = requests.head(media_url)
     r= response.headers['content-type']
-    print("El tipo de dato publico es " + response.__str__())
+    if(r=="text/csv"):
+        response = requests.get(media_url, stream=True)
+        # Throw an error for bad status codes
+        response.raise_for_status()
+        with open(identifier, 'wb') as handle:
+            for block in response.iter_content(1024):
+                handle.write(block)
+    print("El tipo de dato público es " + r)
     return r
