@@ -34,8 +34,7 @@ class MapScistarter(MapCatalogue):
                 record.title = {lang: i["name"]}
                 record.description = {lang: i["description"]+ " GOAL " + i["goal"] + " TASKS " + i["task"]}
                 record.keyword = {lang: i["search_terms"]}
-            #record.access_rights_comments.append(i["data_access"])   
-            
+                       
                 #Anotate as themes the relation with SDGs, referencing UN SDG Taxonomy
                 themes = []
                 ref_goals = utilities.extractNumbers(i["sustainable_development_goals"])
@@ -68,7 +67,7 @@ class MapScistarter(MapCatalogue):
                     record.license = license
 
                 #Defining a Distribution for the data referenced in the input
-                dist = self.createDistribution(i["url"],i["data_publication_url"])
+                dist = self.createDistribution(i["url"],i["data_publication_url"],i["id"])
 
                 #Add referenced distribution, if the input have more than one, you must repeat the procedure
                 record.distributions.append(dist)

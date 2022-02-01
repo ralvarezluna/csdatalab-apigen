@@ -1,0 +1,26 @@
+[
+    {
+        "id": 12334,
+        "legacy_id": 1236446,
+        "value": "Fresh Eyes on Ice",
+        "name": "Fresh Eyes on Ice",
+        "created": 1621459935770.965,
+        "type": "Project",
+        "publish": true,
+        "updated": 1635781267328.192,
+        "description": "Example... lorem ipsum",
+        "url": "https://example.org",
+        "fields_of_science": {},
+        "search_terms": "ice, river, water, GLOBE",
+        "regions": "{ \"type\": \"MultiPolygon\",...}",
+            "regions_description": "",
+            "point": [
+                -119.67013910688678,
+                37.23847908506526
+            ],
+        "metadata_publication_url": "",
+        "data_publication_url": "http://example.org:8080/raw.csv",
+        "data_license": "",
+        "sustainable_development_goals": "SDG_11,SDG_16,SDG_3"
+    }
+]

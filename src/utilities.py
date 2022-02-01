@@ -4,6 +4,9 @@ import re
 import requests
 import sys
 import time
+import pandas as pd
+
+'''Auxiliar file to define support functions, formats conversion, file management...'''
 
 def load_properties(filepath):
     '''Support the reading of properties files, returns a properties object'''
@@ -64,12 +67,34 @@ def getContenttype(media_url,identifier):
     '''Check the content-type of the URL request for checking data format'''
     response = requests.head(media_url)
     r= response.headers['content-type']
-    if(r=="text/csv"):
-        response = requests.get(media_url, stream=True)
-        # Throw an error for bad status codes
-        response.raise_for_status()
-        with open(identifier, 'wb') as handle:
-            for block in response.iter_content(1024):
-                handle.write(block)
+    configureResponseToFile(r,media_url,identifier)
     print("El tipo de dato público es " + r)
     return r
+
+def configureResponseToFile(resp,media_url,identifier):
+    response = requests.get(media_url, stream=True)
+    # Throw an error for bad status codes
+    response.raise_for_status()
+
+    if(resp=="text/csv"):
+        identifier= identifier + ".csv"
+        writeContentToFile(identifier,response)
+    else:
+        if(resp=="application/json"):
+            identifier=identifier + ".json"
+            writeContentToFile(identifier,response)
+            convertJSONtoCSV(identifier)
+        else:
+            return resp    
+    
+def writeContentToFile(file, response):
+    '''Writing to file de content of the response'''
+    with open(file, 'wb') as handle:
+        for block in response.iter_content(1024):
+            handle.write(block)
+
+def convertJSONtoCSV(file):
+    '''Converting JSON to CSV for further API generation from CSV'''    
+    df = pd.read_json(file)
+    df.to_csv(file, index = None)
+        
