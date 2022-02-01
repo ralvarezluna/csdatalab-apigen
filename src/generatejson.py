@@ -3,7 +3,7 @@ import json
 import time
 from mapScistarterCatalogue import MapScistarter
 import utilities
-import catalogManager,mapCatalogue
+import catalogManager
 
 config = utilities.load_properties("config.properties")
 id= config.get("cat_identifier", "http://example.com/catalogs/1")
