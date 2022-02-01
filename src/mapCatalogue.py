@@ -2,7 +2,7 @@ import sys
 from datacatalogtordf.catalog import Catalog
 from datacatalogtordf import URI
 from datacatalogtordf.distribution import Distribution
-from generateAPIfromfile import generateAPI
+from generateAPIfromfile import generateAPI, convertSwaggerToOpenAPI
 import utilities
 from concepttordf import Contact
 from datacatalogtordf import Location
@@ -11,7 +11,6 @@ from oastodcat import OASDataService
 import yaml
 
 IANAMEDIATYPES = "https://www.iana.org/assignments/media-types/media-types.xhtml"
-
 class MapCatalogue:
 
     """A class for mapping to a dcat:Catalog.
@@ -62,44 +61,42 @@ class MapCatalogue:
             return uri
         return None
 
-    def  createDistribution(self,identifier, media_url)->Distribution:
+    def  createDistribution(self,identifier, media_url, id)->Distribution:
         '''Creates a distribution for the identifier Dataset 
-        refering the data access url'''
+        refering the data access url
+        The field id wild be used to creates Web API folder'''
         dist = Distribution(identifier)
         if utilities.validate_URL(media_url):
             dist.access_URL = media_url
-            media_type = utilities.getContenttype(media_url,"aa.csv")
+            media_type = utilities.getContenttype(media_url,str(id))
             dist.media_types = [media_type]
-            self.addDataServices(media_type,identifier)
+            if(media_type=="text/csv" or media_type=="application/json"):
+                self.addDataServices(identifier,id)
         else:
             if utilities.validate_URL(identifier):
                 dist.access_URL = identifier
         return dist
     
-    def addDataServices(self,media_type,identifier)->None:
-        if(media_type == "text/csv"):
-            try:
-                generateAPI("aa.csv",'CSV')
-            except  Exception as e:
-                print(e, file=sys.stderr)
-                print("The API from resource " + identifier + " can´t be generated, check process or source")
-                return
-        oas = yaml.safe_load(self.minimal_spec())
-        oas_spec = OASDataService('localhost:8080', oas, identifier)
+    def addDataServices(self,identifier,id)->None:
+        '''Add dataservice specification to DCAT catalogue after the generation of Web APIs packages
+            identifier: id of dataservice
+            id: project id to identify Web APIs throug the project ID        
+        '''
+        try:
+            generateAPI(str(id)+".csv")
+        except  Exception as e:
+            print(e, file=sys.stderr)
+            print("The API from resource " + identifier + " can´t be generated, check process or source")
+            return
+        
+        convertSwaggerToOpenAPI(str(id))
+        #Reading OpenAPI Specification from file
+        
+        with open(str(id)+'.yaml') as f:
+            oas = yaml.safe_load(f)
+        oas_spec = OASDataService(identifier, oas, identifier)
         # Add dataservices to catalog:
         for dataservice in oas_spec.dataservices:
             self._catalogue.services.append(dataservice)
-        
-
-    def minimal_spec(self) -> str:
-        """Helper for creating a minimal specification object."""
-        _minimal_spec = """
-                    openapi: 3.0.3
-                    info:
-                      title: Swagger Petstore
-                      version: 1.0.0
-                    paths: {}
-                    """
-        return _minimal_spec
         
 
