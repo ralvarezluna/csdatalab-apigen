@@ -1,11 +1,13 @@
 import random
 import json
 import time
-from mapScistarterCatalogue import MapScistarter
-import utilities
-import catalogManager
+from src.mapscistarter import MapScistarter
+from catalogmanager import CatalogueManager
+from src.utilities import utilities
 
-config = utilities.load_properties("config.properties")
+
+config = None
+config = utilities.load_properties("tests/config.properties")
 id= config.get("cat_identifier", "http://example.com/catalogs/1")
 lang = config.get("lang", "en")
 title = config.get("tittle","A dataset catalog")
@@ -26,9 +28,8 @@ source_json = []
 data = []
 for i in range(3):
     t= random.choice(topics).strip()
-    source_json = utilities.retrieve_json_from_API("https://scistarter.org/p/finder?format=json&key=",
-    "5-cswhNNXuutNWxx8YADcWDDbDsOslNpniUPSbMWQJ7NEr_IHRjToNVOZhLmcLUqGB--L5-OzT62qB-OxJicxA",t)
-    print("Retrieved " )
+    source_json = ut.retrieve_json_from_API(api_address, api_token,t)
+    print("Retrieved")
     for i in source_json['entities']:
         i["_metadata"]=""
         data.append(i)
@@ -39,13 +40,13 @@ with open('tests/outputfile.json', 'w') as fout:
 
 #2) Parse the JSON file to DCAT Catalogue
 start = time.time()
-catalogue = catalogManager.CatalogueManager()
+catalogue = catalogmanager.CatalogueManager()
 catalogue.createCatalogue(id,lang,title,publisher,homepage,description)
 scitarterMap = MapScistarter(catalogue.catalog)
 catalogue.catalog = scitarterMap.parseMetadata(data)
 
-# Persist catalog as RDF
-catalogue.generateRDFfile('tests/catalogue_output.rdf')
+# Persist catalog serialized as Turtle
+catalogue.generateRDFfile('tests/catalogue_output.ttl')
 print("Step two is finished, the catalogue is builded from JSON metadata and RDF file was generated")
 end = time.time()
 print("The time of execution of above program is :", end-start)

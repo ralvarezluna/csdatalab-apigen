@@ -2,7 +2,7 @@ import sys
 from datacatalogtordf.catalog import Catalog
 from datacatalogtordf import URI
 from datacatalogtordf.distribution import Distribution
-from generateAPIfromfile import generateAPI, convertSwaggerToOpenAPI
+from generateapifromfile import generateAPI, convertSwaggerToOpenAPI
 import utilities
 from concepttordf import Contact
 from datacatalogtordf import Location
@@ -10,16 +10,15 @@ from datacatalogtordf import Agent
 from oastodcat import OASDataService
 import yaml
 
-IANAMEDIATYPES = "https://www.iana.org/assignments/media-types/media-types.xhtml"
+IANAMEDIATYPES = "https://www.iana.org/assignments/media-types/"
 class MapCatalogue:
 
     """A class for mapping to a dcat:Catalog.
     Ref: `dcat:Catalog <https://www.w3.org/TR/vocab-dcat-2/#Class:Catalog>`_.
     Attributes:
-        catalogue (Catalogue): The catalogue base to add datasets from input source
+        catalogue (Catalogue): The catalogue base to add datasets and dataservices from input source
     """
     _catalogue= Catalog()
-
 
     def __init__(self, catalogue:Catalog):
         self._catalogue = catalogue
@@ -69,7 +68,8 @@ class MapCatalogue:
         if utilities.validate_URL(media_url):
             dist.access_URL = media_url
             media_type = utilities.getContenttype(media_url,str(id))
-            dist.media_types = [media_type]
+            media_type = media_type.split(";")[0]
+            dist.media_types = [IANAMEDIATYPES+media_type]
             if(media_type=="text/csv" or media_type=="application/json"):
                 self.addDataServices(identifier,id)
         else:

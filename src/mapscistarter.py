@@ -4,11 +4,10 @@ from typing import Optional
 from datacatalogtordf import Dataset
 from datacatalogtordf.catalog import Catalog
 from datacatalogtordf import URI
-from mapCatalogue import MapCatalogue
+from mapcatalogue import MapCatalogue
 import utilities
 
 
-IANAMEDIATYPES = "https://www.iana.org/assignments/media-types/media-types.xhtml"
 UNSDGTAXONOMY = "http://metadata.un.org/sdg/"
 
 class MapScistarter(MapCatalogue):
