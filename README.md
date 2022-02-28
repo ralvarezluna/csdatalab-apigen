@@ -1,4 +1,4 @@
-# Process for FAIRfication CS data (DCAT metadata adoption + Web APIs generation)
+# Tool for FAIR data production (DCAT metadata adoption + Web APIs generation)
 This project is for development FAIRification process (i.e. make CS initiatives more FAIR compliant) which maps metadata of CS platforms' catalogues to DCAT and generates Web Application Programming Interfaces (APIs) for improving CS data discoverability and reusability in an integrated approach. 
 
 ## How to use
@@ -7,8 +7,8 @@ This project is for development FAIRification process (i.e. make CS initiatives 
 3. Set up the catalogue metadata input in the *config.properties* file. The properties file contains a description, catalogue URL, and the source of projects metadata. 
 4. Run *flowOchestrator* class. 
 Then, the projects are retrieved from the source specified in the file, could be a local file or a remote endpoint. 
-Once metadata is retrieved, the class \textit{mapScistarterCatalogue} (implementation of the \textit{mapCatalogue} interface) maps the metadata fields from Scistarter to DCAT.
-5. If you need to redefine the mapper, you must extend the class *mapCatalogue*.
+Once metadata is retrieved, the class \textit{mMpScistarterCatalogue} (implementation of the \textit{MapCatalogue} interface) maps the metadata fields from Scistarter to DCAT.
+5. If you need to redefine the mapper, you must extend the class *MapCatalogue*.
 6. During the mapper execution if data raw is available by metadata reference, the *APIfication* (which is a Java suproccess) is launched, generating *Web API* packages for the corresponding data. The Web APIs packages are called following the pattern AG_projectID
 7. Then, once Web APIs are generated and published, the specification of data services is thus added to the DCAT metadata *Catalogue*.
 8. Finally, this *Catalogue* is serialized in Turtle and could be shared as RDF linked data.
