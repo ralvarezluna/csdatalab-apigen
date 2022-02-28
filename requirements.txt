@@ -1,3 +1,7 @@
 oastodcat==2.0.0
-datacatalogtordf=1.4.7
-conceptordf=1.0.2
+datacatalogtordf==1.4.7
+concepttordf==1.0.2
+requests==2.27.1
+PyYAML==5.3.1
+validators==0.18.2
+pandas==1.4.1

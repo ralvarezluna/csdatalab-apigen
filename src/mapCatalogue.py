@@ -2,8 +2,8 @@ import sys
 from datacatalogtordf.catalog import Catalog
 from datacatalogtordf import URI
 from datacatalogtordf.distribution import Distribution
-from generateapifromfile import generateAPI, convertSwaggerToOpenAPI
-import utilities
+from src import utilities
+from src.generateapifromfile import *
 from concepttordf import Contact
 from datacatalogtordf import Location
 from datacatalogtordf import Agent 

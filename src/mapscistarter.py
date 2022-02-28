@@ -1,11 +1,10 @@
 
 import sys
-from typing import Optional
 from datacatalogtordf import Dataset
 from datacatalogtordf.catalog import Catalog
 from datacatalogtordf import URI
-from mapcatalogue import MapCatalogue
-import utilities
+from src import utilities
+from src.mapcatalogue import MapCatalogue
 
 
 UNSDGTAXONOMY = "http://metadata.un.org/sdg/"
