@@ -5,7 +5,9 @@ from src.floworchestrator import MainController
 #Choosing a random topic from the list
 with open("tests/topics.txt", "r") as file:
     topics = file.readlines()
-selectedTopic= random.choice(topics).strip()
+#Select random topic or setting one static    
+#selectedTopic= random.choice(topics).strip()
+selectedTopic= "Transportation"
 print("The selected topis is: " + selectedTopic)
 
 #Configuring the input source 

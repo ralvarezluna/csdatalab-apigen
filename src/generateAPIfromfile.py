@@ -15,7 +15,7 @@ def generateAPI(file):
 CONVERTER = "https://converter.swagger.io/api/convert"
 
 def convertSwaggerToOpenAPI(id_file):
-    swagger_path = os.path.join("AG_"+ str(id), "apiCode","swagger.json")
+    swagger_path = os.path.join("AG_"+ str(id_file), "apiCode","swagger.json")
     headers = {"content-type": "application/json", "Accept-Charset": "UTF-8"}
     f = open(swagger_path)
     data=json.load(f)
