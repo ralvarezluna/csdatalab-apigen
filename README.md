@@ -19,3 +19,4 @@ The file *sampleExecution.py* generates a ramdon number of projects querying the
 The time of execution is printed in the terminal. Also a file with the catalogue is generated in the same folder. If some project fails during the mapping due to the completeness of required metadata, the identifier is also printed.
 The *sampleExecution.py* contains the logic to redefine inputs an for using the tool features.
 
+A short demo video is available at [Youtube](https://youtu.be/Iu1F4ANfc2w)

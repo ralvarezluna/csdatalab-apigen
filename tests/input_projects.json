@@ -1,0 +1,1968 @@
+{
+    "name": "Matched Projects",
+    "total": 7,
+    "page": 1,
+    "entities": [
+        {
+            "id": 6453,
+            "legacy_id": 100006453,
+            "box": 112584,
+            "value": "ePollution",
+            "name": "ePollution",
+            "slug": "epollution",
+            "link": "/epollution",
+            "type": "Project",
+            "options": {},
+            "publish": true,
+            "created": 1629345674385.2761,
+            "updated": 1629472674826.7332,
+            "component": "ss-project",
+            "members_only": false,
+            "tags": [
+                "coastlines",
+                "marine biology",
+                "marine life",
+                "ocean"
+            ],
+            "_metadata": "",
+            "image": "https://orrery-media.s3.amazonaws.com/attr/2021-08/Screen_Shot_2021-08-19_at_2.21.46_PM.png",
+            "references": [],
+            "grp_scistarter": "",
+            "duplicate": false,
+            "ignore_authoritative": false,
+            "redirect": "",
+            "subcomponent": "",
+            "form": null,
+            "guid": "a2435281-24a2-5aa5-9f9a-2d1a4cef777d",
+            "opengraph_description": "",
+            "participation_degree": {
+                "value": 1,
+                "label": "Collegial"
+            },
+            "is_test": false,
+            "is_affiliate": false,
+            "is_inaturalist": false,
+            "inat_project_id": 0,
+            "participant_instructions": "",
+            "participant_instructions_email": "",
+            "participant_files": {},
+            "grp_admin": "",
+            "draft": false,
+            "status": {
+                "value": 1,
+                "label": "Active"
+            },
+            "promotion_time": {
+                "value": "ANYTIME",
+                "label": "Promote at any time"
+            },
+            "promotion_target": null,
+            "grp_contact": "",
+            "grp_project": "",
+            "us_federally_funded": false,
+            "presenter": "eOceans",
+            "goal": "Monitor pollution in the ocean on a global scale.",
+            "task": "Log observations of what you see when you are in, on, or near the ocean!",
+            "description": "An estimated 4.8 to 12.7 million metric tons of plastic enter the ocean each year \u2014 but this is not nearly the extent of ocean pollution. Oil spills, ocean mining, agricultural runoff, toxic chemicals, maritime transportation, sewage, and leaking unexploded munitions all have both direct and indirect detrimental health impacts to ecosystems across the globe and the species that rely on them. ePollution is working to capture broad trends on a global scale to better understand how pollution is impacting our ocean and to stimulate new research questions.",
+            "image_credit": "",
+            "grp_web": "",
+            "url": "https://www.eoceans.co/live-projects",
+            "video_url": "",
+            "blog_url": "",
+            "twitter_name": "@eOceans_sci",
+            "facebook_page": "https://www.facebook.com/eOceansSci",
+            "grp_categorization": "",
+            "topics": [
+                {
+                    "value": 12,
+                    "label": "Biology"
+                },
+                {
+                    "value": 14,
+                    "label": "Ocean, Water, Marine & Terrestrial"
+                },
+                {
+                    "value": 21,
+                    "label": "Nature & Outdoors"
+                }
+            ],
+            "fields_of_science": {},
+            "practices": {},
+            "practices_how": "",
+            "search_terms": "ocean, coastlines, marine life, marine biology",
+            "difficulty": {
+                "value": 1,
+                "label": "Easy"
+            },
+            "diy": false,
+            "grp_joining": "",
+            "audience": [
+                {
+                    "value": 113,
+                    "label": "High school (14 - 17 years)"
+                },
+                {
+                    "value": 114,
+                    "label": "College"
+                },
+                {
+                    "value": 115,
+                    "label": "Graduate students"
+                },
+                {
+                    "value": 116,
+                    "label": "Adults"
+                },
+                {
+                    "value": 117,
+                    "label": "Families"
+                },
+                {
+                    "value": 118,
+                    "label": "Seniors"
+                }
+            ],
+            "signup_url": "https://www.eoceans.co/sign-up",
+            "prefix_how_to_logged_in": "",
+            "prefix_how_to_logged_out": "",
+            "how_to_join": "Download the app, join the eShark team, and start logging observations next time you are in, on, or near the ocean.",
+            "howto_video": "",
+            "outcomes_label": "",
+            "outcomes_link": "",
+            "time_required": "",
+            "training_materials": "https://www.eoceans.co/how-to-eoceans",
+            "classroom_materials": "",
+            "consent_statement": "Terms of use regarding eOceans' mobile app and platform can be found here: https://www.eoceans.co/terms-of-use",
+            "consent_statement_date": null,
+            "participation_tools": false,
+            "participation_prompt": "",
+            "participation_confirmation_message": "",
+            "participation_notification_email": "",
+            "participation_usage": "",
+            "grp_relations": "",
+            "part_of": null,
+            "associated_projects": {},
+            "associated_tools": {},
+            "grp_needed": "",
+            "total_expense": "0E-32",
+            "materials": "",
+            "gear": "",
+            "mobile_app_url_android": "https://play.google.com/store/apps/details?id=co.eoceans.app",
+            "mobile_app_url_ios": "https://apps.apple.com/ca/app/eoceans/id1495841229",
+            "mobile_app_url": "",
+            "grp_where": "",
+            "location_type": {
+                "value": "ANY",
+                "label": "Global, anywhere on the planet"
+            },
+            "entirely_online": false,
+            "on_demand": null,
+            "in_person": null,
+            "regions": null,
+            "regions_description": "",
+            "point": null,
+            "address": "",
+            "city": "",
+            "zip": "",
+            "state": "",
+            "country": "",
+            "other": "",
+            "location_name": "",
+            "location_landuse": "ocean, coastline",
+            "location_description": "",
+            "geographic_scope": {
+                "value": 144,
+                "label": "International"
+            },
+            "united_nations_region": {},
+            "grp_when": "",
+            "begin": 1629270000000.0,
+            "end": null,
+            "project_timing": "",
+            "participation_schedule": "As often as possible - whenever you are near, on, or in the ocean!",
+            "time_per_participation": {
+                "value": 250,
+                "label": "One minute"
+            },
+            "year_started": 0,
+            "month_completed": 0,
+            "year_completed": 0,
+            "grp_skills": "",
+            "participation_tasks": {},
+            "activities": [
+                {
+                    "value": 42,
+                    "label": "In oceans, streams, rivers, lakes"
+                },
+                {
+                    "value": 41,
+                    "label": "While fishing"
+                },
+                {
+                    "value": 40,
+                    "label": "On a hike"
+                },
+                {
+                    "value": 35,
+                    "label": "At the beach"
+                },
+                {
+                    "value": 33,
+                    "label": "On a walk, run"
+                },
+                {
+                    "value": 30,
+                    "label": "At night"
+                }
+            ],
+            "special_skills": "",
+            "indoors": false,
+            "outdoors": true,
+            "grp_data": "",
+            "data_results": "The data obtained by this Team is kept within the eOceans platform and will not be given or sold to outside parties.",
+            "data_aggregation": {},
+            "data_consent": {},
+            "data_visualization": false,
+            "data_access": {},
+            "data_quality": false,
+            "metadata_publication_url": "",
+            "data_publication_url": "",
+            "data_license": "",
+            "grp_outcomes": "",
+            "intended_outcomes": {},
+            "outcome_other": "",
+            "grp_sponsors": "",
+            "university_affiliation": "",
+            "sponsors": {},
+            "stakeholders": {},
+            "circuit_id": "",
+            "sustainable_development_goals": ""
+        },
+        {
+            "id": 6285,
+            "legacy_id": 100006285,
+            "box": 105173,
+            "value": "Project Sidewalk",
+            "name": "Project Sidewalk",
+            "slug": "project-sidewalk",
+            "link": "/project-sidewalk",
+            "type": "Project",
+            "options": {},
+            "publish": true,
+            "created": 1618958134763.884,
+            "updated": 1641593998925.274,
+            "component": "ss-project",
+            "members_only": false,
+            "tags": [
+                "accessibility",
+                "ai",
+                "artificial intelligence",
+                "citizen science",
+                "computer vision",
+                "crowdsourcing",
+                "machine learning",
+                "open data",
+                "open source",
+                "pedestrian",
+                "sidewalk",
+                "transportation",
+                "virtual",
+                "wheelchair"
+            ],
+            "_metadata": "",
+            "image": "https://orrery-media.s3.amazonaws.com/attr/2021-04/scistarter-image.png",
+            "references": [
+                {
+                    "id": 15733,
+                    "label": "Project Sidewalk: A Web-based Crowdsourcing Tool for Collecting Sidewalk Accessibility Data at Scale",
+                    "type": "Peer reviewed publication",
+                    "url": "https://makeabilitylab.cs.washington.edu/media/publications/Saha_ProjectSidewalkAWebBasedCrowdsourcingToolForCollectingSidewalkAccessibilityDataAtScale_CHI2019.pdf",
+                    "citation": "",
+                    "detailed_citation": "Saha, Manaswi, et al. \"Project sidewalk: A web-based crowdsourcing tool for collecting sidewalk accessibility data at scale.\" Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems. 2019."
+                },
+                {
+                    "id": 15732,
+                    "label": "Seattle's got terrible sidewalks. You can help fix them.",
+                    "type": "Other media",
+                    "url": "https://crosscut.com/2019/04/seattles-got-terrible-sidewalks-you-can-help-fix-them",
+                    "citation": "",
+                    "detailed_citation": ""
+                }
+            ],
+            "grp_scistarter": null,
+            "duplicate": false,
+            "ignore_authoritative": false,
+            "redirect": null,
+            "subcomponent": null,
+            "form": null,
+            "guid": "50e842ba-2e17-5def-8532-6a508580ea34",
+            "opengraph_description": null,
+            "participation_degree": {
+                "value": 0,
+                "label": ""
+            },
+            "is_test": false,
+            "is_affiliate": false,
+            "is_inaturalist": false,
+            "inat_project_id": 0,
+            "participant_instructions": null,
+            "participant_instructions_email": null,
+            "participant_files": {},
+            "grp_admin": null,
+            "draft": false,
+            "status": {
+                "value": 1,
+                "label": "Active"
+            },
+            "promotion_time": {
+                "value": "ANYTIME",
+                "label": "Promote at any time"
+            },
+            "promotion_target": null,
+            "grp_contact": null,
+            "grp_project": null,
+            "us_federally_funded": false,
+            "presenter": "The Makeability Lab at the University of Washington",
+            "goal": "Collect an open dataset on sidewalk accessibility in cities",
+            "task": "Find accessibility problems virtually using Google Street View",
+            "description": "Despite comprehensive civil rights legislation for Americans with disabilities, many city streets, sidewalks, and businesses remain inaccessible. Project Sidewalk, and our network of volunteers, plan to change that. Project Sidewalk is a web-based tool that allows anyone with a web browser and internet connection to contribute sidewalk accessibility information virtually using Google Street View. The data we collect is open and publicly available through our APIs. The data can be used by city governments to prioritize certain places for sidewalk upgrades/repairs. It can and has been used by members of the community to lobby for more funding for sidewalk repairs by the city. Or the data could be used in a number of other ways, including through new pedestrian routing applications!\n\nThe long term goal of Project Sidewalk is to use this very large dataset to train computer vision and machine learning algorithms to detect accessibility problems automatically. Collecting accessibility data is expensive for cities and time consuming for volunteers. If this data can be collected automatically, it will free up money in city budgets to actually do the sidewalk repairs.",
+            "image_credit": null,
+            "grp_web": null,
+            "url": "https://sidewalk-sea.cs.washington.edu/?referrer=scistarter",
+            "video_url": "https://www.youtube.com/watch?v=_GBLqZDXB_0&t=10s&ab_channel=UMDScience",
+            "blog_url": null,
+            "twitter_name": "@projsidewalk",
+            "facebook_page": "https://www.facebook.com/projsidewalk",
+            "grp_categorization": null,
+            "topics": [
+                {
+                    "value": 18,
+                    "label": "Computers & Technology"
+                },
+                {
+                    "value": 23,
+                    "label": "Health & Medicine"
+                },
+                {
+                    "value": 6,
+                    "label": "Transportation"
+                }
+            ],
+            "fields_of_science": {},
+            "practices": {},
+            "practices_how": null,
+            "search_terms": "accessibility,virtual,sidewalk,pedestrian,citizen science,open data,open source,crowdsourcing,wheelchair,machine learning,AI,artificial intelligence,computer vision",
+            "difficulty": {
+                "value": 2,
+                "label": "medium"
+            },
+            "diy": false,
+            "grp_joining": null,
+            "audience": [
+                {
+                    "value": 116,
+                    "label": "Adults"
+                },
+                {
+                    "value": 115,
+                    "label": "Graduate students"
+                },
+                {
+                    "value": 112,
+                    "label": "Middle school (11 - 13 years)"
+                },
+                {
+                    "value": 113,
+                    "label": "High school (14 - 17 years)"
+                },
+                {
+                    "value": 114,
+                    "label": "College"
+                },
+                {
+                    "value": 117,
+                    "label": "Families"
+                },
+                {
+                    "value": 118,
+                    "label": "Seniors"
+                }
+            ],
+            "signup_url": "http://projectsidewalk.io?referrer=scistarter",
+            "prefix_how_to_logged_in": null,
+            "prefix_how_to_logged_out": null,
+            "how_to_join": "Head to http://projectsidewalk.io?referrer=scistarter, choose from one of the cities listed on that page (the default is Seattle), click on \"sign in/up\" in the top right corner to track your contributions, then click \"Start Exploring\"!\n\nFrom there, you will be guided through a tutorial that explains how to use Project Sidewalk to mark accessibility features like curb ramps and problems like obstacles on the sidewalk! If you'd like to start with something a little faster/easier, you can click on \"Start Validating\" on the navbar at the top. From there, you will vote on whether labels contributed by other volunteers are correct!",
+            "howto_video": null,
+            "outcomes_label": null,
+            "outcomes_link": null,
+            "time_required": null,
+            "training_materials": "https://sidewalk-sea.cs.washington.edu/labelingGuide",
+            "classroom_materials": null,
+            "consent_statement": null,
+            "consent_statement_date": null,
+            "participation_tools": false,
+            "participation_prompt": null,
+            "participation_confirmation_message": null,
+            "participation_notification_email": null,
+            "participation_usage": null,
+            "grp_relations": null,
+            "part_of": null,
+            "associated_projects": {},
+            "associated_tools": {},
+            "grp_needed": null,
+            "total_expense": "0E-32",
+            "materials": null,
+            "gear": null,
+            "mobile_app_url_android": null,
+            "mobile_app_url_ios": null,
+            "mobile_app_url": null,
+            "grp_where": null,
+            "location_type": {
+                "value": "ON",
+                "label": "Online only (The entire activity takes place at a computer or on a smart phone)"
+            },
+            "entirely_online": true,
+            "on_demand": null,
+            "in_person": null,
+            "regions": null,
+            "regions_description": null,
+            "point": null,
+            "address": null,
+            "city": null,
+            "zip": null,
+            "state": null,
+            "country": null,
+            "other": null,
+            "location_name": null,
+            "location_landuse": null,
+            "location_description": null,
+            "geographic_scope": {
+                "value": 0,
+                "label": ""
+            },
+            "united_nations_region": {},
+            "grp_when": null,
+            "begin": 1618957419000.0,
+            "end": null,
+            "project_timing": null,
+            "participation_schedule": null,
+            "time_per_participation": {
+                "value": 209,
+                "label": "Fifteen minutes"
+            },
+            "year_started": 0,
+            "month_completed": 0,
+            "year_completed": 0,
+            "grp_skills": null,
+            "participation_tasks": {},
+            "activities": [
+                {
+                    "value": 34,
+                    "label": "Exclusively online"
+                },
+                {
+                    "value": 28,
+                    "label": "On a lunch break"
+                },
+                {
+                    "value": 37,
+                    "label": "At home"
+                },
+                {
+                    "value": 36,
+                    "label": "In snow or rain"
+                },
+                {
+                    "value": 30,
+                    "label": "At night"
+                }
+            ],
+            "special_skills": null,
+            "indoors": true,
+            "outdoors": false,
+            "grp_data": null,
+            "data_results": "Accessibility data is fully open, and we provide access through our API, which we are constantly improving. The data provided on our API page goes through some amount of cleaning to make it more useful. We user clustering methods to group duplicate labels together, remove junk data that has been downvoted by other users, etc. But the all the raw labels can also be accessed from https://sidewalk-sea.cs.washington.edu/adminapi/labels/all. We do not include any user information through the API. We are currently working on adding Shapefile support to our API and we are working on making serving data in a format that will work well with OpenStreetMap!",
+            "data_aggregation": [
+                {
+                    "value": 103,
+                    "label": "Aggregated"
+                },
+                {
+                    "value": 102,
+                    "label": "Raw"
+                }
+            ],
+            "data_consent": [
+                {
+                    "value": 105,
+                    "label": "Through a generic terms of use agreement"
+                }
+            ],
+            "data_visualization": false,
+            "data_access": [
+                {
+                    "value": 109,
+                    "label": "User-customizable download of selected parts"
+                }
+            ],
+            "data_quality": false,
+            "metadata_publication_url": "https://sidewalk-sea.cs.washington.edu/api",
+            "data_publication_url": "https://sidewalk-sea.cs.washington.edu/v2/access/score/neighborhoods?lat1=47.6&lng1=-122.32&lat2=47.636&lng2=-122.275&filetype=csv",
+            "data_license": "MIT License",
+            "grp_outcomes": null,
+            "intended_outcomes": [
+                {
+                    "value": 120,
+                    "label": "Civic and community : empowerment"
+                },
+                {
+                    "value": 121,
+                    "label": "Civic and community : media and journalism"
+                },
+                {
+                    "value": 122,
+                    "label": "Civic and community : policy"
+                },
+                {
+                    "value": 131,
+                    "label": "Individual Learning : knowledge"
+                },
+                {
+                    "value": 137,
+                    "label": "Research advancement : data classification"
+                },
+                {
+                    "value": 138,
+                    "label": "Research advancement : data gathering"
+                },
+                {
+                    "value": 140,
+                    "label": "Other : inform public policy"
+                },
+                {
+                    "value": 141,
+                    "label": "Other : operational integration or use"
+                }
+            ],
+            "outcome_other": null,
+            "grp_sponsors": null,
+            "university_affiliation": "University of Washington",
+            "sponsors": [
+                {
+                    "value": 162,
+                    "label": "NSF (National Science Foundation)"
+                }
+            ],
+            "stakeholders": [
+                {
+                    "value": 177,
+                    "label": "Community group"
+                },
+                {
+                    "value": 179,
+                    "label": "Formal non-profit/NGO"
+                },
+                {
+                    "value": 183,
+                    "label": "Other"
+                },
+                {
+                    "value": 184,
+                    "label": "State or local government"
+                }
+            ],
+            "circuit_id": null,
+            "sustainable_development_goals": "SDG_11"
+        },
+        {
+            "id": 5327,
+            "legacy_id": 100005327,
+            "box": 81252,
+            "value": "OpenSidewalks",
+            "name": "OpenSidewalks",
+            "slug": "opensidewalks",
+            "link": "/opensidewalks",
+            "type": "Project",
+            "options": {},
+            "publish": true,
+            "created": 1591036595839.008,
+            "updated": 1600433966397.0498,
+            "component": "ss-project",
+            "members_only": false,
+            "tags": [
+                "pedestrian walkability accessibility disability transportation multi-modal built-environment sidewalks sidewalk bicycle routes cyclepath"
+            ],
+            "_metadata": "",
+            "image": "https://orrery-media.s3.amazonaws.com/attr/2020-06/20170807_-_WSDOT.jpg",
+            "references": [],
+            "grp_scistarter": "",
+            "duplicate": false,
+            "ignore_authoritative": false,
+            "redirect": "",
+            "subcomponent": "",
+            "form": null,
+            "guid": "3b6e0448-99ab-51b5-8839-a97217f40c58",
+            "opengraph_description": "",
+            "participation_degree": {
+                "value": 1,
+                "label": "Collegial"
+            },
+            "is_test": false,
+            "is_affiliate": false,
+            "is_inaturalist": false,
+            "inat_project_id": 0,
+            "participant_instructions": "",
+            "participant_instructions_email": "",
+            "participant_files": {},
+            "grp_admin": "",
+            "draft": false,
+            "status": {
+                "value": 0,
+                "label": "Pending"
+            },
+            "promotion_time": {
+                "value": "ANYTIME",
+                "label": "Promote at any time"
+            },
+            "promotion_target": null,
+            "grp_contact": "",
+            "grp_project": "",
+            "us_federally_funded": false,
+            "presenter": "University of Washington",
+            "goal": "Collect detailed sidewalk and cyclepath data for accessibility & walkability.",
+            "task": "Map information about the built environment in your own neighborhood.",
+            "description": "We collect detailed sidewalk and cyclepath data for accessibility and walkability. Livable, sustainable cities depend on inclusive walkability! Using these data we provide city planners as well as ordinary citizens with information about safe walking routes suitable for everyone!",
+            "image_credit": "OpenSidewalks copyright 2020",
+            "grp_web": "",
+            "url": "https://github.com/OpenSidewalks",
+            "video_url": "",
+            "blog_url": "",
+            "twitter_name": "",
+            "facebook_page": "",
+            "grp_categorization": "",
+            "topics": [
+                {
+                    "value": 9,
+                    "label": "Ecology & Environment"
+                },
+                {
+                    "value": 6,
+                    "label": "Transportation"
+                },
+                {
+                    "value": 23,
+                    "label": "Health & Medicine"
+                }
+            ],
+            "fields_of_science": {},
+            "practices": {},
+            "practices_how": "",
+            "search_terms": "pedestrian walkability accessibility disability transportation multi-modal built-environment sidewalks sidewalk bicycle routes cyclepath",
+            "difficulty": {
+                "value": 1,
+                "label": "Easy"
+            },
+            "diy": false,
+            "grp_joining": "",
+            "audience": [
+                {
+                    "value": 112,
+                    "label": "Middle school (11 - 13 years)"
+                },
+                {
+                    "value": 113,
+                    "label": "High school (14 - 17 years)"
+                },
+                {
+                    "value": 114,
+                    "label": "College"
+                },
+                {
+                    "value": 115,
+                    "label": "Graduate students"
+                },
+                {
+                    "value": 116,
+                    "label": "Adults"
+                },
+                {
+                    "value": 117,
+                    "label": "Families"
+                },
+                {
+                    "value": 118,
+                    "label": "Seniors"
+                }
+            ],
+            "signup_url": "",
+            "prefix_how_to_logged_in": "",
+            "prefix_how_to_logged_out": "",
+            "how_to_join": "To get started, it helps to take our tutorial online.",
+            "howto_video": null,
+            "outcomes_label": "",
+            "outcomes_link": "",
+            "time_required": "",
+            "training_materials": "",
+            "classroom_materials": "",
+            "consent_statement": "",
+            "consent_statement_date": null,
+            "participation_tools": false,
+            "participation_prompt": "",
+            "participation_confirmation_message": "",
+            "participation_notification_email": "",
+            "participation_usage": "",
+            "grp_relations": "",
+            "part_of": null,
+            "associated_projects": {},
+            "associated_tools": {},
+            "grp_needed": "",
+            "total_expense": "0E-32",
+            "materials": "",
+            "gear": "",
+            "mobile_app_url_android": "",
+            "mobile_app_url_ios": "",
+            "mobile_app_url": "",
+            "grp_where": "",
+            "location_type": {
+                "value": "ON",
+                "label": "Online only (The entire activity takes place at a computer or on a smart phone)"
+            },
+            "entirely_online": true,
+            "on_demand": null,
+            "in_person": null,
+            "regions": null,
+            "regions_description": "",
+            "point": null,
+            "address": "",
+            "city": "",
+            "zip": "",
+            "state": "",
+            "country": "",
+            "other": "",
+            "location_name": "",
+            "location_landuse": "",
+            "location_description": "",
+            "geographic_scope": {
+                "value": 144,
+                "label": "International"
+            },
+            "united_nations_region": {},
+            "grp_when": "",
+            "begin": null,
+            "end": null,
+            "project_timing": "",
+            "participation_schedule": "",
+            "time_per_participation": {
+                "value": 209,
+                "label": "Fifteen minutes"
+            },
+            "year_started": 0,
+            "month_completed": 0,
+            "year_completed": 0,
+            "grp_skills": "",
+            "participation_tasks": {},
+            "activities": [
+                {
+                    "value": 38,
+                    "label": "In the car"
+                },
+                {
+                    "value": 39,
+                    "label": "Emergency Response"
+                },
+                {
+                    "value": 37,
+                    "label": "At home"
+                },
+                {
+                    "value": 33,
+                    "label": "On a walk, run"
+                }
+            ],
+            "special_skills": "",
+            "indoors": true,
+            "outdoors": true,
+            "grp_data": "",
+            "data_results": "",
+            "data_aggregation": {},
+            "data_consent": {},
+            "data_visualization": false,
+            "data_access": {},
+            "data_quality": false,
+            "metadata_publication_url": "",
+            "data_publication_url": "",
+            "data_license": "",
+            "grp_outcomes": "",
+            "intended_outcomes": {},
+            "outcome_other": "",
+            "grp_sponsors": "",
+            "university_affiliation": "",
+            "sponsors": {},
+            "stakeholders": {},
+            "circuit_id": "",
+            "sustainable_development_goals": "SDG_9"
+        },
+        {
+            "id": 3147,
+            "legacy_id": 21783,
+            "box": 51376,
+            "value": "Street Story: Give Your Input on Safe Streets",
+            "name": "Street Story: Give Your Input on Safe Streets",
+            "slug": "street-story-give-your-input-on-safe-streets",
+            "link": "/street-story-give-your-input-on-safe-streets",
+            "type": "Project",
+            "options": {},
+            "publish": true,
+            "created": 1554321853844.4841,
+            "updated": 1594067795264.02,
+            "component": "ss-project",
+            "members_only": false,
+            "tags": [
+                "bicycle",
+                "bike",
+                "community",
+                "health",
+                "pedestrian",
+                "safety",
+                "transit",
+                "transportation",
+                "walk"
+            ],
+            "_metadata": "",
+            "image": "https://orrery-media.s3.amazonaws.com/attr/2019-04/streetstorycollage_0.png",
+            "references": [],
+            "grp_scistarter": "",
+            "duplicate": false,
+            "ignore_authoritative": false,
+            "redirect": "",
+            "subcomponent": "",
+            "form": null,
+            "guid": "e4e8f580-cc5e-5306-9f4b-10eccbee8af1",
+            "opengraph_description": "",
+            "participation_degree": {
+                "value": 1,
+                "label": "Collegial"
+            },
+            "is_test": false,
+            "is_affiliate": false,
+            "is_inaturalist": false,
+            "inat_project_id": 0,
+            "participant_instructions": "",
+            "participant_instructions_email": "",
+            "participant_files": {},
+            "grp_admin": "",
+            "draft": true,
+            "status": {
+                "value": 1,
+                "label": "Active"
+            },
+            "promotion_time": {
+                "value": "ANYTIME",
+                "label": "Promote at any time"
+            },
+            "promotion_target": null,
+            "grp_contact": "",
+            "grp_project": "",
+            "us_federally_funded": false,
+            "presenter": "SafeTREC, UC Berkeley",
+            "goal": "Collect and provide information about community members' experiences using transportation networks.",
+            "task": "Tell us where you have experienced being in a crash, a near-miss, or where you feel safe or unsafe travelling on California's streets and pathways.",
+            "description": "Street Story (link is external) is a community engagement tool that allows residents, community groups and agencies to collect information about transportation collisions, near-misses, general hazards and safe locations to travel. The platform and the information collected is free to use and publicly accessible. The tool - a \"work-in-progress\" - was created by a team of city planners, public health professionals, engineers, social welfare experts and computer scientists at UC Berkeley\u2019s Safe Transportation Research and Education Center (SafeTREC).",
+            "image_credit": "",
+            "grp_web": "",
+            "url": "https://streetstory.berkeley.edu",
+            "video_url": "",
+            "blog_url": "",
+            "twitter_name": "@UCBSafeTREC",
+            "facebook_page": "",
+            "grp_categorization": "",
+            "topics": [
+                {
+                    "value": 23,
+                    "label": "Health & Medicine"
+                },
+                {
+                    "value": 9,
+                    "label": "Ecology & Environment"
+                },
+                {
+                    "value": 18,
+                    "label": "Computers & Technology"
+                },
+                {
+                    "value": 6,
+                    "label": "Transportation"
+                }
+            ],
+            "fields_of_science": {},
+            "practices": {},
+            "practices_how": "",
+            "search_terms": "transportation, pedestrian, bicycle, transit, health, safety, community, walk, bike",
+            "difficulty": {
+                "value": 1,
+                "label": "Easy"
+            },
+            "diy": false,
+            "grp_joining": "",
+            "audience": [
+                {
+                    "value": 114,
+                    "label": "College"
+                },
+                {
+                    "value": 115,
+                    "label": "Graduate students"
+                },
+                {
+                    "value": 116,
+                    "label": "Adults"
+                },
+                {
+                    "value": 117,
+                    "label": "Families"
+                },
+                {
+                    "value": 118,
+                    "label": "Seniors"
+                }
+            ],
+            "signup_url": "https://streetstory.berkeley.edu",
+            "prefix_how_to_logged_in": null,
+            "prefix_how_to_logged_out": null,
+            "how_to_join": "1) Go to https://streetstory.berkeley.edu\r\n2) Select which city or county in California you would like to provide input about\r\n3) Select whether you would like to provide feedback about a location where you've been in a crash, near-miss or felt safe or unsafe travelling\r\n4) Answer a few questions about the location, and submit!",
+            "howto_video": null,
+            "outcomes_label": null,
+            "outcomes_link": null,
+            "time_required": "",
+            "training_materials": "https://safetrec.berkeley.edu/tools/street-story-platform-community-engagement",
+            "classroom_materials": "",
+            "consent_statement": "",
+            "consent_statement_date": null,
+            "participation_tools": false,
+            "participation_prompt": "",
+            "participation_confirmation_message": "",
+            "participation_notification_email": "",
+            "participation_usage": "",
+            "grp_relations": "",
+            "part_of": null,
+            "associated_projects": {},
+            "associated_tools": {},
+            "grp_needed": "",
+            "total_expense": "0E-32",
+            "materials": "",
+            "gear": "",
+            "mobile_app_url_android": "",
+            "mobile_app_url_ios": "",
+            "mobile_app_url": "",
+            "grp_where": "",
+            "location_type": {
+                "value": "NEAR",
+                "label": "At a location or range"
+            },
+            "entirely_online": false,
+            "on_demand": null,
+            "in_person": null,
+            "regions": "{ \"type\": \"MultiPolygon\", \"coordinates\": [ [ [ [ -124.482003, 40.440318 ], [ -124.197619, 40.950529 ], [ -124.252474, 41.134075 ], [ -124.160704, 41.289293 ], [ -124.24242, 41.3433 ], [ -124.133231, 41.432311 ], [ -124.211706, 41.681193 ], [ -124.438909, 41.824504 ], [ -124.401242, 41.885588 ], [ -124.285031, 41.859487 ], [ -124.328835, 41.998334 ], [ -119.999444, 41.994895 ], [ -120.001015, 38.999595 ], [ -117.226933, 37.016701 ], [ -114.632961, 35.001889 ], [ -114.633582, 34.871618 ], [ -114.469869, 34.71043 ], [ -114.385776, 34.456905 ], [ -114.130782, 34.261939 ], [ -114.433961, 34.087706 ], [ -114.535916, 33.933303 ], [ -114.524246, 33.552743 ], [ -114.725598, 33.40483 ], [ -114.70682, 33.088846 ], [ -114.468181, 32.970107 ], [ -114.526846, 32.75716 ], [ -117.205054, 32.529524 ], [ -117.309239, 32.656401 ], [ -117.339967, 33.0 ], [ -117.467871, 33.212494 ], [ -118.125906, 33.697142 ], [ -118.319142, 33.659541 ], [ -118.466967, 33.725521 ], [ -118.447256, 33.848756 ], [ -118.557354, 33.987671 ], [ -118.814752, 33.947217 ], [ -119.158963, 34.040253 ], [ -119.334462, 34.23653 ], [ -119.584795, 34.36166 ], [ -120.456015, 34.391485 ], [ -120.682206, 34.525326 ], [ -120.689606, 35.098828 ], [ -120.91915, 35.183333 ], [ -120.933292, 35.392748 ], [ -121.323512, 35.624969 ], [ -121.714483, 36.12 ], [ -121.959053, 36.287108 ], [ -122.076399, 36.910199 ], [ -122.464117, 37.177848 ], [ -122.588174, 37.789362 ], [ -122.889291, 37.974109 ], [ -123.067965, 37.958669 ], [ -123.014817, 38.149132 ], [ -123.164757, 38.388337 ], [ -123.784676, 38.893728 ], [ -123.761965, 39.041091 ], [ -123.894936, 39.348349 ], [ -123.834649, 39.549194 ], [ -123.90097, 39.780466 ], [ -124.411026, 40.225275 ], [ -124.482003, 40.440318 ] ] ], [ [ [ -118.667961, 33.482706 ], [ -118.53373, 33.531658 ], [ -118.366017, 33.468108 ], [ -118.25012, 33.283149 ], [ -118.496137, 33.280602 ], [ -118.667961, 33.482706 ] ] ], [ [ [ -118.609651, 33.017258 ], [ -118.351636, 32.813943 ], [ -118.503079, 32.850808 ], [ -118.609651, 33.017258 ] ] ], [ [ [ -119.12356, 33.49187 ], [ -119.017816, 33.539243 ], [ -118.963915, 33.469105 ], [ -119.055754, 33.409084 ], [ -119.12356, 33.49187 ] ] ], [ [ [ -119.657315, 33.273492 ], [ -119.520484, 33.33456 ], [ -119.360607, 33.226807 ], [ -119.483577, 33.164536 ], [ -119.657315, 33.273492 ] ] ], [ [ [ -119.929913, 34.05967 ], [ -119.520285, 34.03412 ], [ -119.818106, 33.959841 ], [ -119.929913, 34.05967 ] ] ], [ [ [ -119.757703, 33.362959 ], [ -119.691407, 33.415102 ], [ -119.631497, 33.364078 ], [ -119.691879, 33.309422 ], [ -119.757703, 33.362959 ] ] ], [ [ [ -120.250622, 34.001309 ], [ -120.046276, 34.036747 ], [ -119.967784, 33.942643 ], [ -120.119532, 33.894377 ], [ -120.250622, 34.001309 ] ] ], [ [ [ -120.452655, 34.029704 ], [ -120.368109, 34.076619 ], [ -120.305448, 34.020174 ], [ -120.452655, 34.029704 ] ] ], [ [ [ -123.173825, 37.775727 ], [ -123.070494, 37.81383 ], [ -122.941364, 37.67658 ], [ -123.040696, 37.650328 ], [ -123.173825, 37.775727 ] ] ] ] }",
+            "regions_description": "",
+            "point": [
+                -119.67013910688678,
+                37.23847908506526
+            ],
+            "address": "",
+            "city": "",
+            "zip": "",
+            "state": "",
+            "country": "",
+            "other": "",
+            "location_name": "",
+            "location_landuse": "",
+            "location_description": "",
+            "geographic_scope": {
+                "value": 144,
+                "label": "International"
+            },
+            "united_nations_region": {},
+            "grp_when": "",
+            "begin": null,
+            "end": null,
+            "project_timing": "",
+            "participation_schedule": "",
+            "time_per_participation": {
+                "value": "",
+                "label": ""
+            },
+            "year_started": 0,
+            "month_completed": 0,
+            "year_completed": 0,
+            "grp_skills": "",
+            "participation_tasks": [
+                {
+                    "value": 202,
+                    "label": "Participated"
+                },
+                {
+                    "value": 194,
+                    "label": "Joined the project"
+                },
+                {
+                    "value": 196,
+                    "label": "Data collection"
+                }
+            ],
+            "activities": [
+                {
+                    "value": 28,
+                    "label": "On a lunch break"
+                },
+                {
+                    "value": 33,
+                    "label": "On a walk, run"
+                },
+                {
+                    "value": 30,
+                    "label": "At night"
+                },
+                {
+                    "value": 37,
+                    "label": "At home"
+                },
+                {
+                    "value": 38,
+                    "label": "In the car"
+                },
+                {
+                    "value": 40,
+                    "label": "On a hike"
+                }
+            ],
+            "special_skills": "",
+            "indoors": false,
+            "outdoors": false,
+            "grp_data": "",
+            "data_results": "",
+            "data_aggregation": {},
+            "data_consent": {},
+            "data_visualization": false,
+            "data_access": {},
+            "data_quality": false,
+            "metadata_publication_url": "",
+            "data_publication_url": "https://datosabiertos.navarra.es/dataset/f7cafe87-6a49-452e-b846-336c12d6a279/resource/9323f68f-9c8f-47e1-884c-d6985b957606/download/incidenciasdecarreteras.csv",
+            "data_license": "",
+            "grp_outcomes": "",
+            "intended_outcomes": {},
+            "outcome_other": "",
+            "grp_sponsors": "",
+            "university_affiliation": "",
+            "sponsors": {},
+            "stakeholders": {},
+            "circuit_id": "62e9b0cee14311ea96ff0242ac110007",
+            "sustainable_development_goals": "SDG_11,SDG_16,SDG_3"
+        },
+        {
+            "id": 2164,
+            "legacy_id": 429,
+            "box": 2179,
+            "value": "I-90 Wildlife Watch",
+            "name": "I-90 Wildlife Watch",
+            "slug": "i-90-wildlife-watch",
+            "link": "/i-90-wildlife-watch",
+            "type": "Project",
+            "options": {},
+            "publish": true,
+            "created": 1534371423411.865,
+            "updated": 1567808326524.6328,
+            "component": "ss-project",
+            "members_only": false,
+            "tags": [],
+            "_metadata": "",
+            "image": "https://orrery-media.s3.amazonaws.com/attr/2019-03/i90-wildlife-watch-scistarter.jpg",
+            "references": [],
+            "grp_scistarter": null,
+            "duplicate": null,
+            "ignore_authoritative": false,
+            "redirect": "",
+            "subcomponent": null,
+            "form": null,
+            "guid": "1f386af0-5d51-5529-9e4c-fa0571bc978b",
+            "opengraph_description": "",
+            "participation_degree": {
+                "value": 1,
+                "label": "Collegial"
+            },
+            "is_test": false,
+            "is_affiliate": false,
+            "is_inaturalist": false,
+            "inat_project_id": 0,
+            "participant_instructions": "",
+            "participant_instructions_email": "",
+            "participant_files": {},
+            "grp_admin": null,
+            "draft": false,
+            "status": {
+                "value": 1,
+                "label": "Active"
+            },
+            "promotion_time": {
+                "value": "ANYTIME",
+                "label": "Promote at any time"
+            },
+            "promotion_target": null,
+            "grp_contact": null,
+            "grp_project": null,
+            "us_federally_funded": null,
+            "presenter": "",
+            "goal": "",
+            "task": "",
+            "description": "I-90 Wildlife Watch is a citizen-based wildlife monitoring project that invites motorists to report wildlife sightings along Interstate 90 (I-90) in the Snoqualmie Pass region of Washington. Report wildlife that you see while driving on Interstate 90 from North Bend to Easton in Washington State's Cascade mountains.\r\n\r\nI-90 intersects the rugged Cascade Mountains in Washington's Snoqualmie Pass region, which has been identified as a critical link in the north-south movement of wildlife. This area is also the focus of an extensive effort by the Washington State Department of Transportation to improve highway efficiency and make I-90 safer for people and wildlife. The I-90 Wildlife Bridges Coalition, the Western Transportation Institute, and other I-90 Wildlife Watch partner organizations are currently gathering information about wildlife between North Bend and Easton to help inform highway planning at Snoqualmie Pass. With your valuable assistance, we hope to reduce wildlife-vehicle collisions and enhance the safe passage of wildlife in the future.",
+            "image_credit": "FWS",
+            "grp_web": null,
+            "url": "https://i90wildlifewatch.org/",
+            "video_url": "",
+            "blog_url": "https://i90wildlifewatch.org/recent-news",
+            "twitter_name": "",
+            "facebook_page": "https://www.facebook.com/I90WildlifeWatch",
+            "grp_categorization": null,
+            "topics": [
+                {
+                    "value": 20,
+                    "label": "Animals"
+                },
+                {
+                    "value": 9,
+                    "label": "Ecology & Environment"
+                },
+                {
+                    "value": 12,
+                    "label": "Biology"
+                }
+            ],
+            "fields_of_science": {},
+            "practices": {},
+            "practices_how": "",
+            "search_terms": "",
+            "difficulty": {
+                "value": 1,
+                "label": "Easy"
+            },
+            "diy": false,
+            "grp_joining": null,
+            "audience": [
+                {
+                    "value": 116,
+                    "label": "Adults"
+                },
+                {
+                    "value": 117,
+                    "label": "Families"
+                },
+                {
+                    "value": 111,
+                    "label": "Elementary school (6 - 10 years)"
+                }
+            ],
+            "signup_url": "",
+            "prefix_how_to_logged_in": null,
+            "prefix_how_to_logged_out": null,
+            "how_to_join": "If you're at least 18 years old and you observed (living or dead) wild animals while you were recently traveling I-90 through Snoqualmie Pass, we need your help! As you see that species make a mental note or ask someone else in the car to make write down what animal you saw, where you saw it, and any other details of interest.  Then, when you get to a computer visit the website www.i90wildlifewatch.org and click on the \"Report a Wildlife Sighting\" button below to answer a few brief questions about your sighting. \r\n\r\nYour participation is voluntary, and you're welcome to remain anonymous. It's that simple.",
+            "howto_video": null,
+            "outcomes_label": null,
+            "outcomes_link": null,
+            "time_required": null,
+            "training_materials": "",
+            "classroom_materials": "",
+            "consent_statement": "",
+            "consent_statement_date": null,
+            "participation_tools": false,
+            "participation_prompt": "",
+            "participation_confirmation_message": "",
+            "participation_notification_email": "",
+            "participation_usage": "",
+            "grp_relations": null,
+            "part_of": null,
+            "associated_projects": {},
+            "associated_tools": {},
+            "grp_needed": null,
+            "total_expense": "0E-32",
+            "materials": "",
+            "gear": "Eyes to make the observation, and an internet connection to report it.  \r\n\r\nAdditional helpful equipment to keep in your car would be a voice recorder and notepad to record details of your siting when you are no longer driving.",
+            "mobile_app_url_android": "",
+            "mobile_app_url_ios": "",
+            "mobile_app_url": "",
+            "grp_where": null,
+            "location_type": {
+                "value": "NEAR",
+                "label": "At a location or range"
+            },
+            "entirely_online": false,
+            "on_demand": null,
+            "in_person": null,
+            "regions": "{ \"type\": \"MultiPolygon\", \"coordinates\": [ [ [ [ -121.600341824814663, 43.942735618745985 ], [ -121.600341824814663, 46.116403016465917 ], [ -120.666503934189691, 46.116403016465917 ], [ -120.666503934189691, 43.942735618745985 ], [ -121.600341824814663, 43.942735618745985 ] ] ] ] }",
+            "regions_description": null,
+            "point": [
+                -121.13342287950218,
+                45.02956931760595
+            ],
+            "address": "",
+            "city": "",
+            "zip": "",
+            "state": "",
+            "country": "",
+            "other": "",
+            "location_name": "",
+            "location_landuse": "",
+            "location_description": "",
+            "geographic_scope": {
+                "value": 146,
+                "label": "Regional"
+            },
+            "united_nations_region": {},
+            "grp_when": null,
+            "begin": null,
+            "end": null,
+            "project_timing": "",
+            "participation_schedule": "Unspecified",
+            "time_per_participation": {
+                "value": "Unspecified",
+                "label": ""
+            },
+            "year_started": null,
+            "month_completed": null,
+            "year_completed": null,
+            "grp_skills": null,
+            "participation_tasks": {},
+            "activities": {},
+            "special_skills": "",
+            "indoors": false,
+            "outdoors": false,
+            "grp_data": null,
+            "data_results": "Unspecified",
+            "data_aggregation": {},
+            "data_consent": {},
+            "data_visualization": false,
+            "data_access": {},
+            "data_quality": false,
+            "metadata_publication_url": "",
+            "data_publication_url": "",
+            "data_license": "",
+            "grp_outcomes": null,
+            "intended_outcomes": {},
+            "outcome_other": "",
+            "grp_sponsors": null,
+            "university_affiliation": "",
+            "sponsors": {},
+            "stakeholders": [
+                {
+                    "value": 183,
+                    "label": "Other"
+                }
+            ],
+            "circuit_id": "cf16051ee14211ea96ff0242ac110007",
+            "sustainable_development_goals": "SDG_15,SDG_11,SDG_2"
+        },
+        {
+            "id": 2026,
+            "legacy_id": 636,
+            "box": 2009,
+            "value": "MIT Climate CoLab",
+            "name": "MIT Climate CoLab",
+            "slug": "mit-climate-colab",
+            "link": "/mit-climate-colab",
+            "type": "Project",
+            "options": {},
+            "publish": true,
+            "created": 1534370956098.9329,
+            "updated": 1634052174341.749,
+            "component": "ss-project",
+            "members_only": false,
+            "tags": [
+                "bottom up",
+                "citizen science",
+                "climate & weather",
+                "climate change",
+                "climate colab",
+                "collective intelligence",
+                "crowdsourcing",
+                "decision making",
+                "mit",
+                "opensourcing",
+                "policy making",
+                "weather"
+            ],
+            "_metadata": "",
+            "image": "https://orrery-media.s3.amazonaws.com/attr/2019-03/CoLabCrowd.jpg",
+            "references": [
+                {
+                    "id": 14583,
+                    "label": "PBS Nova",
+                    "type": "Popular publication",
+                    "url": "http://www.pbs.org/wgbh/nova/next/earth/crowdsourcing-climate-change-solutions/",
+                    "citation": "PBS Nova",
+                    "detailed_citation": ""
+                },
+                {
+                    "id": 14584,
+                    "label": "Forbes",
+                    "type": "Popular publication",
+                    "url": "https://www.forbes.com/sites/marshallshepherd/2017/02/07/3-ways-you-can-help-the-worlds-climate-scientists-right-now/",
+                    "citation": "Forbes",
+                    "detailed_citation": ""
+                },
+                {
+                    "id": 14585,
+                    "label": "Popular Science",
+                    "type": "Popular publication",
+                    "url": "http://www.popsci.com/blog-network/do-try-home/why-mit-thinks-you-yes-you-can-solve-climate-change",
+                    "citation": "Popular Science",
+                    "detailed_citation": ""
+                },
+                {
+                    "id": 14586,
+                    "label": "National Geographic",
+                    "type": "Popular publication",
+                    "url": "http://news.nationalgeographic.com/2016/06/towns-changing-clocks-time-climate-change-pamir-science/",
+                    "citation": "National Geographic",
+                    "detailed_citation": ""
+                }
+            ],
+            "grp_scistarter": null,
+            "duplicate": false,
+            "ignore_authoritative": false,
+            "redirect": "",
+            "subcomponent": null,
+            "form": null,
+            "guid": "e1f73c05-e58b-5ce5-bf3c-1df7b0ed336b",
+            "opengraph_description": "",
+            "participation_degree": {
+                "value": 1,
+                "label": "Collegial"
+            },
+            "is_test": false,
+            "is_affiliate": false,
+            "is_inaturalist": false,
+            "inat_project_id": 0,
+            "participant_instructions": "",
+            "participant_instructions_email": "",
+            "participant_files": {},
+            "grp_admin": null,
+            "draft": false,
+            "status": {
+                "value": 1,
+                "label": "Active"
+            },
+            "promotion_time": {
+                "value": "ANYTIME",
+                "label": "Promote at any time"
+            },
+            "promotion_target": null,
+            "grp_contact": null,
+            "grp_project": null,
+            "us_federally_funded": false,
+            "presenter": "MIT Center for Collective Intelligence",
+            "goal": "Harness the power of collective intelligence to address climate",
+            "task": "Author proposals, provide feedback, support, vote, join",
+            "description": "In the Climate CoLab, you can work with people from all over the world to create proposals for what to do about climate change. \r\n\r\nInspired by systems like open source software and Wikipedia, MIT\u2019s Climate CoLab relies on crowdsourcing to generate, and gain support for, creative new ideas to address global climate change.  \r\n\r\nInspired by systems like Wikipedia and Linux, the Massachusetts Institute of Technology (MIT) Center for Collective Intelligence has developed this crowdsourcing platform where people work with experts and each other to create, analyze, and select detailed proposals for what to do about climate change. Activity in the CoLab is organized through a series of on-line contests, on a broad set of subproblems at the heart of the climate change challenge. Topics include increasing the efficiency of energy use, decarbonizing energy supplies, changing social attitudes and behavior, adapting to climate change, and geoengineering, land use change, transportation, and many more. \r\n\r\nThe public is invited to participate by submitting, commenting, collaborating, supporting, and/or voting for proposals.  Experts review the proposals and after a judging and public voting process, awardees are announced.",
+            "image_credit": "Climate CoLab",
+            "grp_web": null,
+            "url": "https://climatecolab.org/",
+            "video_url": "https://www.youtube.com/channel/UC34kqww4yZDDnQt-t5Ro0Sg",
+            "blog_url": "http://news.climatecolab.com/",
+            "twitter_name": "@ClimateCoLab",
+            "facebook_page": "https://www.facebook.com/ClimateCoLab",
+            "grp_categorization": null,
+            "topics": [
+                {
+                    "value": 25,
+                    "label": "Food"
+                },
+                {
+                    "value": 5,
+                    "label": "Psychology"
+                },
+                {
+                    "value": 1,
+                    "label": "Social Science"
+                },
+                {
+                    "value": 3,
+                    "label": "Agriculture"
+                },
+                {
+                    "value": 22,
+                    "label": "Awards"
+                },
+                {
+                    "value": 6,
+                    "label": "Transportation"
+                },
+                {
+                    "value": 24,
+                    "label": "Education"
+                },
+                {
+                    "value": 18,
+                    "label": "Computers & Technology"
+                },
+                {
+                    "value": 21,
+                    "label": "Nature & Outdoors"
+                },
+                {
+                    "value": 9,
+                    "label": "Ecology & Environment"
+                },
+                {
+                    "value": 8,
+                    "label": "Physics"
+                },
+                {
+                    "value": 19,
+                    "label": "Geology & Earth Science"
+                },
+                {
+                    "value": 14,
+                    "label": "Ocean, Water, Marine & Terrestrial"
+                },
+                {
+                    "value": 26,
+                    "label": "Science Policy"
+                },
+                {
+                    "value": 7,
+                    "label": "Crowd Funding"
+                },
+                {
+                    "value": 27,
+                    "label": "Climate & Weather"
+                }
+            ],
+            "fields_of_science": {},
+            "practices": {},
+            "practices_how": "",
+            "search_terms": "",
+            "difficulty": {
+                "value": 2,
+                "label": "medium"
+            },
+            "diy": false,
+            "grp_joining": null,
+            "audience": [
+                {
+                    "value": 114,
+                    "label": "College"
+                },
+                {
+                    "value": 116,
+                    "label": "Adults"
+                },
+                {
+                    "value": 115,
+                    "label": "Graduate students"
+                }
+            ],
+            "signup_url": "",
+            "prefix_how_to_logged_in": null,
+            "prefix_how_to_logged_out": null,
+            "how_to_join": "Anyone in the world can contribute to the Climate CoLab \u2014 all you have to do is register at http://climatecolab.org/\r\n \r\nSupport\r\nIf you see a proposal you like, you can support it. This will help guide other community members to the most interesting and promising proposals\r\n\r\nVote\r\nAfter the judges select finalists, you can vote for the proposal you like best.\r\n\r\nContribute\r\nYou can comment on any proposal. You can also contribute to the text \u2014 for some, you have to join the team first; others are open to anyone.\r\n\r\nCreate\r\nIf you have a good idea, start your own proposal.",
+            "howto_video": null,
+            "outcomes_label": null,
+            "outcomes_link": null,
+            "time_required": null,
+            "training_materials": "",
+            "classroom_materials": "",
+            "consent_statement": "",
+            "consent_statement_date": null,
+            "participation_tools": false,
+            "participation_prompt": "",
+            "participation_confirmation_message": "",
+            "participation_notification_email": "",
+            "participation_usage": "",
+            "grp_relations": null,
+            "part_of": null,
+            "associated_projects": {},
+            "associated_tools": {},
+            "grp_needed": null,
+            "total_expense": "0E-32",
+            "materials": "",
+            "gear": "",
+            "mobile_app_url_android": "",
+            "mobile_app_url_ios": "",
+            "mobile_app_url": "",
+            "grp_where": null,
+            "location_type": {
+                "value": "ANY",
+                "label": "Global, anywhere on the planet"
+            },
+            "entirely_online": false,
+            "on_demand": null,
+            "in_person": null,
+            "regions": null,
+            "regions_description": null,
+            "point": null,
+            "address": "",
+            "city": "",
+            "zip": "",
+            "state": "",
+            "country": "",
+            "other": "",
+            "location_name": "",
+            "location_landuse": "",
+            "location_description": "",
+            "geographic_scope": {
+                "value": 146,
+                "label": "Regional"
+            },
+            "united_nations_region": {},
+            "grp_when": null,
+            "begin": null,
+            "end": null,
+            "project_timing": "",
+            "participation_schedule": "Unspecified",
+            "time_per_participation": {
+                "value": "Unspecified",
+                "label": ""
+            },
+            "year_started": 0,
+            "month_completed": 0,
+            "year_completed": 0,
+            "grp_skills": null,
+            "participation_tasks": {},
+            "activities": [
+                {
+                    "value": 34,
+                    "label": "Exclusively online"
+                }
+            ],
+            "special_skills": "",
+            "indoors": true,
+            "outdoors": false,
+            "grp_data": null,
+            "data_results": "Unknown",
+            "data_aggregation": {},
+            "data_consent": {},
+            "data_visualization": false,
+            "data_access": {},
+            "data_quality": false,
+            "metadata_publication_url": "",
+            "data_publication_url": "",
+            "data_license": "",
+            "grp_outcomes": null,
+            "intended_outcomes": {},
+            "outcome_other": "",
+            "grp_sponsors": null,
+            "university_affiliation": "Massachusetts Institute of Technology",
+            "sponsors": {},
+            "stakeholders": [
+                {
+                    "value": 182,
+                    "label": "Museum"
+                },
+                {
+                    "value": 184,
+                    "label": "State or local government"
+                },
+                {
+                    "value": 177,
+                    "label": "Community group"
+                },
+                {
+                    "value": 176,
+                    "label": "College or university"
+                },
+                {
+                    "value": 183,
+                    "label": "Other"
+                },
+                {
+                    "value": 181,
+                    "label": "K-12 Education"
+                },
+                {
+                    "value": 179,
+                    "label": "Formal non-profit/NGO"
+                },
+                {
+                    "value": 180,
+                    "label": "For-profit"
+                },
+                {
+                    "value": 178,
+                    "label": "Federal agency"
+                }
+            ],
+            "circuit_id": "27fe1932e14311ea96ff0242ac110007",
+            "sustainable_development_goals": "SDG_13,SDG_12,SDG_7"
+        },
+        {
+            "id": 1582,
+            "legacy_id": 1477,
+            "box": 1405,
+            "value": "PM2.5 air pollution monitoring",
+            "name": "PM2.5 air pollution monitoring",
+            "slug": "airvisual-the-air-pollution-monitoring-project",
+            "link": "/airvisual-the-air-pollution-monitoring-project",
+            "type": "Project",
+            "options": {},
+            "publish": true,
+            "created": 1534366149172.583,
+            "updated": 1622590655852.4739,
+            "component": "ss-project",
+            "members_only": false,
+            "tags": [
+                "air",
+                "air pollutants",
+                "air pollution",
+                "air quality",
+                "asthma",
+                "burn ban",
+                "carbon",
+                "cars",
+                "co2",
+                "data",
+                "dust",
+                "emissions",
+                "environment",
+                "health",
+                "highways",
+                "indoor",
+                "monitoring",
+                "outdoor",
+                "pm2.5",
+                "smog",
+                "traffic",
+                "transportation",
+                "ventilation",
+                "wood burning"
+            ],
+            "_metadata": "",
+            "image": "https://orrery-media.s3.amazonaws.com/attr/2019-06/sci-starter-experiment-min.jpg",
+            "references": [
+                {
+                    "id": 13128,
+                    "label": "Washington Post",
+                    "type": "Popular publication",
+                    "url": "https://www.washingtonpost.com/news/worldviews/wp/2016/11/17/this-stunning-world-map-shows-the-awful-state-of-air-pollution/",
+                    "citation": "Washington Post",
+                    "detailed_citation": "This stunning world map shows the awful state of air pollution"
+                },
+                {
+                    "id": 13127,
+                    "label": "Science Magazine ",
+                    "type": "Popular publication",
+                    "url": "http://www.sciencemag.org/news/2016/11/watch-air-pollution-flow-across-planet-real-time",
+                    "citation": "Science Magazine ",
+                    "detailed_citation": "Watch air pollution flow across the planet in real time"
+                }
+            ],
+            "grp_scistarter": null,
+            "duplicate": false,
+            "ignore_authoritative": false,
+            "redirect": "",
+            "subcomponent": null,
+            "form": null,
+            "guid": "cebf6270-33f7-574b-9f1b-167a9588207a",
+            "opengraph_description": "",
+            "participation_degree": {
+                "value": 1,
+                "label": "Collegial"
+            },
+            "is_test": false,
+            "is_affiliate": false,
+            "is_inaturalist": false,
+            "inat_project_id": 0,
+            "participant_instructions": "",
+            "participant_instructions_email": "",
+            "participant_files": {},
+            "grp_admin": null,
+            "draft": false,
+            "status": {
+                "value": 1,
+                "label": "Active"
+            },
+            "promotion_time": {
+                "value": "ANYTIME",
+                "label": "Promote at any time"
+            },
+            "promotion_target": null,
+            "grp_contact": null,
+            "grp_project": null,
+            "us_federally_funded": false,
+            "presenter": "IQAir AirVisual",
+            "goal": "Better understand air pollution and its sources, indoors and out",
+            "task": "Monitor air quality to discover trends and sources of air pollution",
+            "description": "Unhealthy, polluted air is a ubiquitous, invisible threat that is responsible for 200,000 premature deaths every year in America alone. The NRDC estimates that about 81 million Americans live in areas that fail to meet national air quality standards for particulate pollution (PM2.5).\n\nParticulate matter, abbreviated as PM2.5, is a term used for particles found in the air; including dust, soot, dirt, smoke and liquid droplets that are 2.5 micrometers in size, or less. These particles are so small that they can be absorbed into the bloodstream upon inhalation and cause a variety of adverse health effects.\n\nWe tend to assume the air we breathe indoors is safe, yet indoor air quality is frequently worse than outdoors due to high confinement and a variety of indoor sources.\n\nWe are calling on interested participants to help determine sources of air pollution both indoors and out. Use the IQAir AirVisual Pro to discover factors that influence air quality (both PM2.5 and CO2) and then download the data from the device to validate your conclusions.\n\nScientific findings can be published on our website, airvisual.com, (with credit to you) in order to grow awareness of air pollution sources in the home, office, classroom, car and beyond.\n\nYou can also choose to make your air quality monitor a public outdoor station, contributing your community\u2019s readings to the global air pollution map (airvisual.com/world), helping fill the gaps between government air quality data.\n\nAlready, community members in more than 40 countries around the world have deployed monitors outdoors to grow awareness of local air quality, and discover pollution trends and sources. Learn about the community of IQAir AirVisual data contributors here:\nRussia: https://www.airvisual.com/air-pollution-information/blog/revealing-the-invisible-igor-in-krasnoyarsk-russia\nPakistan: https://www.airvisual.com/air-pollution-information/blog/revealing-the-invisible-airvisual-community-activism-ignites-action-to-fight-smog-in-pakistan\nNigeria: https://www.airvisual.com/air-pollution-information/blog/revealing-the-invisible-rafael-in-nigeria\n\nHave another interesting idea for using the device that would contribute to our understanding of air pollution? We want to hear from you!",
+            "image_credit": "IQAir AirVisual",
+            "grp_web": null,
+            "url": "https://www.airvisual.com/air-quality-community",
+            "video_url": "https://www.youtube.com/watch?v=XHhQF6cs8f0",
+            "blog_url": "https://airvisual.com/blog",
+            "twitter_name": "MyAirVisual",
+            "facebook_page": "https://www.facebook.com/AirQualityVisual",
+            "grp_categorization": null,
+            "topics": [
+                {
+                    "value": 23,
+                    "label": "Health & Medicine"
+                },
+                {
+                    "value": 26,
+                    "label": "Science Policy"
+                },
+                {
+                    "value": 27,
+                    "label": "Climate & Weather"
+                },
+                {
+                    "value": 21,
+                    "label": "Nature & Outdoors"
+                },
+                {
+                    "value": 7,
+                    "label": "Crowd Funding"
+                },
+                {
+                    "value": 6,
+                    "label": "Transportation"
+                },
+                {
+                    "value": 24,
+                    "label": "Education"
+                }
+            ],
+            "fields_of_science": {},
+            "practices": {},
+            "practices_how": "",
+            "search_terms": "air pollution, air quality, monitoring, environment, PM2.5, smog",
+            "difficulty": {
+                "value": 1,
+                "label": "Easy"
+            },
+            "diy": false,
+            "grp_joining": null,
+            "audience": [
+                {
+                    "value": 114,
+                    "label": "College"
+                },
+                {
+                    "value": 111,
+                    "label": "Elementary school (6 - 10 years)"
+                },
+                {
+                    "value": 113,
+                    "label": "High school (14 - 17 years)"
+                },
+                {
+                    "value": 115,
+                    "label": "Graduate students"
+                },
+                {
+                    "value": 116,
+                    "label": "Adults"
+                },
+                {
+                    "value": 117,
+                    "label": "Families"
+                },
+                {
+                    "value": 112,
+                    "label": "Middle school (11 - 13 years)"
+                }
+            ],
+            "signup_url": "https://www.airvisual.com/air-quality-community",
+            "prefix_how_to_logged_in": null,
+            "prefix_how_to_logged_out": null,
+            "how_to_join": "1) Acquire an air quality monitor from airvisual.com/air-quality-monitor\n2) Run the air quality monitor throughout the day\n3) Record the activities that made your air quality worsen, or improve. \n4) Download the device\u2019s historical data, and submit your findings to https://airvisual.com/contact\n\nExample projects:\n- How does air quality vary with height (monitor outdoor air at various levels/floors of a building)\n- Which mode of transport for your daily commute is healthiest (biking, walking, subway, public bus)\n- How does air quality differ with proximity to a busy highway?\n- How quickly/easily can pollution travel from outdoors to your home (test your windows & doors)\n\nOR\n\nCurious to know the outdoor air quality in your community? Chances are, other people will want to know too!\nBecome a public air quality data source, by turning your Node air quality monitor into a outdoor station, following these steps: shorturl.at/bknoZ",
+            "howto_video": null,
+            "outcomes_label": null,
+            "outcomes_link": null,
+            "time_required": null,
+            "training_materials": "",
+            "classroom_materials": "https://www.airvisual.com/air-quality-monitor",
+            "consent_statement": "",
+            "consent_statement_date": null,
+            "participation_tools": false,
+            "participation_prompt": "",
+            "participation_confirmation_message": "",
+            "participation_notification_email": "",
+            "participation_usage": "",
+            "grp_relations": null,
+            "part_of": null,
+            "associated_projects": {},
+            "associated_tools": {},
+            "grp_needed": null,
+            "total_expense": "209.00000000000000000000000000000000",
+            "materials": "IQAir AirVisual Pro air quality monitor, airvisual.com/air-quality-monitor",
+            "gear": "",
+            "mobile_app_url_android": "https://play.google.com/store/apps/details?id=com.airvisual",
+            "mobile_app_url_ios": "https://itunes.apple.com/us/app/airvisual-real-time-forecast/id1048912974?ls=1&mt=8%27",
+            "mobile_app_url": "",
+            "grp_where": null,
+            "location_type": {
+                "value": "ANY",
+                "label": "Global, anywhere on the planet"
+            },
+            "entirely_online": false,
+            "on_demand": null,
+            "in_person": null,
+            "regions": null,
+            "regions_description": null,
+            "point": null,
+            "address": "",
+            "city": "",
+            "zip": "",
+            "state": "",
+            "country": "",
+            "other": "",
+            "location_name": "",
+            "location_landuse": "",
+            "location_description": "",
+            "geographic_scope": {
+                "value": 146,
+                "label": "Regional"
+            },
+            "united_nations_region": {},
+            "grp_when": null,
+            "begin": null,
+            "end": null,
+            "project_timing": "",
+            "participation_schedule": "Just once",
+            "time_per_participation": {
+                "value": 210,
+                "label": "1 hour"
+            },
+            "year_started": 0,
+            "month_completed": 0,
+            "year_completed": 0,
+            "grp_skills": null,
+            "participation_tasks": {},
+            "activities": [
+                {
+                    "value": 37,
+                    "label": "At home"
+                },
+                {
+                    "value": 32,
+                    "label": "At school"
+                },
+                {
+                    "value": 33,
+                    "label": "On a walk, run"
+                },
+                {
+                    "value": 38,
+                    "label": "In the car"
+                },
+                {
+                    "value": 40,
+                    "label": "On a hike"
+                }
+            ],
+            "special_skills": "",
+            "indoors": true,
+            "outdoors": true,
+            "grp_data": null,
+            "data_results": "Participant findings are shared online at https://airvisual.com/research.  Participants can either claim credit for their findings or choose to remain anonymous.\n\nIf an AirVisual Pro is made into a public station, its data will be freely available on the global air pollution map (airvisual.com/world), and on the AirVisual app.",
+            "data_aggregation": {},
+            "data_consent": [
+                {
+                    "value": 107,
+                    "label": "Other"
+                }
+            ],
+            "data_visualization": false,
+            "data_access": {},
+            "data_quality": true,
+            "metadata_publication_url": "",
+            "data_publication_url": "",
+            "data_license": "",
+            "grp_outcomes": null,
+            "intended_outcomes": [
+                {
+                    "value": 139,
+                    "label": "Research advancement : knowledge generation"
+                },
+                {
+                    "value": 138,
+                    "label": "Research advancement : data gathering"
+                },
+                {
+                    "value": 136,
+                    "label": "Research advancement : build or use sensors / instruments"
+                },
+                {
+                    "value": 135,
+                    "label": "Research advancement : baseline monitoring"
+                },
+                {
+                    "value": 132,
+                    "label": "Individual Learning : motivation"
+                },
+                {
+                    "value": 131,
+                    "label": "Individual Learning : knowledge"
+                },
+                {
+                    "value": 130,
+                    "label": "Individual Learning : interest"
+                },
+                {
+                    "value": 129,
+                    "label": "Individual Learning : behavior change"
+                },
+                {
+                    "value": 128,
+                    "label": "Conservation : species management"
+                },
+                {
+                    "value": 126,
+                    "label": "Conservation : regulation / mitigation"
+                },
+                {
+                    "value": 125,
+                    "label": "Conservation : policy"
+                },
+                {
+                    "value": 120,
+                    "label": "Civic and community : empowerment"
+                }
+            ],
+            "outcome_other": "",
+            "grp_sponsors": null,
+            "university_affiliation": "",
+            "sponsors": [
+                {
+                    "value": 148,
+                    "label": "Other/none"
+                }
+            ],
+            "stakeholders": [
+                {
+                    "value": 184,
+                    "label": "State or local government"
+                },
+                {
+                    "value": 180,
+                    "label": "For-profit"
+                },
+                {
+                    "value": 177,
+                    "label": "Community group"
+                },
+                {
+                    "value": 179,
+                    "label": "Formal non-profit/NGO"
+                },
+                {
+                    "value": 181,
+                    "label": "K-12 Education"
+                },
+                {
+                    "value": 176,
+                    "label": "College or university"
+                }
+            ],
+            "circuit_id": "211af1bce14311ea91cd0242ac110007",
+            "sustainable_development_goals": "SDG_11,SDG_16,SDG_3"
+        }
+    ]
+}

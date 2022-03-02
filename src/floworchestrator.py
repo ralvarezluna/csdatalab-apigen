@@ -5,13 +5,11 @@ import json
 class MainController():
    
     _config = dict
-    _id_catalogue = None
     _catalogue = None
 
     def __init__(self,config_path:string):
         #Load catalog configuration from properties file
         self._config = utilities.load_properties(config_path)
-        self._id_catalogue = self._config.get("cat_identifier", "http://example.com/catalogs/1")
         self._catalogue = catalogmanager.CatalogueManager()
     
 
@@ -29,10 +27,10 @@ class MainController():
                 projects.append(i)
         else:
             data = utilities.retrieve_json_from_API(api_address,api_token,query)
-        print("Retrieved projects from JSON source")
-        for i in data['entities']:
-            i["_metadata"]=""
-            projects.append(i)
+            print("Retrieved projects from JSON source")
+            for i in data['entities']:
+                i["_metadata"]=""
+                projects.append(i)
 
         # writing projects from the API response to file
         with open('input_projects.json', 'w') as fout:
