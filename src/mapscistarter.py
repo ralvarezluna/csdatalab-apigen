@@ -25,7 +25,7 @@ class MapScistarter(MapCatalogue):
         for i in source_json:
             record = Dataset()
             try:
-                record.identifier =  URI(self._catalogue.homepage + i["link"])
+                record.identifier =  URI(self._catalogue.homepage + "/" + i["guid"])
                 record.type_genre = URI("https://dbpedia.org/ontology/Project")  #
                 record.release_date = utilities.convertLongDate(int(i["created"]))
                 record.modification_date =  utilities.convertLongDate(int(i["updated"]))
