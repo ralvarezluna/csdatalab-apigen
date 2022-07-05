@@ -1,6 +1,7 @@
 import string
-from src import catalogmanager, utilities
-from src.mapscistarter import MapScistarter
+#from mapscistarter import MapScistarter
+from src import catalogManager, utilities, mapscistarter
+
 import json
 class MainController():
    
@@ -10,7 +11,7 @@ class MainController():
     def __init__(self,config_path:string):
         #Load catalog configuration from properties file
         self._config = utilities.load_properties(config_path)
-        self._catalogue = catalogmanager.CatalogueManager()
+        self._catalogue = catalogManager.CatalogueManager()
     
 
     def readDatafromSource(self,query:string) -> list:
@@ -50,7 +51,7 @@ class MainController():
         description = self._config.get("description", None)
 
         self._catalogue.createCatalogue(id,lang,title,publisher,homepage,description)
-        scitarterMap = MapScistarter(self._catalogue.catalog)
+        scitarterMap = mapscistarter.MapScistarter(self._catalogue.catalog)
         self._catalogue.catalog = scitarterMap.parseMetadata(projects)
         print("Metadata was parsed to DCAT")
 

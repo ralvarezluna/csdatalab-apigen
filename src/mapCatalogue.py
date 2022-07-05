@@ -3,7 +3,7 @@ from datacatalogtordf.catalog import Catalog
 from datacatalogtordf import URI
 from datacatalogtordf.distribution import Distribution
 from src import utilities
-from src.generateapifromfile import *
+from src.generateAPIfromfile import *
 from concepttordf import Contact
 from datacatalogtordf import Location
 from datacatalogtordf import Agent 

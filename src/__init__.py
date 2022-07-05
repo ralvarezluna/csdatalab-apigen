@@ -4,7 +4,7 @@ Modules:
     mapscistarter
 """
 
-from src.mapscistarter import MapScistarter
-from src.mapcatalogue import MapCatalogue
-from src.floworchestrator import MainController
-from . import utilities
+#from mapscistarter import MapScistarter
+#from mapCatalogue import MapCatalogue
+#from floworchestrator import MainController
+#from . import utilities

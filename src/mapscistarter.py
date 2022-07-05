@@ -4,7 +4,7 @@ from datacatalogtordf import Dataset
 from datacatalogtordf.catalog import Catalog
 from datacatalogtordf import URI
 from src import utilities
-from src.mapcatalogue import MapCatalogue
+from src.mapCatalogue import MapCatalogue
 
 
 UNSDGTAXONOMY = "http://metadata.un.org/sdg/"

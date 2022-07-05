@@ -1,6 +1,6 @@
 import random
 import time
-from src.floworchestrator import MainController
+import src.floworchestrator 
 
 #Choosing a random topic from the list
 with open("tests/topics.txt", "r") as file:
@@ -11,7 +11,7 @@ selectedTopic= "Transportation"
 print("The selected topis is: " + selectedTopic)
 
 #Configuring the input source 
-testInit = MainController("tests\config.properties")
+testInit = src.floworchestrator.MainController("tests/config.properties")
 
 #Reading data from specified source
 projects = testInit.readDatafromSource(selectedTopic)
