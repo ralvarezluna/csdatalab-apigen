@@ -1,0 +1,40 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.com/.well-known/skolem/6a48bf75-caf4-4c51-9a14-d1195c11613c> a dcat:Catalog ;
+    dct:title "Title of catalog"@en ;
+    dcat:themeTaxonomy <http://example.com/dataservices/1> .
+
+<http://example.com/projects/0e55e6db-a8c5-42e1-9731-665f3c0be6e0> a dct:Location,
+        dct:MediaType,
+        dcat:Dataset,
+        <https://linked.data.gov.au/def/projectProject> ;
+    dct:abstract "Testing output" ;
+    dct:bibliographicCitation <https://github.com/RDFLib/rdflib/blob/main/rdflib/namespace/_FOAF.py>,
+        <https://github.com/another> ;
+    dct:created "2023-05-25"^^xsd:date ;
+    dct:creator <https://orcid.com/Reynaldo>,
+        "http://project_owner" ;
+    dct:educationLevel "High" ;
+    dct:format "http://project_owner/type" ;
+    dct:identifier "http://example.com/projects/0e55e6db-a8c5-42e1-9731-665f3c0be6e0" ;
+    dct:source "http://project_owner/file" ;
+    dcat:bbox "POINT(sndksnksanklas)"^^geo:asWKT ;
+    dcat:centroid "POINT(4.88412 52.37509)"^^geo:asWKT ;
+    dcat:distribution <http://example.com/dataservices/1> ;
+    foaf:plan <https://rdflib.readthedocs.io/en/stable/merging.html> .
+
+<http://example.com/dataservices/1> a dcat:Distribution ;
+    dct:title "Title of distribution"@en .
+
+[] a dct:Location ;
+    dcat:bbox "POINT(sndksnksanklas)"^^geo:asWKT ;
+    dcat:centroid "POINT(4.88412 52.37509)"^^geo:asWKT .
+
+[] a dct:MediaType ;
+    dct:creator "http://project_owner" ;
+    dct:format "http://project_owner/type" ;
+    dct:source "http://project_owner/file" .
